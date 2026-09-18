@@ -78,9 +78,9 @@
     "semantic_hash": ""
   },
   "src/components/ProjectModal.jsx": {
-    "mtime": 1789759891.9730232,
-    "seen": 1789760046.7138085,
-    "ast_hash": "93474939944f997ea25df23be8696aa2",
+    "mtime": 1789760165.7266457,
+    "seen": 1789760233.598221,
+    "ast_hash": "0bf8f3d9524de63e7ab655408d591ce1",
     "semantic_hash": ""
   },
   "src/components/admin/AdminDashboard.jsx": {
@@ -114,9 +114,9 @@
     "semantic_hash": "7ab25efb594c96d9e55406853300f778"
   },
   "src/components/JuxtaposeViewer.jsx": {
-    "mtime": 1789759851.2889264,
-    "seen": 1789760046.7138085,
-    "ast_hash": "efbcd418cb2b71f12e8a7fca310694c2",
+    "mtime": 1789760159.3633475,
+    "seen": 1789760233.598221,
+    "ast_hash": "03b75f712dc07ecfbbf0f67801178a15",
     "semantic_hash": ""
   },
   "src/components/MethodSection.jsx": {
@@ -327,12 +327,6 @@
     "mtime": 1789759806.830655,
     "seen": 1789760046.7138085,
     "ast_hash": "eb6322384cd2bedb3108c3ec4fbc6253",
-    "semantic_hash": ""
-  },
-  "public/branding/simbolo-oficial-an\u00e9is.png": {
-    "mtime": 1789759798.8565092,
-    "seen": 1789760046.7138085,
-    "ast_hash": "689a719793d471e702303fbbb8cc0943",
     "semantic_hash": ""
   },
   "public/cases/case-carrossel-natal.jpg": {
@@ -627,6 +621,12 @@
     "mtime": 1786452242.2464519,
     "seen": 1789760046.7138085,
     "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "public/branding/simbolo-oficial-aneis.png": {
+    "mtime": 1789759798.8565092,
+    "seen": 1789760233.598221,
+    "ast_hash": "689a719793d471e702303fbbb8cc0943",
     "semantic_hash": ""
   }
 }

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
+import { WhatsAppIcon } from './icons/WhatsAppIcon';
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -66,11 +67,11 @@ export const Navbar = () => {
               href="https://wa.me/5511972629827" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded bg-[#1B283D] hover:bg-[#377BDB] text-white border border-[#377BDB]/40 transition-all text-[11px] font-medium tracking-wider uppercase"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded bg-[#1B283D] hover:bg-[#377BDB] text-white border border-[#377BDB]/40 transition-all text-[11px] font-medium tracking-wider uppercase group"
               style={{ fontFamily: 'Poppins, sans-serif' }}
             >
+              <WhatsAppIcon className="w-3.5 h-3.5 text-[#63A4FF] group-hover:text-white transition-colors" />
               <span>Briefing</span>
-              <ArrowUpRight className="w-3.5 h-3.5 text-[#63A4FF] group-hover:text-white" />
             </a>
           </nav>
 
@@ -126,11 +127,11 @@ export const Navbar = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}
-                className="p-3 rounded bg-[#377BDB] text-white text-center text-xs font-semibold uppercase tracking-wider mt-2 flex items-center justify-center gap-1.5"
+                className="p-3 rounded bg-[#377BDB] text-white text-center text-xs font-semibold uppercase tracking-wider mt-2 flex items-center justify-center gap-2"
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
+                <WhatsAppIcon className="w-4 h-4 text-white" />
                 <span>Falar no WhatsApp</span>
-                <ArrowUpRight className="w-4 h-4" />
               </a>
             </nav>
           </div>

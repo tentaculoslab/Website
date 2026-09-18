@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Send, CheckCircle2, ArrowUpRight } from 'lucide-react';
+import { CheckCircle2, ArrowUpRight } from 'lucide-react';
+import { WhatsAppIcon } from './icons/WhatsAppIcon';
 
 export const ProjectEstimator = () => {
   const [projectType, setProjectType] = useState('Palcos');
@@ -152,11 +153,11 @@ export const ProjectEstimator = () => {
             {/* Botão de Envio */}
             <button
               type="submit"
-              className="w-full py-4 rounded-lg bg-[#377BDB] hover:bg-[#4391FC] text-white text-xs font-semibold uppercase tracking-widest transition-all flex items-center justify-center gap-2 shadow-xl shadow-[#377BDB]/25"
+              className="w-full py-4 rounded-lg bg-[#377BDB] hover:bg-[#4391FC] text-white text-xs font-semibold uppercase tracking-widest transition-all flex items-center justify-center gap-2.5 shadow-xl shadow-[#377BDB]/25"
               style={{ fontFamily: 'Poppins, sans-serif' }}
             >
-              <span>Encaminhar Briefing para Lucas Castro</span>
-              <Send className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4" />
+              <span>Encaminhar Briefing via WhatsApp</span>
             </button>
 
           </form>
@@ -171,8 +172,13 @@ export const ProjectEstimator = () => {
             </div>
             <div>
               <span className="rotulo-tecnico text-[10px] text-slate-500 block">ATENDIMENTO DIRETO</span>
-              <p className="text-slate-300 font-light mt-0.5">
-                lucas@tentaculosproducoes.com.br • (11) 9 7262-9827
+              <p className="text-slate-300 font-light mt-0.5 flex items-center gap-2 flex-wrap">
+                <a href="mailto:lucas@tentaculosproducoes.com.br" className="hover:text-[#63A4FF] transition-colors">lucas@tentaculosproducoes.com.br</a>
+                <span>•</span>
+                <a href="https://wa.me/5511972629827" target="_blank" rel="noopener noreferrer" className="hover:text-[#63A4FF] inline-flex items-center gap-1 transition-colors">
+                  <WhatsAppIcon className="w-3.5 h-3.5 text-[#377BDB]" />
+                  <span>(11) 9 7262-9827</span>
+                </a>
               </p>
             </div>
           </div>

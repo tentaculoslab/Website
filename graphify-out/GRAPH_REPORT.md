@@ -1,17 +1,17 @@
 # Graph Report - Tentaculos Lab  (2026-09-18)
 
 ## Corpus Check
-- 37 files · ~1,044,635 words
+- 38 files · ~1,044,847 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: .css 2, (none) 1, .lock 1)
 
 ## Summary
-- 217 nodes · 263 edges · 20 communities (15 shown, 5 thin omitted)
+- 219 nodes · 271 edges · 20 communities (15 shown, 5 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `29200e52`
+- Built from commit: `2cf613b6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,7 +29,7 @@
 - 🚀 Fluxo de Trabalho, Git e Deploy — Tentáculos Lab
 - 🔍 Diretrizes de SEO & Rankeamento no Google — Tentáculos Lab
 - 🏛️ Arquitetura do Sistema — Tentáculos Lab
-- 🐙 Tentáculos Lab — Website & Portfólio Imersivo
+- 🎨 Manual do Design System — Tentáculos Lab
 - UI & Design System Guidelines — Tentáculos Lab
 - Protocolo de Sincronização Contínua de Metadados (JSON-LD & Rich Snippets)
 - agentic-web.md
@@ -38,7 +38,7 @@
 - workflows/graphify.md
 
 ## God Nodes (most connected - your core abstractions)
-1. `react` - 16 edges
+1. `react` - 17 edges
 2. `lucide-react` - 11 edges
 3. `🐙 Tentáculos Lab — Website & Portfólio Imersivo` - 8 edges
 4. `🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab` - 8 edges
@@ -72,7 +72,7 @@ Nodes (27): Diretrizes de Core Web Vitals (Não-Negociável) — Tentáculos Lab
 
 ### Community 1 - "App.jsx"
 Cohesion: 0.12
-Nodes (22): lucide-react, react, ref_react_dom_client, AdminDashboard, App(), ProjectModal, AboutSection(), AdminDashboard() (+14 more)
+Nodes (23): lucide-react, react, ref_react_dom_client, AdminDashboard, App(), ProjectModal, AboutSection(), AdminDashboard() (+15 more)
 
 ### Community 2 - "dependencies"
 Cohesion: 0.14
@@ -84,7 +84,7 @@ Nodes (11): email, phone, whatsapp, projects, publisher, contact, name, url (+3 
 
 ### Community 4 - "🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab"
 Cohesion: 0.11
-Nodes (14): 🎯 1. O que é um Website Agêntico?, 🏗️ 2. Pilares da Arquitetura Agêntica do Tentáculos Lab, 📄 3. Padrão `llms.txt` e `llms-full.txt` (Answer.AI Standard), 🔌 4. Endpoints de Dados Legíveis por Máquina (`/api/`), 🔍 5. Schema.org e Dados Estruturados em JSON-LD (`index.html`), 🤖 6. Permissões de Crawlers no `robots.txt`, ✅ 7. Protocolo de Revisitação Contínua de Dados (JSON-LD & Rich Snippets), 🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab (+6 more)
+Nodes (16): 🎯 1. O que é um Website Agêntico?, 🏗️ 2. Pilares da Arquitetura Agêntica do Tentáculos Lab, 📄 3. Padrão `llms.txt` e `llms-full.txt` (Answer.AI Standard), 🔌 4. Endpoints de Dados Legíveis por Máquina (`/api/`), 🔍 5. Schema.org e Dados Estruturados em JSON-LD (`index.html`), 🤖 6. Permissões de Crawlers no `robots.txt`, ✅ 7. Protocolo de Revisitação Contínua de Dados (JSON-LD & Rich Snippets), 🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab (+8 more)
 
 ### Community 5 - "devDependencies"
 Cohesion: 0.22
@@ -118,9 +118,9 @@ Nodes (10): 🎯 1. Matriz de Palavras-Chave Estratégicas, 2.1. Hierarquia de T
 Cohesion: 0.22
 Nodes (8): 🧭 1. Visão Geral da Arquitetura, 📦 2. Camada de Estado Global (`PortfolioContext`), 3.1. `HexPrismBackground.jsx` (Cenário de Fundo 3D), 3.2. `Interactive3DViewer.jsx` (Visualizador 3D do Projeto), 3.3. `ProjectEstimator.jsx` (Calculadora Interativa), 🎨 3. Módulos & Componentes Principais, ⚡ 4. Pipeline de Assets e Mídia, 🏛️ Arquitetura do Sistema — Tentáculos Lab
 
-### Community 13 - "🐙 Tentáculos Lab — Website & Portfólio Imersivo"
-Cohesion: 0.25
-Nodes (8): 🤖 Conceito Agêntico & GEO (Generative Engine Optimization), 📚 Documentação de Apoio, 📂 Estrutura de Pastas, 📱 Filosofia Mobile-First, 🌿 Git & Controle de Versão, 🛠️ Instalação e Execução, 🚀 Tecnologias Principais, 🐙 Tentáculos Lab — Website & Portfólio Imersivo
+### Community 13 - "🎨 Manual do Design System — Tentáculos Lab"
+Cohesion: 0.29
+Nodes (6): 🏛️ 1. Hierarquia Tipográfica, 🌬️ 2. Espaçamento & Whitespace Generoso, 💎 3. Sofisticação Cromática & Superfícies, 🚫 4. O que Evitar, Exemplo Prático:, 🎨 Manual do Design System — Tentáculos Lab
 
 ### Community 14 - "UI & Design System Guidelines — Tentáculos Lab"
 Cohesion: 0.33
@@ -137,14 +137,14 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `📱 Diretrizes de Desenvolvimento Mobile-First — Tentáculos Lab` connect `📱 Diretrizes de Desenvolvimento Mobile-First — Tentáculos Lab` to `Interactive3DViewer.jsx`?**
   _High betweenness centrality (0.377) - this node is a cross-community bridge._
 - **Why does `⚡ 4. Otimização de Performance 3D & WebGL em Dispositivos Móveis` connect `Interactive3DViewer.jsx` to `📱 Diretrizes de Desenvolvimento Mobile-First — Tentáculos Lab`?**
-  _High betweenness centrality (0.357) - this node is a cross-community bridge._
+  _High betweenness centrality (0.358) - this node is a cross-community bridge._
 - **Why does `Interactive3DViewer()` connect `Interactive3DViewer.jsx` to `App.jsx`?**
-  _High betweenness centrality (0.351) - this node is a cross-community bridge._
+  _High betweenness centrality (0.352) - this node is a cross-community bridge._
 - **What connects `$schema`, `plugins`, `react/rules-of-hooks` to the rest of the system?**
   _121 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.07126436781609195 - nodes in this community are weakly interconnected._
 - **Should `App.jsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.11861861861861862 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11740890688259109 - nodes in this community are weakly interconnected._
 - **Should `dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

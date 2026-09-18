@@ -1,5 +1,6 @@
 import React from 'react';
-import { Mail, Phone, ArrowUp } from 'lucide-react';
+import { Mail, ArrowUp } from 'lucide-react';
+import { WhatsAppIcon } from './icons/WhatsAppIcon';
 
 export const Footer = () => {
   const scrollToTop = () => {
@@ -58,7 +59,7 @@ export const Footer = () => {
               </p>
               <p>
                 <a href="https://wa.me/5511972629827" target="_blank" rel="noopener noreferrer" className="hover:text-[#63A4FF] flex items-center gap-1.5">
-                  <Phone className="w-3.5 h-3.5 text-[#377BDB]" />
+                  <WhatsAppIcon className="w-3.5 h-3.5 text-[#377BDB]" />
                   <span>(11) 9 7262-9827</span>
                 </a>
               </p>

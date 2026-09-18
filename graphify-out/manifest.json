@@ -36,9 +36,9 @@
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1789759865.1160183,
-    "seen": 1789760046.7138085,
-    "ast_hash": "b2462c7df961f77b77586c84e3d4dcf1",
+    "mtime": 1789760361.3831122,
+    "seen": 1789760440.6968658,
+    "ast_hash": "7d4a4d5fbdffa5c740ab466e48656f58",
     "semantic_hash": ""
   },
   "src/components/Hero.jsx": {
@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "src/components/Navbar.jsx": {
-    "mtime": 1789759859.997129,
-    "seen": 1789760046.7138085,
-    "ast_hash": "1aab6bbc911832bd35b7fe929d44a1d4",
+    "mtime": 1789760390.13271,
+    "seen": 1789760440.6968658,
+    "ast_hash": "14014779af90d6b108fc177f831b5650",
     "semantic_hash": ""
   },
   "src/components/PortfolioGrid.jsx": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "src/components/ProjectEstimator.jsx": {
-    "mtime": 1789758650.5988367,
-    "seen": 1789760046.7138085,
-    "ast_hash": "85762cf31c2cc28b22c965f442c78ab0",
+    "mtime": 1789760420.011696,
+    "seen": 1789760440.6968658,
+    "ast_hash": "dd5f2387463747efdcf87d24e123e0cb",
     "semantic_hash": ""
   },
   "src/components/ProjectModal.jsx": {
@@ -627,6 +627,18 @@
     "mtime": 1789759798.8565092,
     "seen": 1789760233.598221,
     "ast_hash": "689a719793d471e702303fbbb8cc0943",
+    "semantic_hash": ""
+  },
+  "src/components/icons/WhatsAppIcon.jsx": {
+    "mtime": 1789760333.8018048,
+    "seen": 1789760440.6968658,
+    "ast_hash": "3affd7941df864ae9ca318ddd4b17198",
+    "semantic_hash": ""
+  },
+  "public/whatsapp.svg": {
+    "mtime": 1789760341.4195497,
+    "seen": 1789760440.6968658,
+    "ast_hash": "645cc8e99758624c20f93f93171a8829",
     "semantic_hash": ""
   }
 }
