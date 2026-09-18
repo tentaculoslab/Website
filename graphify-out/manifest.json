@@ -162,9 +162,9 @@
     "semantic_hash": ""
   },
   ".agents/rules/ui-design-system.md": {
-    "mtime": 1789744133.1194162,
-    "seen": 1789760046.7138085,
-    "ast_hash": "eff1ca1c60d8d09eae4f6bef930bae01",
+    "mtime": 1789760543.7163324,
+    "seen": 1789760565.9786031,
+    "ast_hash": "58a2a67a73ffd7e03b2e37aad86049eb",
     "semantic_hash": ""
   },
   ".agents/workflows/graphify.md": {
@@ -174,9 +174,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1789744543.5060432,
-    "seen": 1789760046.7138085,
-    "ast_hash": "ec113a131cc1c5be7215d4876343b161",
+    "mtime": 1789760555.3387873,
+    "seen": 1789760565.9786031,
+    "ast_hash": "80c16a133ce46a95f5770ecb1f6b8919",
     "semantic_hash": ""
   },
   "docs/AGENTIC_WEB_GUIDELINES.md": {
@@ -204,9 +204,9 @@
     "semantic_hash": ""
   },
   "docs/DESIGN_SYSTEM.md": {
-    "mtime": 1789744143.57763,
-    "seen": 1789760046.7138085,
-    "ast_hash": "c8f8a2b34e6bd36ee7072765ef0dc645",
+    "mtime": 1789760535.2469919,
+    "seen": 1789760565.9786031,
+    "ast_hash": "223fcefcad102ff69cc77ce03f06747f",
     "semantic_hash": ""
   },
   "docs/MOBILE_FIRST_GUIDELINES.md": {
@@ -639,6 +639,12 @@
     "mtime": 1789760341.4195497,
     "seen": 1789760440.6968658,
     "ast_hash": "645cc8e99758624c20f93f93171a8829",
+    "semantic_hash": ""
+  },
+  "docs/BRAND_IDENTITY_MANUAL.md": {
+    "mtime": 1789760525.6100776,
+    "seen": 1789760565.9786031,
+    "ast_hash": "0c6520919a828a9d37053e7ddbcd5522",
     "semantic_hash": ""
   }
 }

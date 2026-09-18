@@ -103,11 +103,12 @@ Tentaculos Lab/
 
 ## 📚 Documentação de Apoio
 
+* 📘 **[Manual de Identidade Visual Oficial (docs/BRAND_IDENTITY_MANUAL.md)](docs/BRAND_IDENTITY_MANUAL.md)**: extração integral de cores, tipografia Poppins/Inter, proibições, regras de uso e grafismos do manual da marca.
+* 🎨 **[Manual do Design System (docs/DESIGN_SYSTEM.md)](docs/DESIGN_SYSTEM.md)**: tokens de design, superfícies e componentes padronizados.
 * 📱 **[Diretrizes Mobile-First (docs/MOBILE_FIRST_GUIDELINES.md)](docs/MOBILE_FIRST_GUIDELINES.md)**: padrões de toque, performance móvel e regras de layout.
 * ⚡ **[Manual Técnico de Core Web Vitals (docs/CORE_WEB_VITALS_GUIDELINES.md)](docs/CORE_WEB_VITALS_GUIDELINES.md)**: code-splitting, zero CLS, LCP < 1.2s e INP < 50ms (Não-Negociável).
 * 🔍 **[Diretrizes de SEO & Rankeamento no Google (docs/SEO_GUIDELINES.md)](docs/SEO_GUIDELINES.md)**: palavras-chave, Rich Snippets Schema.org e Google Imagens.
 * 🤖 **[Diretrizes de Web Agêntica & GEO (docs/AGENTIC_WEB_GUIDELINES.md)](docs/AGENTIC_WEB_GUIDELINES.md)**: padrões para ingestão e recomendação por Agentes de IA.
-* 🎨 **[Manual do Design System (docs/DESIGN_SYSTEM.md)](docs/DESIGN_SYSTEM.md)**: regras de hierarquia tonal, whitespace generoso e sofisticação visual.
 * 🏛️ **[Arquitetura do Projeto (docs/ARCHITECTURE.md)](docs/ARCHITECTURE.md)**: componentes, ciclo de vida Three.js e gerenciamento de estado.
 * 🚀 **[Fluxo de Trabalho & Deploy (docs/DEPLOYMENT_AND_WORKFLOW.md)](docs/DEPLOYMENT_AND_WORKFLOW.md)**: branch `Website`, políticas de gitignore e hospedagem.
 

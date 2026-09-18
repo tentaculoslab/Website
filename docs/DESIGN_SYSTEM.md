@@ -1,68 +1,50 @@
-# 🎨 Manual do Design System — Tentáculos Lab
-
-Este documento formaliza os fundamentos de Design System e UI do website do **Tentáculos Lab**, estabelecendo diretrizes visuais para garantir sofisticação, legibilidade editorial e respiro visual.
+# 🎨 Design System Oficial — Tentáculos Lab
+> Baseado no **Manual de Identidade Visual Oficial** (`Tentaculos-Lab-Manual-de-Identidade.pdf`).  
+> Para o guia técnico detalhado da marca, consulte também [docs/BRAND_IDENTITY_MANUAL.md](BRAND_IDENTITY_MANUAL.md).
 
 ---
 
 ## 🏛️ 1. Hierarquia Tipográfica
 
-A diferenciação entre níveis de informação deve priorizar o **peso da fonte** e o **contraste cromático tonal**, em vez de recorrer apenas ao aumento exagerado do tamanho dos caracteres:
+A diferenciação entre níveis de informação prioriza o **peso da fonte** (`font-light` 300 vs `font-semibold` 600) e a **paleta oficial de azul destaque** (`#63A4FF`), em vez de aumentar desmedidamente o tamanho dos caracteres.
 
-| Nível de Informação | Peso | Cor (Dark Mode) | Cor (Light Equiv.) | Aplicação |
+> ✕ **RESTRIÇÃO ABSOLUTA**: Nenhuma fonte monoespaçada (`font-mono`) entra em material da marca. Rótulos técnicos são sempre Poppins em caixa alta.
+
+| Nível de Informação | Família Tipográfica | Peso | Cor (Tokens Oficiais) | Aplicação |
 | :--- | :--- | :--- | :--- | :--- |
-| **Título Principal / Hero** | `font-semibold` (600) | `text-slate-100` | `text-gray-900` | Nomes de projetos, manchetes de seções |
-| **Subtítulos & Seções** | `font-medium` (500) | `text-slate-200` | `text-gray-800` | Nomes de blocos, subtítulos explicativos |
-| **Texto Corrido / Corpo** | `font-normal` (400) | `text-slate-400` | `text-gray-600` | Parágrafos descritivos, memoriais de projeto |
-| **Metadados & Rótulos** | `font-medium` (500) | `text-slate-500` | `text-gray-500` | Tags de categoria, ano, dimensões, specs |
-| **Micro-labels / Código** | `font-mono` (400) | `text-cyan-400/80` | `text-cyan-600` | Coordenadas CAD, status técnico, dimensões |
-
-### Exemplo Prático:
-```jsx
-// ✅ Hierarquia por peso e contraste de cor
-<div className="space-y-1.5">
-  <span className="text-xs font-medium uppercase tracking-wider text-slate-500">
-    Cenografia Imersiva • 2026
-  </span>
-  <h3 className="text-xl font-semibold tracking-tight text-slate-100">
-    Casa do Papai Noel
-  </h3>
-  <p className="text-sm font-normal leading-relaxed text-slate-400">
-    Estrutura efêmera em escala real com detalhamento construtivo completo.
-  </p>
-</div>
-```
+| **Títulos Principais** | **Poppins** | Light (300) | `#FFFFFF` com 1 palavra em `#63A4FF` (SemiBold 600) | Título de seções e hero |
+| **Rótulos Técnicos** | **Poppins Caixa Alta** | Medium (500) | `#63A4FF` (Tracking `.22em`) | Numeração (`01 ·`), badges e etiquetas |
+| **Texto de Apoio** | **Inter** | Light (300) | `#cbd5e1` / Slate 300 (Entrelinha `1.6`) | Parágrafos explicativos |
+| **Texto de Corpo / Ênfase**| **Inter** | Regular (400) | `#FFFFFF` / Slate 200 | Dados técnicos e termos essenciais |
 
 ---
 
-## 🌬️ 2. Espaçamento & Whitespace Generoso
+## 🌬️ 2. Espaçamento & Whitespace
 
-Seguimos a **regra do dobro do whitespace**: interfaces sofisticadas respiram com calma e transmitem exclusividade.
-
-* **Seções Principais**: Espaçamento vertical generoso entre blocos:
-  * Mobile: `py-20` (80px)
-  * Desktop: `py-32` a `py-40` (128px a 160px)
-* **Princípio da Proximidade**:
-  * Título e subtítulo imediato: `space-y-1.5` ou `space-y-2` (estreito)
-  * Bloco de texto e botão de ação: `mt-8` ou `mt-10` (amplo)
-  * Separação entre cards em grade: `gap-8` a `gap-12` (amplo)
+* **Regra do Espaçamento Duplo**: A interface deve respirar amplamente para refletir o caráter executivo e cênico das grandes produções:
+  * Seções principais: `py-24 sm:py-32`
+  * Distância entre grupos distintos: `space-y-12`, `gap-8` a `gap-12`
+  * Agrupamento estreito (Gestalt): `space-y-1.5` ou `space-y-2` entre rótulo e título.
 
 ---
 
-## 💎 3. Sofisticação Cromática & Superfícies
+## 💎 3. Superfícies & Cores Oficiais
 
-* **Fundos Neutros**:
-  * Base principal: `#070d18` (ardósia escuro com toque técnico cênico, sem saturação estridente).
-  * Painéis e Superfícies: `rgba(11, 19, 34, 0.7)` com `backdrop-blur-md`.
-* **Bordas Ultrafinas (1px)**:
-  * Separação de cards e divisores com opacidade sutil: `border border-white/[0.07]` ou `border-slate-800/80`.
-  * Destaque sutil no hover: transição para `border-cyan-500/30` ou `border-slate-700`.
-* **Profundidade por Sombras Suaves**:
-  * Sombras orgânicas e difusas: `shadow-2xl shadow-black/40` ao invés de contornos pesados.
+* **Fundos**:
+  * Base principal: `#0A1326` (Azul-petróleo sólido).
+  * Profundidade e vinhetas: `#050D19`.
+  * Superfícies e Cards: `#121D31` (Superfície 2) com hover em `#1B283D` (Superfície).
+* **Grafismos Homologados**:
+  * **Barra de Topo (`.barra-topo-luz`)**: 3px com centro em `#4391FC`.
+  * **Card Chanfrado (`.card-chanfrado`)**: Borda esquerda 3px em `#377BDB` e chanfro de 18px no topo direito.
+  * **Camada Blueprint**: Textura de rigging/CAD entre 20% e 30% de opacidade.
+  * **Dourado (`#E9B65C`)**: Máximo 1 por página.
 
 ---
 
-## 🚫 4. O que Evitar
+## 🚫 4. Regras Proibitivas
 
-1. **Evitar a estética 'Dashboard Corporativo Padrão'**: Nada de dezenas de pequenos cards de métricas genéricas, gráficos coloridos desnecessários ou tabelas densas e claustrofóbicas.
-2. **Evitar fundos coloridos saturados**: Não usar blocos inteiros em azul ou vermelho elétrico. As cores de destaque (como ciano ou âmbar) aparecem apenas em pontos cirúrgicos: um detalhe de linha, um badge sutil ou um indicador técnico.
-3. **Evitar botões maciços sem respiro**: Botões devem ter espaçamento interno equilibrado (`px-6 py-3.5`) e tipografia comedida.
+1. ✕ **Nenhum tom de rosa** ou degradês coloridos.
+2. ✕ **Nenhuma fonte monoespaçada**.
+3. ✕ **Nunca distorcer** a logomarca `tentáculos ◉ lab`.
+4. ✕ **Nunca usar mais de um acento dourado** por página.
