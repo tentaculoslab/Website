@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { usePortfolio } from '../context/PortfolioContext';
+import { useLanguage } from '../context/LanguageContext';
 import { Interactive3DViewer } from './Interactive3DViewer';
 import { 
   X, 
@@ -17,6 +18,7 @@ import {
 
 export const ProjectModal = () => {
   const { selectedProject, setSelectedProject } = usePortfolio();
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState('3d'); // '3d', 'gallery', 'video', 'skp'
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -88,7 +90,7 @@ export const ProjectModal = () => {
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 <BoxSelect className="w-3.5 h-3.5 text-[#63A4FF]" />
-                <span>Visualizador 3D (360°)</span>
+                <span>{t('projectDetail.view3D', 'Visualizador 3D (360°)')}</span>
               </button>
 
               <button
@@ -101,7 +103,7 @@ export const ProjectModal = () => {
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 <ImageIcon className="w-3.5 h-3.5" />
-                <span>Galeria de Renders ({gallery.length})</span>
+                <span>{t('projectDetail.gallery', 'Galeria de Renders')} ({gallery.length})</span>
               </button>
 
               {selectedProject.videoUrl && (
@@ -115,7 +117,7 @@ export const ProjectModal = () => {
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   <Video className="w-3.5 h-3.5" />
-                  <span>Vídeo do Projeto</span>
+                  <span>{t('projectDetail.video', 'Vídeo do Projeto')}</span>
                 </button>
               )}
 
@@ -130,7 +132,7 @@ export const ProjectModal = () => {
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   <FileCode2 className="w-3.5 h-3.5 text-[#63A4FF]" />
-                  <span>Dados .SKP</span>
+                  <span>{t('projectDetail.skpData', 'Dados .SKP')}</span>
                 </button>
               )}
             </div>
@@ -219,17 +221,17 @@ export const ProjectModal = () => {
 
                 <div className="px-3.5 py-1.5 rounded-lg bg-[#0A1326] text-slate-300 border border-white/[0.08] flex items-center gap-2 text-[11px]">
                   <Lock className="w-3.5 h-3.5 text-[#E9B65C]" />
-                  <span>Modelo Protegido (Acervo Oficial)</span>
+                  <span>{t('projectDetail.registeredBadge', 'Modelo Protegido (Acervo Oficial)')}</span>
                 </div>
               </div>
 
               <div className="bg-[#050D19]/80 p-4 rounded-lg text-slate-300 border border-white/[0.04] space-y-2 text-xs">
                 <p className="font-medium text-[#63A4FF] flex items-center gap-1.5" style={{ fontFamily: 'Poppins, sans-serif' }}>
                   <ShieldCheck className="w-4 h-4 text-[#63A4FF]" />
-                  Documentação Arquitetônica 3D Registrada
+                  {t('projectDetail.registeredBadge', 'Documentação Arquitetônica 3D Registrada')}
                 </p>
                 <p className="text-slate-400 leading-relaxed font-light">
-                  Este projeto contém modelo 3D nativo em formato SketchUp (.skp) registrado e cadastrado no acervo técnico da Tentáculos Lab. Utilize a aba "Visualizador 3D" para rotacionar e inspecionar a volumetria tridimensional diretamente no navegador.
+                  {t('projectDetail.registeredDesc', 'Este projeto contém modelo 3D nativo em formato SketchUp (.skp) registrado e cadastrado no acervo técnico da Tentáculos Lab. Utilize a aba "Visualizador 3D" para rotacionar e inspecionar a volumetria tridimensional diretamente no navegador.')}
                 </p>
               </div>
             </div>
@@ -239,7 +241,7 @@ export const ProjectModal = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="md:col-span-2 space-y-3">
               <h3 className="rotulo-tecnico text-[11px] text-white border-b border-white/[0.08] pb-2">
-                DESCRIÇÃO DO PROJETO
+                {t('projectDetail.memorialTitle', 'DESCRIÇÃO DO PROJETO')}
               </h3>
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed whitespace-pre-line font-light">
                 {selectedProject.description}
@@ -261,7 +263,7 @@ export const ProjectModal = () => {
             <div className="card-chanfrado p-4 rounded-xl border border-[#377BDB]/30 space-y-3 bg-[#121D31] text-xs">
               <h3 className="rotulo-tecnico text-[11px] text-[#63A4FF] flex items-center gap-1.5">
                 <Box className="w-3.5 h-3.5" />
-                ESPECIFICAÇÕES TÉCNICAS
+                {t('projectDetail.specsTitle', 'ESPECIFICAÇÕES TÉCNICAS')}
               </h3>
 
               {selectedProject.specs && Object.keys(selectedProject.specs).length > 0 ? (
@@ -276,7 +278,7 @@ export const ProjectModal = () => {
                   ))}
                 </div>
               ) : (
-                <p className="text-[11px] text-slate-500">Especificações sob consulta técnica.</p>
+                <p className="text-[11px] text-slate-500">{t('projectDetail.specsConsult', 'Especificações sob consulta técnica.')}</p>
               )}
 
               {/* Interactive 3D Viewer Shortcut */}
@@ -287,7 +289,7 @@ export const ProjectModal = () => {
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   <BoxSelect className="w-3.5 h-3.5" />
-                  <span>Interagir em 3D (360°)</span>
+                  <span>{t('projectDetail.view3D', 'Interagir em 3D (360°)')}</span>
                 </button>
               </div>
             </div>

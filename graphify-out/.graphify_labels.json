@@ -1,10 +1,10 @@
 {
   "0": "package.json",
-  "1": "App.jsx",
+  "1": "useLanguage",
   "2": "dependencies",
   "3": "projects.json",
   "4": "README.md",
-  "5": "devDependencies",
+  "5": "Layout.jsx",
   "6": "📘 Manual de Identidade Visual e Guia Técnico de Marca",
   "7": ".oxlintrc.json",
   "8": "⚡ Manual Técnico de Core Web Vitals (Nota Máxima) — Tentáculos Lab",
@@ -12,11 +12,12 @@
   "10": "🚀 Fluxo de Trabalho, Git e Deploy — Tentáculos Lab",
   "11": "🔍 Diretrizes de SEO & Rankeamento no Google — Tentáculos Lab",
   "12": "🏛️ Arquitetura do Sistema — Tentáculos Lab",
-  "13": "🐙 Tentáculos Lab — Website & Portfólio Imersivo",
+  "13": "main.jsx",
   "14": "UI & Design System Guidelines — Tentáculos Lab",
   "15": "Protocolo de Sincronização Contínua de Metadados (JSON-LD & Rich Snippets)",
   "16": "agentic-web.md",
   "17": "rules/graphify.md",
   "18": "seo-ranking.md",
-  "19": "workflows/graphify.md"
+  "19": "workflows/graphify.md",
+  "20": "devDependencies"
 }

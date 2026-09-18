@@ -1,6 +1,9 @@
 import React from 'react';
+import { useLanguage } from '../context/LanguageContext';
 
 export const AboutSection = () => {
+  const { t } = useLanguage();
+
   return (
     <section id="about" className="py-24 sm:py-32 bg-[#0A1326] relative border-t border-white/[0.07] overflow-hidden">
       {/* Camada Blueprint Sutil */}
@@ -15,10 +18,13 @@ export const AboutSection = () => {
         {/* Bloco 03 · Quem Assina */}
         <div className="space-y-4">
           <span className="rotulo-tecnico block">
-            0 3 · Q U E M   A S S I N A
+            {t('about.tag', '0 3 · Q U E M   A S S I N A')}
           </span>
           <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-            Direção criativa & <span className="font-semibold text-[#63A4FF]">visão sistêmica</span>
+            {t('about.titlePrefix', 'Direção criativa &')}{' '}
+            <span className="font-semibold text-[#63A4FF]">
+              {t('about.titleHighlight', 'visão sistêmica')}
+            </span>
           </h2>
         </div>
 
@@ -43,7 +49,7 @@ export const AboutSection = () => {
                     Lucas Castro
                   </h3>
                   <span className="rotulo-tecnico text-[10px] text-[#63A4FF] block">
-                    CENOGRAFIA • ESPACIALIZAÇÃO 3D • PRODUÇÃO
+                    {t('about.role', 'CENOGRAFIA • ESPACIALIZAÇÃO 3D • PRODUÇÃO')}
                   </span>
                 </div>
               </div>
@@ -56,31 +62,31 @@ export const AboutSection = () => {
             {/* Citação Oficial da Apresentação */}
             <div className="p-6 rounded-xl bg-[#121D31] border-l-4 border-[#377BDB] space-y-2 shadow-lg">
               <p className="text-white text-base sm:text-lg font-light italic leading-relaxed">
-                “Não desenvolvo apenas o que será visto. Penso em como será produzido, vivido, percebido e lembrado.”
+                “{t('about.quote', 'Não desenvolvo apenas o que será visto. Penso em como será produzido, vivido, percebido e lembrado.')}”
               </p>
               <span className="rotulo-tecnico text-[10px] text-slate-400 block pt-1">
-                — LUCAS CASTRO
+                — {t('about.quoteAuthor', 'LUCAS CASTRO')}
               </span>
             </div>
 
             <p className="text-slate-300 text-sm sm:text-base font-light leading-relaxed">
-              Especialista em desenvolvimento de projetos que unem criatividade, visão estratégica e uma sólida experiência em grandes produções pelo Brasil.
+              {t('about.specialist', 'Especialista em desenvolvimento de projetos que unem criatividade, visão estratégica e uma sólida experiência em grandes produções pelo Brasil.')}
             </p>
 
             <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-              Responsável pelo desenvolvimento técnico e visual de projetos como o <strong className="text-white font-medium">Weekend Pedra Azul</strong> — evento que se tornou um marco no Espírito Santo —, também acumula em sua trajetória o gerenciamento de projetos de grande porte, como <strong className="text-white font-medium">Tomorrowland Brasil</strong>, <strong className="text-white font-medium">Lollapalooza</strong> e <strong className="text-white font-medium">Camarote Brahma</strong>, em seu circuito nacional, além do desenvolvimento de importantes produções realizadas em parceria com prefeituras.
+              {t('about.bio1', 'Responsável pelo desenvolvimento técnico e visual de projetos como o Weekend Pedra Azul — evento que se tornou um marco no Espírito Santo —, também acumula em sua trajetória o gerenciamento de projetos de grande porte, como Tomorrowland Brasil, Lollapalooza e Camarote Brahma, em seu circuito nacional, além do desenvolvimento de importantes produções realizadas em parceria com prefeituras.')}
             </p>
 
             <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-              Seu olhar percorre todas as etapas — do conceito à execução —, conectando estética, identidade de marca, funcionalidade, experiência do público, viabilidade técnica e produção. Essa visão sistêmica permite antecipar desafios, propor soluções e transformar ideias em projetos coerentes, executáveis e marcantes.
+              {t('about.bio2', 'Seu olhar percorre todas as etapas — do conceito à execução —, conectando estética, identidade de marca, funcionalidade, experiência do público, viabilidade técnica e produção. Essa visão sistêmica permite antecipar desafios, propor soluções e transformar ideias em projetos coerentes, executáveis e marcantes.')}
             </p>
 
             {/* Destaque de Síntese */}
             <div className="p-4 rounded-lg bg-[#050D19] border border-white/[0.06] text-xs text-slate-300 font-light">
               <span className="text-[#63A4FF] font-medium block mb-1" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Na Tentáculos LAB, Lucas é a cabeça que pensa no todo:
+                {t('about.quoteTitle', 'Na Tentáculos LAB, Lucas é a cabeça que pensa no todo:')}
               </span>
-              Quem transforma conceitos em experiências, conecta criação e produção e garante que cada projeto tenha intenção, identidade e fundamento.
+              {t('about.quoteText', 'Quem transforma conceitos em experiências, conecta criação e produção e garante que cada projeto tenha intenção, identidade e fundamento.')}
             </div>
 
           </div>

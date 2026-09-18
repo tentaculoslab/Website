@@ -1,31 +1,33 @@
 import React from 'react';
-import { Layers, FileText, Compass, Box, CheckCircle2 } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 
 export const MethodSection = () => {
+  const { t } = useLanguage();
+
   const frentes = [
     {
-      num: '01',
-      title: 'Conceito',
-      desc: 'Território criativo, narrativa e direção visual do evento. A ideia que organiza todas as decisões seguintes.',
-      entrega: 'Apresentação de conceito com referências e direção visual'
+      num: t('method.frente1Num', '01'),
+      title: t('method.frente1Title', 'Conceito'),
+      desc: t('method.frente1Desc', 'Território criativo, narrativa e direção visual do evento. A ideia que organiza todas as decisões seguintes.'),
+      entrega: t('method.frente1Entrega', 'Apresentação de conceito com referências e direção visual')
     },
     {
-      num: '02',
-      title: 'Layout',
-      desc: 'Planta baixa, fluxos de público, setorização e ocupação do espaço em escala.',
-      entrega: 'Planta baixa em escala, com setorização e fluxos'
+      num: t('method.frente2Num', '02'),
+      title: t('method.frente2Title', 'Layout'),
+      desc: t('method.frente2Desc', 'Planta baixa, fluxos de público, setorização e ocupação do espaço em escala.'),
+      entrega: t('method.frente2Entrega', 'Planta baixa em escala, com setorização e fluxos')
     },
     {
-      num: '03',
-      title: 'Projeto técnico estrutural',
-      desc: 'Estruturas, medidas, cotas e especificações prontas para orçamento e montagem.',
-      entrega: 'Pranchas técnicas com medidas e cotas + Quantitativo de estruturas e peças'
+      num: t('method.frente3Num', '03'),
+      title: t('method.frente3Title', 'Projeto técnico estrutural'),
+      desc: t('method.frente3Desc', 'Estruturas, medidas, cotas e especificações prontas para orçamento e montagem.'),
+      entrega: t('method.frente3Entrega', 'Pranchas técnicas com medidas e cotas + Quantitativo de estruturas e peças')
     },
     {
-      num: '04',
-      title: 'Projeto 3D',
-      desc: 'Modelagem e renders do evento montado — o cliente aprova vendo, não imaginando.',
-      entrega: 'Modelo 3D do evento montado + Renders ultrarrealistas por ambiente'
+      num: t('method.frente4Num', '04'),
+      title: t('method.frente4Title', 'Projeto 3D'),
+      desc: t('method.frente4Desc', 'Modelagem e renders do evento montado — o cliente aprova vendo, não imaginando.'),
+      entrega: t('method.frente4Entrega', 'Modelo 3D do evento montado + Renders ultrarrealistas por ambiente')
     }
   ];
 
@@ -44,13 +46,16 @@ export const MethodSection = () => {
         <div className="space-y-12">
           <div className="space-y-2">
             <span className="rotulo-tecnico block">
-              0 2 · M É T O D O
+              {t('method.tag', '0 2 · M É T O D O')}
             </span>
             <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-              Do briefing ao <span className="font-semibold text-[#63A4FF]">render aprovado</span>
+              {t('method.titlePrefix', 'Do briefing ao')}{' '}
+              <span className="font-semibold text-[#63A4FF]">
+                {t('method.titleHighlight', 'render aprovado')}
+              </span>
             </h2>
             <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-              Duas etapas encadeadas: primeiro entender e conceituar, depois traduzir em projeto visualizável.
+              {t('method.subtitle', 'O cliente aprova vendo, não imaginando. Dividimos o projeto em 4 frentes que garantem precisão técnica e impacto visual.')}
             </p>
           </div>
 
@@ -61,10 +66,10 @@ export const MethodSection = () => {
                 0 1 · B R I E F I N G   E   C O N C E I T O
               </span>
               <h3 className="text-lg font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Entender, pesquisar e definir a linguagem
+                {t('method.frente1Title', 'Conceito')} & Análise
               </h3>
               <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-                O trabalho começa pela análise do briefing, entendendo o propósito do projeto, o público, o espaço disponível, a identidade da marca, o orçamento e os resultados esperados. A partir dessas informações, a Tentáculos Lab desenvolve o conceito criativo e define a linguagem visual, os materiais, as cores, a iluminação, a ambientação e os elementos de interação que formarão a experiência.
+                {t('method.frente1Desc', 'O trabalho começa pela análise do briefing, entendendo o propósito do projeto, o público, o espaço disponível, a identidade da marca, o orçamento e os resultados esperados.')}
               </p>
             </div>
 
@@ -74,10 +79,10 @@ export const MethodSection = () => {
                 0 2 · D E S E N V O L V I M E N T O
               </span>
               <h3 className="text-lg font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Espacializar, detalhar e validar visualmente
+                {t('method.frente4Title', 'Projeto 3D')} & Detalhamento
               </h3>
               <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-                Na etapa de desenvolvimento, as ideias são traduzidas em projetos 3D, renders ultrarrealistas, plantas, detalhamentos, mockups e apresentações visuais. Isso permite que o cliente visualize o resultado antes da produção, avalie diferentes soluções e participe dos ajustes com mais clareza e segurança.
+                {t('method.frente4Desc', 'Modelagem e renders do evento montado — o cliente aprova vendo, não imaginando.')}
               </p>
             </div>
           </div>
@@ -93,7 +98,7 @@ export const MethodSection = () => {
               Fundação <span className="font-semibold text-[#63A4FF]">do projeto</span>
             </h2>
             <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-              Quatro frentes que caminham juntas, do conceito ao arquivo técnico — cada uma com a sua entrega.
+              {t('method.subtitle', 'Quatro frentes que caminham juntas, do conceito ao arquivo técnico — cada uma com a sua entrega.')}
             </p>
           </div>
 

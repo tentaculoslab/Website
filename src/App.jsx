@@ -1,47 +1,48 @@
 import React, { Suspense, lazy } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { LanguageProvider } from './context/LanguageContext';
 import { PortfolioProvider } from './context/PortfolioContext';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { JuxtaposeViewer } from './components/JuxtaposeViewer';
-import { MethodSection } from './components/MethodSection';
-import { PortfolioGrid } from './components/PortfolioGrid';
-import { AboutSection } from './components/AboutSection';
-import { ProjectEstimator } from './components/ProjectEstimator';
-import { Footer } from './components/Footer';
-import { HexPrismBackground } from './components/HexPrismBackground';
+import { Layout } from './components/Layout';
 
-// Lazy-load heavy modals to optimize initial JavaScript bundle size, LCP and INP
-const ProjectModal = lazy(() => import('./components/ProjectModal').then(m => ({ default: m.ProjectModal })));
-const AdminDashboard = lazy(() => import('./components/admin/AdminDashboard').then(m => ({ default: m.AdminDashboard })));
+// Lazy loading das páginas para máxima performance (LCP e code splitting)
+const HomePage = lazy(() => import('./pages/HomePage').then(m => ({ default: m.HomePage })));
+const ProjectsPage = lazy(() => import('./pages/ProjectsPage').then(m => ({ default: m.ProjectsPage })));
+const ProjectDetailPage = lazy(() => import('./pages/ProjectDetailPage').then(m => ({ default: m.ProjectDetailPage })));
+const JuxtaposePage = lazy(() => import('./pages/JuxtaposePage').then(m => ({ default: m.JuxtaposePage })));
+const MethodPage = lazy(() => import('./pages/MethodPage').then(m => ({ default: m.MethodPage })));
+const AboutPage = lazy(() => import('./pages/AboutPage').then(m => ({ default: m.AboutPage })));
+const BriefingPage = lazy(() => import('./pages/BriefingPage').then(m => ({ default: m.BriefingPage })));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then(m => ({ default: m.NotFoundPage })));
+
+const PageLoadingFallback = () => (
+  <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4">
+    <div className="w-8 h-8 border-2 border-[#63A4FF] border-t-transparent rounded-full animate-spin" />
+    <span className="rotulo-tecnico text-[10px] text-slate-400">CARREGANDO MÓDULO TÉCNICO...</span>
+  </div>
+);
 
 export function App() {
   return (
-    <PortfolioProvider>
-      <div className="relative min-h-screen bg-[#0A1326] text-slate-100 font-sans selection:bg-[#377BDB] selection:text-white">
-        {/* Animated 3D Blueprint Procedural Background */}
-        <HexPrismBackground />
-
-        {/* Site Header & Main Content */}
-        <div className="relative z-10">
-          <Navbar />
-          <main>
-            <Hero />
-            <JuxtaposeViewer />
-            <MethodSection />
-            <PortfolioGrid />
-            <AboutSection />
-            <ProjectEstimator />
-          </main>
-          <Footer />
-        </div>
-        
-        {/* Modals & Overlays (Lazy Loaded) */}
-        <Suspense fallback={null}>
-          <ProjectModal />
-          <AdminDashboard />
-        </Suspense>
-      </div>
-    </PortfolioProvider>
+    <BrowserRouter>
+      <LanguageProvider>
+        <PortfolioProvider>
+          <Suspense fallback={<PageLoadingFallback />}>
+            <Routes>
+              <Route path="/" element={<Layout />}>
+                <Route index element={<HomePage />} />
+                <Route path="projetos" element={<ProjectsPage />} />
+                <Route path="projeto/:id" element={<ProjectDetailPage />} />
+                <Route path="comparativo" element={<JuxtaposePage />} />
+                <Route path="metodo" element={<MethodPage />} />
+                <Route path="sobre" element={<AboutPage />} />
+                <Route path="briefing" element={<BriefingPage />} />
+                <Route path="*" element={<NotFoundPage />} />
+              </Route>
+            </Routes>
+          </Suspense>
+        </PortfolioProvider>
+      </LanguageProvider>
+    </BrowserRouter>
   );
 }
 

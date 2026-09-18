@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { usePortfolio } from '../context/PortfolioContext';
+import { useLanguage } from '../context/LanguageContext';
 import { 
   Search, 
   Box, 
@@ -14,12 +16,12 @@ export const PortfolioGrid = () => {
     activeCategory,
     setActiveCategory,
     searchQuery,
-    setSearchQuery,
-    setSelectedProject
+    setSearchQuery
   } = usePortfolio();
+  const { t } = useLanguage();
 
   return (
-    <section id="portfolio" className="py-24 sm:py-32 bg-[#0A1326] relative border-t border-white/[0.07]">
+    <section id="portfolio" className="py-12 sm:py-16 bg-[#0A1326] relative border-t border-white/[0.07]">
       {/* Camada Blueprint de Fundo */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20 mix-blend-screen pointer-events-none"
@@ -33,13 +35,16 @@ export const PortfolioGrid = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="space-y-2">
             <span className="rotulo-tecnico block">
-              0 5 · P R O J E T O S
+              {t('projects.tag', '0 1 · P R O J E T O S')}
             </span>
             <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-              Atendemos os <span className="font-semibold text-[#63A4FF]">principais tipos de projeto</span>
+              {t('projects.titlePrefix', 'Atendemos os')}{' '}
+              <span className="font-semibold text-[#63A4FF]">
+                {t('projects.titleHighlight', 'principais tipos de projeto')}
+              </span>
             </h2>
             <p className="text-slate-400 text-sm max-w-xl font-light leading-relaxed">
-              Palcos, bares temáticos, ambientação imersiva, instagramáveis e ativações de marca com detalhamento 3D executável.
+              {t('projects.subtitle', 'Palcos, bares temáticos, ambientação imersiva, instagramáveis e ativações de marca com detalhamento 3D executável.')}
             </p>
           </div>
 
@@ -48,7 +53,7 @@ export const PortfolioGrid = () => {
             <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Buscar projeto ou especificação..."
+              placeholder={t('projects.searchPlaceholder', 'Buscar projeto ou especificação...')}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-10 pr-8 py-2.5 bg-[#121D31] border border-white/[0.1] focus:border-[#63A4FF] rounded-lg text-xs text-white placeholder-slate-500 focus:outline-none transition-colors"
@@ -79,7 +84,7 @@ export const PortfolioGrid = () => {
               }`}
               style={{ fontFamily: 'Poppins, sans-serif' }}
             >
-              {cat}
+              {cat === 'Todos' ? t('projects.allCategories', 'Todos') : cat}
             </button>
           ))}
         </div>
@@ -89,19 +94,19 @@ export const PortfolioGrid = () => {
           <div className="text-center py-20 card-chanfrado rounded-xl p-8 bg-[#121D31]">
             <Layers className="w-10 h-10 text-slate-600 mx-auto mb-3" />
             <h3 className="text-sm font-semibold text-slate-200" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              Nenhum projeto localizado nesta tipologia
+              {t('projects.emptyTitle', 'Tipologia em catalogação técnica')}
             </h3>
             <p className="text-slate-400 text-xs mt-1 font-light">
-              Selecione outro filtro para explorar o acervo cenográfico.
+              {t('projects.emptyDesc', 'Os novos cases oficiais estão sendo preparados para inclusão. Selecione outro filtro para explorar o acervo.')}
             </p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project) => (
-              <div
+              <Link
                 key={project.id}
-                onClick={() => setSelectedProject(project)}
-                className="card-chanfrado rounded-xl overflow-hidden group cursor-pointer flex flex-col justify-between"
+                to={`/projeto/${project.id}`}
+                className="card-chanfrado rounded-xl overflow-hidden group cursor-pointer flex flex-col justify-between block transition-all"
               >
                 <div>
                   {/* Thumbnail */}
@@ -159,10 +164,10 @@ export const PortfolioGrid = () => {
                     {project.specs?.areaConstruida || 'Detalhamento Executivo'}
                   </span>
                   <span className="text-[#63A4FF] text-xs font-medium group-hover:underline flex items-center gap-1" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                    Inspecionar 3D →
+                    {t('projects.inspect3D', 'Inspecionar 3D →')}
                   </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         )}

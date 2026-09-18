@@ -5,7 +5,7 @@ export const defaultProjects = [
     category: "Projetos Especiais",
     client: "Prefeitura & Produção de Eventos",
     year: "2026",
-    location: "São Paulo, SP - Brasil",
+    location: "Brasil",
     description: "Projeto de arquitetura efêmera e cenografia natalina imersiva em escala real. Modelagem espacial 3D completa com acervo de texturas e renderizações de alta qualidade do projeto, detalhando a estrutura principal em pilares de madeira, alpendre decorativo, iluminação cênica e telhado inclinado com chaminé.",
     coverImage: "/models/papai_noel_real_angle_0.png",
     gallery: [

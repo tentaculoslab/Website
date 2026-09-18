@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { OBJLoader } from 'three-stdlib';
 import gsap from 'gsap';
+import { useLanguage } from '../context/LanguageContext';
 import { 
   Sun, 
   Moon, 
@@ -15,6 +16,7 @@ import {
 } from 'lucide-react';
 
 export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
+  const { t } = useLanguage();
   const containerRef = useRef(null);
   const [renderMode, setRenderMode] = useState('shaded'); // 'shaded', 'wireframe', 'night'
   const [autoRotate, setAutoRotate] = useState(true);
@@ -273,7 +275,9 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
       {loading && (
         <div className="absolute inset-0 bg-[#0A1326]/90 backdrop-blur-sm z-30 flex flex-col items-center justify-center space-y-3">
           <div className="w-8 h-8 border-2 border-[#63A4FF] border-t-transparent rounded-full animate-spin" />
-          <p className="text-xs text-[#63A4FF] font-medium" style={{ fontFamily: 'Poppins, sans-serif' }}>Carregando Visualizador 3D...</p>
+          <p className="text-xs text-[#63A4FF] font-medium" style={{ fontFamily: 'Poppins, sans-serif' }}>
+            {t('viewer3D.loading', 'Carregando Visualizador 3D...')}
+          </p>
         </div>
       )}
 
@@ -281,12 +285,14 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
       <div className="absolute top-3 left-3 right-3 z-20 flex items-center justify-between pointer-events-none text-[10px]">
         <div className="flex items-center gap-2 bg-[#0A1326]/90 px-3 py-1.5 rounded-lg border border-[#377BDB]/40 text-[#63A4FF] backdrop-blur-md shadow-lg">
           <Box className="w-3.5 h-3.5 text-[#63A4FF]" />
-          <span className="font-medium" style={{ fontFamily: 'Poppins, sans-serif' }}>PROJETO 3D: {projectName}</span>
+          <span className="font-medium" style={{ fontFamily: 'Poppins, sans-serif' }}>
+            {t('viewer3D.project', 'PROJETO 3D')}: {projectName}
+          </span>
         </div>
 
         <div className="hidden sm:flex items-center gap-3 bg-[#0A1326]/90 px-3 py-1.5 rounded-lg border border-white/[0.08] text-slate-400 backdrop-blur-md">
-          <span>VÉRTICES: <strong className="text-[#63A4FF]">15.145</strong></span>
-          <span>POLÍGONOS: <strong className="text-slate-200">424.036</strong></span>
+          <span>{t('viewer3D.vertices', 'VÉRTICES')}: <strong className="text-[#63A4FF]">15.145</strong></span>
+          <span>{t('viewer3D.polygons', 'POLÍGONOS')}: <strong className="text-slate-200">424.036</strong></span>
         </div>
       </div>
 
@@ -303,7 +309,7 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
             style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             <Sun className="w-3.5 h-3.5" />
-            <span>Render 3D</span>
+            <span>{t('viewer3D.render3D', 'Render 3D')}</span>
           </button>
 
           <button
@@ -314,7 +320,7 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
             style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             <Grid className="w-3.5 h-3.5" />
-            <span>Aramado CAD</span>
+            <span>{t('viewer3D.wireframe', 'Aramado CAD')}</span>
           </button>
 
           <button
@@ -325,7 +331,7 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
             style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             <Moon className="w-3.5 h-3.5" />
-            <span>Noturno</span>
+            <span>{t('viewer3D.night', 'Noturno')}</span>
           </button>
         </div>
 
@@ -334,7 +340,7 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
           <button
             onClick={() => setAutoRotate(!autoRotate)}
             className={`p-1.5 rounded transition-colors ${autoRotate ? 'text-[#63A4FF] bg-[#1B283D]' : 'text-slate-400 hover:text-white'}`}
-            title={autoRotate ? "Pausar Rotação 360°" : "Ativar Rotação 360°"}
+            title={autoRotate ? t('viewer3D.pauseRotation', "Pausar Rotação 360°") : t('viewer3D.playRotation', "Ativar Rotação 360°")}
           >
             {autoRotate ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5" />}
           </button>
@@ -342,7 +348,7 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
           <button
             onClick={handleResetCamera}
             className="p-1.5 rounded text-slate-400 hover:text-white transition-colors"
-            title="Resetar Câmera"
+            title={t('viewer3D.resetCamera', "Resetar Câmera")}
           >
             <RotateCcw className="w-3.5 h-3.5" />
           </button>
@@ -352,7 +358,7 @@ export const Interactive3DViewer = ({ projectName = "Casa do Papai Noel" }) => {
 
       {/* Drag Hint */}
       <div className="absolute top-12 left-1/2 -translate-x-1/2 z-20 pointer-events-none text-[10px] text-slate-200 bg-[#0A1326]/90 px-3.5 py-1 rounded-full border border-[#377BDB]/40 backdrop-blur-md shadow-lg" style={{ fontFamily: 'Inter, sans-serif' }}>
-        🖱️ Clique e arraste na tela para rotacionar a malha 3D
+        🖱️ {t('viewer3D.dragHint', 'Clique e arraste na tela para rotacionar a malha 3D')}
       </div>
 
     </div>

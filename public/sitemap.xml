@@ -1,33 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Página Inicial -->
   <url>
     <loc>https://tentaculoslab.com.br/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    
-    <!-- Imagens dos Projetos para Indexação no Google Imagens -->
+    <image:image>
+      <image:loc>https://tentaculoslab.com.br/logo-white.png</image:loc>
+      <image:title>Tentáculos Lab - Logomarca Oficial</image:title>
+      <image:caption>O laboratório onde o conceito vira projeto executável</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Acervo de Projetos -->
+  <url>
+    <loc>https://tentaculoslab.com.br/projetos</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Página Permanente do Projeto: Casa do Papai Noel -->
+  <url>
+    <loc>https://tentaculoslab.com.br/projeto/proj-papai-noel</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
     <image:image>
       <image:loc>https://tentaculoslab.com.br/models/papai_noel_real_angle_0.png</image:loc>
       <image:title>Casa do Papai Noel - Cenografia 3D e Arquitetura Efêmera</image:title>
       <image:caption>Projeto de cenografia e espacialização 3D para evento natalino em escala real</image:caption>
     </image:image>
+  </url>
+
+  <!-- Tecnologia Juxtapose (3D vs Real) -->
+  <url>
+    <loc>https://tentaculoslab.com.br/comparativo</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Metodologia Oficial -->
+  <url>
+    <loc>https://tentaculoslab.com.br/metodo</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Quem Somos (Lucas Castro) -->
+  <url>
+    <loc>https://tentaculoslab.com.br/sobre</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
     <image:image>
-      <image:loc>https://tentaculoslab.com.br/models/papai_noel_real_angle_1.png</image:loc>
-      <image:title>Casa do Papai Noel - Vista Angular da Fachada em Madeira</image:title>
-      <image:caption>Detalhamento arquitetônico da estrutura em madeira com iluminação cênica</image:caption>
+      <image:loc>https://tentaculoslab.com.br/branding/lucas-castro.jpg</image:loc>
+      <image:title>Lucas Castro - Responsável Técnico Tentáculos Lab</image:title>
+      <image:caption>Liderança técnica e criativa em cenografia de grandes festivais</image:caption>
     </image:image>
-    <image:image>
-      <image:loc>https://tentaculoslab.com.br/models/papai_noel_real_angle_2.png</image:loc>
-      <image:title>Casa do Papai Noel - Perspectiva Lateral e Telhado</image:title>
-      <image:caption>Perspectiva volumétrica da chaminé cenográfica e telhado inclinado</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://tentaculoslab.com.br/logo.png</image:loc>
-      <image:title>Tentáculos Lab - Logotipo Oficial</image:title>
-      <image:caption>Estúdio de Arquitetura 3D para Cenografia e Grandes Eventos</image:caption>
-    </image:image>
+  </url>
+
+  <!-- Briefing Técnico -->
+  <url>
+    <loc>https://tentaculoslab.com.br/briefing</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Endpoints Semânticos & Web Agêntica -->

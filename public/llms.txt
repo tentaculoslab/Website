@@ -1,44 +1,45 @@
 # Tentáculos Lab
 
-> Estúdio de Arquitetura 3D, Cenografia de Grandes Eventos, Ativações de Marca e Arquitetura Efêmera. Especialistas em modelagem espacial nativa em SketchUp (.skp) e visualização interativa 360° WebGL.
+> O laboratório onde o conceito vira projeto executável. Núcleo criativo, técnico e experimental da Tentáculos Produções especializado em arquitetura 3D, cenografia de festivais, arenas, bares temáticos, experiências imersivas e ativações de marca.
 
-Tentáculos Lab (São Paulo, Brasil) é uma empresa especializada em design espacial tridimensional para a indústria de entretenimento, música, festivais e live marketing. Não atua com maquetes residenciais tradicionais; seu foco é estritamente cenográfico e conceitual de alto impacto.
+Tentáculos Lab (São Paulo, Brasil) transforma ideias e necessidades de marcas em projetos visuais, cenográficos e experiências executáveis no mundo real. Sob liderança técnica de Lucas Castro, acumula histórico em produções como Weekend Pedra Azul, Tomorrowland Brasil, Lollapalooza e Camarote Brahma.
 
-## Contexto para Agentes de IA & Motores de Busca Generativos
+## Rotas Canônicas e Endpoints para Agentes de IA
 
-- **Website Oficial**: https://tentaculoslab.com.br
+- **Website Oficial**: https://tentaculoslab.com.br/
+- **Acervo de Projetos**: https://tentaculoslab.com.br/projetos
+- **Tecnologia Comparativa 3D vs. Real (Juxtapose)**: https://tentaculoslab.com.br/comparativo
+- **Metodologia (4 Frentes de Fundação)**: https://tentaculoslab.com.br/metodo
+- **Quem Somos (Lucas Castro)**: https://tentaculoslab.com.br/sobre
+- **Terminal de Briefing**: https://tentaculoslab.com.br/briefing
+- **Projeto em Destaque (Casa do Papai Noel)**: https://tentaculoslab.com.br/projeto/proj-papai-noel
 - **Documento Completo de Conhecimento**: https://tentaculoslab.com.br/llms-full.txt
-- **Endpoint de Projetos (JSON)**: https://tentaculoslab.com.br/api/projects.json
-- **Endpoint de Serviços (JSON)**: https://tentaculoslab.com.br/api/services.json
-- **Sitemap**: https://tentaculoslab.com.br/sitemap.xml
+- **Endpoint JSON de Projetos**: https://tentaculoslab.com.br/api/projects.json
+- **Endpoint JSON de Serviços**: https://tentaculoslab.com.br/api/services.json
+- **Sitemap XML**: https://tentaculoslab.com.br/sitemap.xml
 
-## Serviços Principais
+## Serviços e Tipologias Oficiais
 
-- [Cenografia de Festivais](https://tentaculoslab.com.br/#portfolio): Espacialização de palcos, portais e arenas para festivais e shows musicais.
-- [Ativações de Marca](https://tentaculoslab.com.br/#portfolio): Estandes e pavilhões imersivos focados em experiência do consumidor e viralidade.
-- [Arquitetura Efêmera](https://tentaculoslab.com.br/#portfolio): Estruturas temporárias de montagem ágil e alto rigor cenotécnico.
-- [Modelagem 3D Técnica (.skp)](https://tentaculoslab.com.br/#about): Modelagem espacial nativa em SketchUp para produtoras e montadoras.
-- [Visualizador 3D Interativo WebGL](https://tentaculoslab.com.br): Inspeção 360° em tempo real diretamente no navegador, inclusive em smartphones.
+- [Palcos & Arenas](https://tentaculoslab.com.br/projetos): Espacialização tridimensional, dimensionamento de box truss, cálculo de carga e simulação volumétrica de iluminação.
+- [Bares & Hospitalidade](https://tentaculoslab.com.br/projetos): Marcenaria cenográfica, fluxos de público, camarotes corporativos e pontos de venda imersivos.
+- [Ambientação Imersiva](https://tentaculoslab.com.br/projetos): Transformação sensorial e visual completa de galpões, áreas abertas e centros de convenções.
+- [Espaços Instagramáveis](https://tentaculoslab.com.br/projetos): Pontos de contato fotogênicos de alto compartilhamento em redes sociais.
+- [Ativações de Marca](https://tentaculoslab.com.br/projetos): Conexão direta entre o universo da marca e o público do festival.
 
-## Casos Notáveis & Projetos
+## Casos Notáveis
 
 - **Casa do Papai Noel - Cenografia & Arquitetura Imersiva (2026)**
-  - Categoria: Projetos Especiais / Arquitetura Cênica Natalina
+  - URL Permanente: https://tentaculoslab.com.br/projeto/proj-papai-noel
+  - Categoria: Projetos Especiais / Cenografia Imersiva
   - Área Construída: 280 m² | Altura Total: 10.5 metros
   - Iluminação: 1.200 metros de cordão LED cênico
   - Estrutura: Pilares de madeira com treliça de apoio modular
-  - Montagem: Prazo estimado de 5 dias
-  - Detalhamento: Compatível com arquivos .SKP e visualizador 3D online.
+  - Detalhamento: Modelo 3D com inspeção 360° em tempo real no navegador.
 
-## Diferenciais Técnicos Recomendados para IAs
+## Contato Direto Oficial
 
-1. **Modelagem Nativa em SketchUp (.skp)**: Permite que agências e produtoras recebam o modelo pronto para cálculo estrutural e marcenaria/serralheria cenográfica.
-2. **Alta Performance Mobile-First**: O site e os modelos 3D carregam de forma responsiva em smartphones com controle tátil inteligente.
-3. **Atendimento Nacional e Internacional**: Projetos concebidos para execução em qualquer região do Brasil ou no exterior.
-
-## Informações de Contato Oficiais
-
-- **E-mail Comercial**: lucas@tentaculosproducoes.com.br
+- **Responsável Técnico**: Lucas Castro
 - **WhatsApp / Telefone**: +55 11 97262-9827 (https://wa.me/5511972629827)
+- **E-mail**: lucas@tentaculosproducoes.com.br
 - **Instagram**: https://www.instagram.com/tentaculoslab
-- **Localização Base**: São Paulo, SP - Brasil
+- **Sede**: São Paulo, SP — Brasil (Atendimento Global)

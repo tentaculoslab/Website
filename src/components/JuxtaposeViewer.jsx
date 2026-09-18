@@ -1,17 +1,35 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 import { Layers, Sliders, ChevronLeft, ChevronRight, CheckCircle2 } from 'lucide-react';
 import { defaultJuxtaposeCases } from '../data/juxtaposeCases';
+import { useLanguage } from '../context/LanguageContext';
 
 export const JuxtaposeViewer = ({
   initialPosition = 50,
   cases = defaultJuxtaposeCases
 }) => {
+  const { t } = useLanguage();
   const [activeCaseIndex, setActiveCaseIndex] = useState(0);
   const [sliderPos, setSliderPos] = useState(initialPosition);
   const [isDragging, setIsDragging] = useState(false);
   const containerRef = useRef(null);
 
   const activeCase = cases[activeCaseIndex] || cases[0];
+
+  // Dynamic translated case info
+  const caseTitle = activeCaseIndex === 0
+    ? t('juxtapose.slot1Title', activeCase.title)
+    : t('juxtapose.slot2Title', activeCase.title);
+
+  const caseDesc = activeCaseIndex === 0
+    ? t('juxtapose.slot1Desc', activeCase.description)
+    : t('juxtapose.slot2Desc', activeCase.description);
+
+  const caseSpecs = activeCaseIndex === 0
+    ? t('juxtapose.slot1Specs', activeCase.specs)
+    : t('juxtapose.slot2Specs', activeCase.specs);
+
+  const beforeLabel = t('juxtapose.beforeLabel', activeCase.beforeLabel);
+  const afterLabel = t('juxtapose.afterLabel', activeCase.afterLabel);
 
   const updatePosition = useCallback((clientX) => {
     if (!containerRef.current) return;
@@ -65,13 +83,16 @@ export const JuxtaposeViewer = ({
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div className="space-y-2">
             <span className="rotulo-tecnico block">
-              0 3 · T E C N O L O G I A  J U X T A P O S E
+              {t('juxtapose.tag', '0 3 · T E C N O L O G I A  J U X T A P O S E')}
             </span>
             <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-              Do 3D à realidade: <span className="font-semibold text-[#63A4FF]">fidelidade milimétrica</span>
+              {t('juxtapose.titlePrefix', 'Do 3D à realidade:')}{' '}
+              <span className="font-semibold text-[#63A4FF]">
+                {t('juxtapose.titleHighlight', 'fidelidade milimétrica')}
+              </span>
             </h2>
             <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-              Mecanismo interativo de comparação técnica integrado ao projeto. Permite ao cliente inspecionar lado a lado a correspondência exata entre o modelo executivo 3D e o evento montado.
+              {t('juxtapose.subtitle', 'Mecanismo interativo de comparação técnica integrado ao projeto. Permite ao cliente inspecionar lado a lado a correspondência exata entre o modelo executivo 3D e o evento montado.')}
             </p>
           </div>
 
@@ -116,7 +137,7 @@ export const JuxtaposeViewer = ({
             {/* After Image (Full Background - Evento Real) */}
             <img
               src={activeCase.afterImage}
-              alt={activeCase.afterLabel}
+              alt={afterLabel}
               className="absolute inset-0 h-full w-full object-cover pointer-events-none"
               loading="lazy"
             />
@@ -128,7 +149,7 @@ export const JuxtaposeViewer = ({
             >
               <img
                 src={activeCase.beforeImage}
-                alt={activeCase.beforeLabel}
+                alt={beforeLabel}
                 className="absolute inset-0 h-full max-w-none object-cover"
                 style={{
                   width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%'
@@ -145,7 +166,7 @@ export const JuxtaposeViewer = ({
             >
               <span className="rotulo-tecnico text-[10px] text-[#63A4FF] flex items-center gap-1.5">
                 <Layers className="w-3 h-3" />
-                {activeCase.beforeLabel}
+                {beforeLabel}
               </span>
             </div>
 
@@ -157,7 +178,7 @@ export const JuxtaposeViewer = ({
             >
               <span className="rotulo-tecnico text-[10px] text-slate-300 flex items-center gap-1.5">
                 <CheckCircle2 className="w-3 h-3 text-[#63A4FF]" />
-                {activeCase.afterLabel}
+                {afterLabel}
               </span>
             </div>
 
@@ -181,7 +202,9 @@ export const JuxtaposeViewer = ({
             {/* Mobile Interaction Hint */}
             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 px-3.5 py-1 rounded-full bg-[#0A1326]/80 backdrop-blur-md text-[10px] text-slate-300 border border-white/[0.08] pointer-events-none flex items-center gap-1.5">
               <Sliders className="w-3 h-3 text-[#63A4FF]" />
-              <span style={{ fontFamily: 'Inter, sans-serif' }}>Arraste para comparar</span>
+              <span style={{ fontFamily: 'Inter, sans-serif' }}>
+                {t('juxtapose.dragHint', 'Arraste para comparar')}
+              </span>
             </div>
           </div>
 
@@ -189,15 +212,15 @@ export const JuxtaposeViewer = ({
           <div className="mt-4 px-2 py-3 flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-t border-white/[0.05] text-xs">
             <div>
               <p className="font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                {activeCase.title}
+                {caseTitle}
               </p>
               <p className="text-slate-400 text-[11px] font-light mt-0.5">
-                {activeCase.description}
+                {caseDesc}
               </p>
             </div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#0A1326] border border-[#377BDB]/30 text-slate-300 font-light whitespace-nowrap self-start sm:self-auto">
               <span className="w-1.5 h-1.5 rounded-full bg-[#377BDB]" />
-              <span className="text-[11px]">{activeCase.specs}</span>
+              <span className="text-[11px]">{caseSpecs}</span>
             </div>
           </div>
 
