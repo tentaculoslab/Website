@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #0A1326;
+    color: #cbd5e1;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.015em;
+  }
+
+  /* Rótulo Técnico Oficial do Manual (Poppins Medium Caixa Alta, tracking .22em) */
+  .rotulo-tecnico {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #63A4FF;
+  }
+}
+
+/* Barra de Topo Oficial da Marca (Filete de 3px com luz azul ao centro) */
+.barra-topo-luz {
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(90deg, transparent 0%, #377BDB 25%, #4391FC 50%, #377BDB 75%, transparent 100%);
+  position: relative;
+  box-shadow: 0 0 12px rgba(67, 145, 252, 0.6);
+}
+
+/* Card Chanfrado Oficial do Manual (Borda 3px à esquerda e chanfro de 18px no topo direito) */
+.card-chanfrado {
+  background: #121D31;
+  border-left: 3px solid #377BDB;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 0 100%);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-chanfrado:hover {
+  background: #1B283D;
+  border-left-color: #63A4FF;
+  box-shadow: 0 16px 36px -12px rgba(5, 13, 25, 0.85);
+  transform: translateY(-2px);
+}
+
+/* Superfície Padrão do Manual */
+.superficie-card {
+  background: #121D31;
+  border: 1px solid rgba(55, 123, 219, 0.2);
+  transition: all 0.3s ease;
+}
+
+.superficie-card:hover {
+  background: #1B283D;
+  border-color: rgba(99, 164, 255, 0.4);
+}
+
+/* Camada Blueprint de Fundo (Opacidade entre 20% e 30%) */
+.bg-blueprint-base {
+  background-color: #0A1326;
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(18, 29, 49, 0.7) 0%, rgba(10, 19, 38, 0.98) 100%),
+    linear-gradient(to right, rgba(99, 164, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(99, 164, 255, 0.03) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+}
+
+/* Logo Oficial Invert (Branco chapado) */
+.logo-invert {
+  filter: brightness(0) invert(1);
+}
+
+/* Custom Scrollbar com as cores do manual */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050D19;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1B283D;
+  border-radius: 3px;
+  border: 1px solid rgba(55, 123, 219, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #377BDB;
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "updatedAt": "2026-09-18",
+  "publisher": {
+    "name": "Tentáculos Lab",
+    "url": "https://tentaculoslab.com.br",
+    "contact": {
+      "email": "lucas@tentaculosproducoes.com.br",
+      "phone": "+55 11 97262-9827",
+      "whatsapp": "https://wa.me/5511972629827"
+    }
+  },
+  "projects": [
+    {
+      "id": "proj-papai-noel",
+      "slug": "casa-do-papai-noel",
+      "title": "Casa do Papai Noel - Cenografia & Arquitetura Imersiva",
+      "category": "Projetos Especiais",
+      "client": "Prefeitura & Produção de Eventos",
+      "year": 2026,
+      "location": "São Paulo, SP - Brasil",
+      "summary": "Projeto de arquitetura efêmera e cenografia natalina imersiva em escala real para visitação pública.",
+      "description": "Projeto cenográfico completo com espacialização 3D, estrutura principal em pilares de madeira, alpendre decorativo, iluminação cênica de alto impacto e telhado inclinado com chaminé. Modelado nativamente para compatibilidade com SketchUp (.skp) e visualização interativa 360 graus via WebGL.",
+      "specs": {
+        "areaConstruida": "280 m²",
+        "alturaTotal": "10.5 metros",
+        "estruturaPrincipal": "Telas de Madeira + Treliça de Apoio Modular",
+        "pontosLuzLED": "1.200 Metros de Cordão LED Cênico",
+        "tempoMontagem": "5 Dias",
+        "detalhamento": "Completo para Montagem e Engenharia de Campo"
+      },
+      "skpFile": {
+        "available": true,
+        "name": "Casa do Papai Noel (Modelo 3D)",
+        "format": "SketchUp .skp",
+        "version": "Alta Definição / V-Ray 6",
+        "status": "Acesso mediante autorização de produção"
+      },
+      "tags": [
+        "Casa do Papai Noel",
+        "Cenografia Natalina",
+        "Modelagem 3D",
+        "Arquitetura Cênica",
+        "Arquitetura Efêmera",
+        "SketchUp"
+      ],
+      "featured": true,
+      "interactive3DAvailable": true
+    }
+  ]
+}

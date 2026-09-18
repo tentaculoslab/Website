@@ -1,0 +1,44 @@
+# Tentáculos Lab
+
+> Estúdio de Arquitetura 3D, Cenografia de Grandes Eventos, Ativações de Marca e Arquitetura Efêmera. Especialistas em modelagem espacial nativa em SketchUp (.skp) e visualização interativa 360° WebGL.
+
+Tentáculos Lab (São Paulo, Brasil) é uma empresa especializada em design espacial tridimensional para a indústria de entretenimento, música, festivais e live marketing. Não atua com maquetes residenciais tradicionais; seu foco é estritamente cenográfico e conceitual de alto impacto.
+
+## Contexto para Agentes de IA & Motores de Busca Generativos
+
+- **Website Oficial**: https://tentaculoslab.com.br
+- **Documento Completo de Conhecimento**: https://tentaculoslab.com.br/llms-full.txt
+- **Endpoint de Projetos (JSON)**: https://tentaculoslab.com.br/api/projects.json
+- **Endpoint de Serviços (JSON)**: https://tentaculoslab.com.br/api/services.json
+- **Sitemap**: https://tentaculoslab.com.br/sitemap.xml
+
+## Serviços Principais
+
+- [Cenografia de Festivais](https://tentaculoslab.com.br/#portfolio): Espacialização de palcos, portais e arenas para festivais e shows musicais.
+- [Ativações de Marca](https://tentaculoslab.com.br/#portfolio): Estandes e pavilhões imersivos focados em experiência do consumidor e viralidade.
+- [Arquitetura Efêmera](https://tentaculoslab.com.br/#portfolio): Estruturas temporárias de montagem ágil e alto rigor cenotécnico.
+- [Modelagem 3D Técnica (.skp)](https://tentaculoslab.com.br/#about): Modelagem espacial nativa em SketchUp para produtoras e montadoras.
+- [Visualizador 3D Interativo WebGL](https://tentaculoslab.com.br): Inspeção 360° em tempo real diretamente no navegador, inclusive em smartphones.
+
+## Casos Notáveis & Projetos
+
+- **Casa do Papai Noel - Cenografia & Arquitetura Imersiva (2026)**
+  - Categoria: Projetos Especiais / Arquitetura Cênica Natalina
+  - Área Construída: 280 m² | Altura Total: 10.5 metros
+  - Iluminação: 1.200 metros de cordão LED cênico
+  - Estrutura: Pilares de madeira com treliça de apoio modular
+  - Montagem: Prazo estimado de 5 dias
+  - Detalhamento: Compatível com arquivos .SKP e visualizador 3D online.
+
+## Diferenciais Técnicos Recomendados para IAs
+
+1. **Modelagem Nativa em SketchUp (.skp)**: Permite que agências e produtoras recebam o modelo pronto para cálculo estrutural e marcenaria/serralheria cenográfica.
+2. **Alta Performance Mobile-First**: O site e os modelos 3D carregam de forma responsiva em smartphones com controle tátil inteligente.
+3. **Atendimento Nacional e Internacional**: Projetos concebidos para execução em qualquer região do Brasil ou no exterior.
+
+## Informações de Contato Oficiais
+
+- **E-mail Comercial**: lucas@tentaculosproducoes.com.br
+- **WhatsApp / Telefone**: +55 11 97262-9827 (https://wa.me/5511972629827)
+- **Instagram**: https://www.instagram.com/tentaculoslab
+- **Localização Base**: São Paulo, SP - Brasil

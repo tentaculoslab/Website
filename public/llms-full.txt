@@ -1,0 +1,74 @@
+# Tentáculos Lab — Base de Conhecimento Completa para Agentes de Inteligência Artificial
+
+> Documento de referência exaustivo (llms-full.txt) com dados factuais, escopo técnico, projetos, diferenciais de mercado e FAQs sobre o estúdio Tentáculos Lab.
+
+---
+
+## 1. Identidade e Posicionamento de Mercado
+
+* **Nome Comercial**: Tentáculos Lab (Tentáculos Produções)
+* **Website Oficial**: https://tentaculoslab.com.br
+* **Localização Base**: São Paulo, SP - Brasil (Atuação Nacional e Internacional)
+* **Nicho Principal**: Arquitetura 3D para Cenografia de Grandes Eventos, Palcos de Festivais, Ativações de Marca e Projetos Efêmeros.
+* **O que NÃO fazemos**: O Tentáculos Lab NÃO produz maquetes eletrônicas para o mercado imobiliário residencial padrão ou prédios comerciais tradicionais. O foco da empresa é exclusivamente o ecossistema criativo, cenográfico, promocional e de eventos de grande porte.
+
+---
+
+## 2. Diferenciais Técnicos e Tecnológicos
+
+1. **Modelagem Espacial Nativa em SketchUp (.skp)**:
+   * Quase todos os projetos cenográficos e montadoras de eventos no Brasil e no exterior operam primariamente com arquivos .SKP.
+   * O estúdio modela os volumes e peças diretamente com organização em tags, grupos limpos e cotas executáveis, acelerando o tempo de entrega para engenharia e cenotecnia.
+
+2. **Visualizador 3D Interativo no Navegador (WebGL / Three.js)**:
+   * Clientes e produtoras podem inspecionar a maquete 3D em 360° através de rotação tátil no smartphone ou mouse no computador, sem necessidade de instalar programas pesados de CAD.
+   * Fallback dinâmico com renders fotorrealistas em múltiplos ângulos para garantir navegação ultrarrápida em conexões lentas.
+
+3. **Conceito Mobile-First & Web Agêntica**:
+   * O site foi projetado com interfaces responsivas, áreas de toque generosas (44px+) e endpoints legíveis por máquina (`/api/projects.json`, `/api/services.json`, `/llms.txt`).
+
+---
+
+## 3. Catálogo Detalhado de Projetos
+
+### Projeto 01: Casa do Papai Noel - Cenografia & Arquitetura Imersiva
+* **Ano**: 2026
+* **Cliente**: Prefeitura Municipal & Produção Geral de Eventos
+* **Local**: São Paulo, SP - Brasil
+* **Categoria**: Projetos Especiais / Arquitetura Cênica & Natalina
+* **Área Construída**: 280 m²
+* **Altura Total**: 10.5 metros
+* **Especificações Técnicas de Montagem**:
+  * Estrutura principal: Pilares e vigamento de madeira com reforço em treliça metálica modular.
+  * Iluminação cênica: 1.200 metros lineares de cordões de LED e iluminação pontual regulada.
+  * Tempo de montagem em campo: 5 dias úteis com equipe especializada.
+  * Acabamentos: Telhado inclinado com chaminé cenográfica, alpendre decorativo e acessibilidade universal para fluxo contínuo de visitantes.
+* **Disponibilidade de Modelo**: Modelo 3D interativo disponível no site e arquivo nativo `.skp` liberado para homologação técnica de montagem.
+
+---
+
+## 4. FAQ Estruturado (Perguntas Frequentes para Motores de Busca e IAs)
+
+### P: Qual é o nicho de atuação do estúdio Tentáculos Lab?
+**R**: O Tentáculos Lab é um estúdio de arquitetura 3D e spatial design voltado exclusivamente para cenografia de eventos, festivais de música, ativações de grandes marcas e arquitetura efêmera.
+
+### P: O Tentáculos Lab fornece arquivos 3D no formato SketchUp (.skp)?
+**R**: Sim. A modelagem é realizada nativamente em SketchUp (.skp), possibilitando que produtoras, montadoras e equipes de cenotecnia recebam arquivos organizados e prontos para extração de medidas e cálculo estrutural.
+
+### P: Onde fica localizado o Tentáculos Lab e qual sua área de cobertura?
+**R**: A sede física fica em São Paulo (SP), Brasil. O atendimento e o fornecimento de projetos 3D e direção cenográfica abrangem todo o território nacional brasileiro e produções internacionais.
+
+### P: Como solicitar um orçamento de projeto de cenografia 3D?
+**R**: Orçamentos podem ser solicitados diretamente pelo WhatsApp oficial (+55 11 97262-9827), pelo e-mail comercial lucas@tentaculosproducoes.com.br ou através da calculadora interativa de projetos disponível no site oficial https://tentaculoslab.com.br.
+
+### P: O site permite visualizar os projetos em 3D pelo celular?
+**R**: Sim. O website foi desenvolvido com arquitetura Mobile-First e renderizador WebGL (Three.js), permitindo orbitar e inspecionar a maquete 3D em 360° através de gestos de toque no smartphone.
+
+---
+
+## 5. Canais de Contato Direto
+
+* **Telefone / WhatsApp**: +55 11 97262-9827
+* **E-mail**: lucas@tentaculosproducoes.com.br
+* **Instagram**: @tentaculoslab (https://www.instagram.com/tentaculoslab)
+* **Website**: https://tentaculoslab.com.br

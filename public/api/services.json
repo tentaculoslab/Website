@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "provider": "Tentáculos Lab",
+  "website": "https://tentaculoslab.com.br",
+  "coreNiche": "Arquitetura 3D, Cenografia para Festivais, Ativações de Marca e Arquitetura Efêmera",
+  "services": [
+    {
+      "id": "cenografia-festivais",
+      "name": "Cenografia de Palcos & Festivais",
+      "description": "Desenvolvimento volumétrico e espacial de palcos, portais e arenas para grandes festivais e shows de música.",
+      "deliverables": ["Modelos 3D espaciais", "Renders fotorrealistas dia/noite", "Plantas de montagem executiva", "Arquivo nativo .skp"],
+      "targetAudience": ["Produtoras de eventos", "Festivais de música", "Agências de live marketing"]
+    },
+    {
+      "id": "ativacoes-marca",
+      "name": "Ativações de Marca & Estandes Imersivos",
+      "description": "Espaços cenográficos temporários focados em experiência do consumidor, fotos instagramáveis e memorabilidade de marca.",
+      "deliverables": ["Conceito 3D imersivo", "Especificação de materiais", "Projeto luminotécnico cênico", "Simulação de fluxo de público"],
+      "targetAudience": ["Marcas globais", "Agências de publicidade", "Empresas de entretenimento"]
+    },
+    {
+      "id": "arquitetura-efemera",
+      "name": "Arquitetura Efêmera & Pavilhões Temporários",
+      "description": "Estruturas de rápida montagem e desmontagem com alto impacto estético, segurança e conformidade estrutural.",
+      "deliverables": ["Detalhamento de treliças e acabamentos", "Plantas técnicas", "Memoriais descritivos"],
+      "targetAudience": ["Prefeituras", "Organizadores de feiras e exposições"]
+    },
+    {
+      "id": "modelagem-skp-3d",
+      "name": "Modelagem 3D Técnica Nativa em SketchUp (.skp)",
+      "description": "Modelagem tridimensional nativa no padrão industrial de cenografia e eventos, permitindo fácil integração com equipes de engenharia e montagem.",
+      "deliverables": ["Arquivos .skp organizados por camadas/tags", "Blocos limpos e otimizados"],
+      "targetAudience": ["Cenógrafos parceiros", "Montadoras de estruturas", "Engenheiros cenotécnicos"]
+    }
+  ]
+}
