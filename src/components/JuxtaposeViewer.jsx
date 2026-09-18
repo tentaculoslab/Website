@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
-import { Eye, Layers, Sliders, ChevronLeft, ChevronRight, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Layers, Sliders, ChevronLeft, ChevronRight, CheckCircle2 } from 'lucide-react';
 import { defaultJuxtaposeCases } from '../data/juxtaposeCases';
 
 export const JuxtaposeViewer = ({
@@ -24,15 +24,6 @@ export const JuxtaposeViewer = ({
   const handlePointerDown = (e) => {
     setIsDragging(true);
     updatePosition(e.clientX);
-  };
-
-  const handlePointerMove = (e) => {
-    if (!isDragging) return;
-    updatePosition(e.clientX);
-  };
-
-  const handlePointerUp = () => {
-    setIsDragging(false);
   };
 
   useEffect(() => {

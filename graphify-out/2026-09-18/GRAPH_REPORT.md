@@ -1,7 +1,7 @@
 # Graph Report - Tentaculos Lab  (2026-09-18)
 
 ## Corpus Check
-- 37 files · ~1,044,635 words
+- 37 files · ~1,044,661 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: .css 2, (none) 1, .lock 1)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `29200e52`
+- Built from commit: `15b79f16`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

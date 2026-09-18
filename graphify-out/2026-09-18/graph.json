@@ -145,7 +145,7 @@
       "file_type": "code",
       "norm_label": "projectmodal()",
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L18"
+      "source_location": "L23"
     },
     {
       "id": "src_context_portfoliocontext_portfolioprovider",
@@ -2555,7 +2555,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L19",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -5321,7 +5321,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L18",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -5511,5 +5511,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "29200e52f151ea55a19ce2d2efb3aaa5fbd82f50"
+  "built_at_commit": "15b79f169d7fc09038b9dc0fc99a34c5801dd197"
 }
