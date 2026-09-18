@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import { PortfolioProvider } from './context/PortfolioContext';
 import { Layout } from './components/Layout';
@@ -8,7 +8,7 @@ import { Layout } from './components/Layout';
 const HomePage = lazy(() => import('./pages/HomePage').then(m => ({ default: m.HomePage })));
 const ProjectsPage = lazy(() => import('./pages/ProjectsPage').then(m => ({ default: m.ProjectsPage })));
 const ProjectDetailPage = lazy(() => import('./pages/ProjectDetailPage').then(m => ({ default: m.ProjectDetailPage })));
-const JuxtaposePage = lazy(() => import('./pages/JuxtaposePage').then(m => ({ default: m.JuxtaposePage })));
+const ComparativoPage = lazy(() => import('./pages/ComparativoPage').then(m => ({ default: m.ComparativoPage })));
 const MethodPage = lazy(() => import('./pages/MethodPage').then(m => ({ default: m.MethodPage })));
 const AboutPage = lazy(() => import('./pages/AboutPage').then(m => ({ default: m.AboutPage })));
 const BriefingPage = lazy(() => import('./pages/BriefingPage').then(m => ({ default: m.BriefingPage })));
@@ -30,12 +30,23 @@ export function App() {
             <Routes>
               <Route path="/" element={<Layout />}>
                 <Route index element={<HomePage />} />
-                <Route path="projetos" element={<ProjectsPage />} />
-                <Route path="projeto/:id" element={<ProjectDetailPage />} />
-                <Route path="comparativo" element={<JuxtaposePage />} />
-                <Route path="metodo" element={<MethodPage />} />
-                <Route path="sobre" element={<AboutPage />} />
+                
+                {/* Rotas Canônicas em Inglês (Agentic Web Standard / is-agentic.com) */}
+                <Route path="projects" element={<ProjectsPage />} />
+                <Route path="projects/:id" element={<ProjectDetailPage />} />
+                <Route path="project/:id" element={<Navigate to="/projects/:id" replace />} />
+                <Route path="comparison" element={<ComparativoPage />} />
+                <Route path="method" element={<MethodPage />} />
+                <Route path="about" element={<AboutPage />} />
                 <Route path="briefing" element={<BriefingPage />} />
+
+                {/* Redirecionamentos de Compatibilidade (PT -> EN) */}
+                <Route path="projetos" element={<Navigate to="/projects" replace />} />
+                <Route path="projeto/:id" element={<Navigate to="/projects/:id" replace />} />
+                <Route path="comparativo" element={<Navigate to="/comparison" replace />} />
+                <Route path="metodo" element={<Navigate to="/method" replace />} />
+                <Route path="sobre" element={<Navigate to="/about" replace />} />
+
                 <Route path="*" element={<NotFoundPage />} />
               </Route>
             </Routes>

@@ -1,27 +1,27 @@
 # Graph Report - Tentaculos Lab  (2026-09-18)
 
 ## Corpus Check
-- 50 files · ~1,049,395 words
+- 53 files · ~1,054,668 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: .css 2, (none) 1, .lock 1)
 
 ## Summary
-- 272 nodes · 396 edges · 20 communities (15 shown, 5 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.95)
+- 281 nodes · 464 edges · 20 communities (15 shown, 5 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7683e16b`
+- Built from commit: `c93322da`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - package.json
-- react
+- useLanguage
 - dependencies
 - projects.json
 - README.md
-- PortfolioContext.jsx
+- Layout.jsx
 - 📘 Manual de Identidade Visual e Guia Técnico de Marca
 - .oxlintrc.json
 - ⚡ Manual Técnico de Core Web Vitals (Nota Máxima) — Tentáculos Lab
@@ -29,7 +29,7 @@
 - 🚀 Fluxo de Trabalho, Git e Deploy — Tentáculos Lab
 - 🔍 Diretrizes de SEO & Rankeamento no Google — Tentáculos Lab
 - 🏛️ Arquitetura do Sistema — Tentáculos Lab
-- main.jsx
+- App.jsx
 - UI & Design System Guidelines — Tentáculos Lab
 - Protocolo de Sincronização Contínua de Metadados (JSON-LD & Rich Snippets)
 - agentic-web.md
@@ -38,28 +38,28 @@
 - workflows/graphify.md
 
 ## God Nodes (most connected - your core abstractions)
-1. `react` - 28 edges
-2. `lucide-react` - 17 edges
-3. `react-router-dom` - 11 edges
-4. `SEOHead()` - 9 edges
-5. `usePortfolio()` - 9 edges
-6. `📘 Manual de Identidade Visual e Guia Técnico de Marca` - 9 edges
-7. `🐙 Tentáculos Lab — Website & Portfólio Imersivo` - 8 edges
-8. `🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab` - 8 edges
-9. `⚡ Manual Técnico de Core Web Vitals (Nota Máxima) — Tentáculos Lab` - 7 edges
-10. `📱 Diretrizes de Desenvolvimento Mobile-First — Tentáculos Lab` - 7 edges
+1. `useLanguage()` - 39 edges
+2. `react` - 30 edges
+3. `lucide-react` - 14 edges
+4. `react-router-dom` - 11 edges
+5. `SEOHead()` - 9 edges
+6. `usePortfolio()` - 9 edges
+7. `📘 Manual de Identidade Visual e Guia Técnico de Marca` - 9 edges
+8. `🐙 Tentáculos Lab — Website & Portfólio Imersivo` - 8 edges
+9. `🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab` - 8 edges
+10. `⚡ Manual Técnico de Core Web Vitals (Nota Máxima) — Tentáculos Lab` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `4.3. Fallback Gracioso de Alta Definição (HD 360° Orbit)` --references--> `Interactive3DViewer()`  [INFERRED]
   docs/MOBILE_FIRST_GUIDELINES.md → src/components/Interactive3DViewer.jsx
 - `Diretrizes de Core Web Vitals (Não-Negociável) — Tentáculos Lab` --references--> `manualChunks()`  [INFERRED]
   .agents/rules/core-web-vitals.md → vite.config.js
-- `PortfolioGrid()` --calls--> `usePortfolio()`  [EXTRACTED]
-  src/components/PortfolioGrid.jsx → src/context/PortfolioContext.jsx
-- `ProjectModal()` --calls--> `usePortfolio()`  [EXTRACTED]
-  src/components/ProjectModal.jsx → src/context/PortfolioContext.jsx
-- `AdminDashboard()` --calls--> `usePortfolio()`  [EXTRACTED]
-  src/components/admin/AdminDashboard.jsx → src/context/PortfolioContext.jsx
+- `Footer()` --calls--> `useLanguage()`  [EXTRACTED]
+  src/components/Footer.jsx → src/context/LanguageContext.jsx
+- `Interactive3DViewer()` --calls--> `useLanguage()`  [EXTRACTED]
+  src/components/Interactive3DViewer.jsx → src/context/LanguageContext.jsx
+- `Navbar()` --calls--> `useLanguage()`  [EXTRACTED]
+  src/components/Navbar.jsx → src/context/LanguageContext.jsx
 
 ## Import Cycles
 - None detected.
@@ -68,11 +68,11 @@
 
 ### Community 0 - "package.json"
 Cohesion: 0.05
-Nodes (40): Diretrizes de Core Web Vitals (Não-Negociável) — Tentáculos Lab, devDependencies, oxlint, tailwindcss, @tailwindcss/vite, @types/bun, @types/react, @types/react-dom (+32 more)
+Nodes (38): Diretrizes de Core Web Vitals (Não-Negociável) — Tentáculos Lab, devDependencies, oxlint, tailwindcss, @tailwindcss/vite, @types/bun, @types/react, @types/react-dom (+30 more)
 
-### Community 1 - "react"
-Cohesion: 0.10
-Nodes (24): lucide-react, react, react-router-dom, AboutPage, BriefingPage, HomePage, JuxtaposePage, MethodPage (+16 more)
+### Community 1 - "useLanguage"
+Cohesion: 0.15
+Nodes (24): lucide-react, react, ComparativoPage, AboutSection(), ComparativoViewer(), Hero(), WhatsAppIcon(), LanguageSelector() (+16 more)
 
 ### Community 2 - "dependencies"
 Cohesion: 0.13
@@ -86,9 +86,9 @@ Nodes (11): email, phone, whatsapp, projects, publisher, contact, name, url (+3 
 Cohesion: 0.08
 Nodes (21): 🎯 1. O que é um Website Agêntico?, 🏗️ 2. Pilares da Arquitetura Agêntica do Tentáculos Lab, 📄 3. Padrão `llms.txt` e `llms-full.txt` (Answer.AI Standard), 🔌 4. Endpoints de Dados Legíveis por Máquina (`/api/`), 🔍 5. Schema.org e Dados Estruturados em JSON-LD (`index.html`), 🤖 6. Permissões de Crawlers no `robots.txt`, ✅ 7. Protocolo de Revisitação Contínua de Dados (JSON-LD & Rich Snippets), 🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab (+13 more)
 
-### Community 5 - "PortfolioContext.jsx"
-Cohesion: 0.22
-Nodes (9): AdminDashboard(), AdminDashboard, ProjectModal, ProjectModal(), PortfolioContext, PortfolioProvider(), usePortfolio(), defaultProjects (+1 more)
+### Community 5 - "Layout.jsx"
+Cohesion: 0.16
+Nodes (13): react-router-dom, three, AdminDashboard(), Footer(), HexPrismBackground(), AdminDashboard, Layout(), ProjectModal (+5 more)
 
 ### Community 6 - "📘 Manual de Identidade Visual e Guia Técnico de Marca"
 Cohesion: 0.10
@@ -118,30 +118,30 @@ Nodes (10): 🎯 1. Matriz de Palavras-Chave Estratégicas, 2.1. Hierarquia de T
 Cohesion: 0.22
 Nodes (8): 🧭 1. Visão Geral da Arquitetura, 📦 2. Camada de Estado Global (`PortfolioContext`), 3.1. `HexPrismBackground.jsx` (Cenário de Fundo 3D), 3.2. `Interactive3DViewer.jsx` (Visualizador 3D do Projeto), 3.3. `ProjectEstimator.jsx` (Calculadora Interativa), 🎨 3. Módulos & Componentes Principais, ⚡ 4. Pipeline de Assets e Mídia, 🏛️ Arquitetura do Sistema — Tentáculos Lab
 
-### Community 13 - "main.jsx"
-Cohesion: 0.50
-Nodes (3): ref_react_dom_client, App(), src_index
+### Community 13 - "App.jsx"
+Cohesion: 0.12
+Nodes (14): ref_react_dom_client, AboutPage, App(), BriefingPage, HomePage, MethodPage, NotFoundPage, ProjectDetailPage (+6 more)
 
 ### Community 14 - "UI & Design System Guidelines — Tentáculos Lab"
 Cohesion: 0.33
 Nodes (5): 1. Cores Oficiais da Marca, 2. Tipografia Oficial & Hierarquia, 3. Elementos Gráficos & Estruturais, 4. Espaçamento & Whitespace, UI & Design System Guidelines — Tentáculos Lab
 
 ## Knowledge Gaps
-- **136 isolated node(s):** `$schema`, `plugins`, `react/rules-of-hooks`, `react/only-export-components`, `name` (+131 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 153 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **138 isolated node(s):** `$schema`, `plugins`, `react/rules-of-hooks`, `react/only-export-components`, `name` (+133 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 148 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Interactive3DViewer()` connect `📱 Diretrizes de Desenvolvimento Mobile-First — Tentáculos Lab` to `package.json`, `react`, `PortfolioContext.jsx`?**
+- **Why does `Interactive3DViewer()` connect `📱 Diretrizes de Desenvolvimento Mobile-First — Tentáculos Lab` to `package.json`, `useLanguage`, `Layout.jsx`?**
   _High betweenness centrality (0.376) - this node is a cross-community bridge._
 - **What connects `$schema`, `plugins`, `react/rules-of-hooks` to the rest of the system?**
-  _136 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _138 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.048484848484848485 - nodes in this community are weakly interconnected._
-- **Should `react` be split into smaller, more focused modules?**
-  _Cohesion score 0.10272536687631027 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05110336817653891 - nodes in this community are weakly interconnected._
+- **Should `useLanguage` be split into smaller, more focused modules?**
+  _Cohesion score 0.1494949494949495 - nodes in this community are weakly interconnected._
 - **Should `dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `README.md` be split into smaller, more focused modules?**

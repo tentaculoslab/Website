@@ -4,18 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "id": "src_components_hexprismbackground_hexprismbackground",
-      "label": "HexPrismBackground()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "hexprismbackground()",
-      "source_file": "src/components/HexPrismBackground.jsx",
-      "source_location": "L4"
-    },
-    {
       "id": "vite_config_manualchunks",
       "label": "manualChunks()",
       "_callable": true,
@@ -28,39 +16,27 @@
       "source_location": "L14"
     },
     {
-      "id": "src_app_pageloadingfallback",
-      "label": "PageLoadingFallback()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "pageloadingfallback()",
-      "source_file": "src/App.jsx",
-      "source_location": "L16"
-    },
-    {
       "id": "src_components_aboutsection_aboutsection",
       "label": "AboutSection()",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "aboutsection()",
       "source_file": "src/components/AboutSection.jsx",
-      "source_location": "L3"
+      "source_location": "L4"
     },
     {
-      "id": "src_components_footer_footer",
-      "label": "Footer()",
+      "id": "src_components_comparativoviewer_comparativoviewer",
+      "label": "ComparativoViewer()",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "footer()",
-      "source_file": "src/components/Footer.jsx",
+      "norm_label": "comparativoviewer()",
+      "source_file": "src/components/ComparativoViewer.jsx",
       "source_location": "L6"
     },
     {
@@ -69,11 +45,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "hero()",
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L4"
+      "source_location": "L5"
     },
     {
       "id": "src_components_icons_whatsappicon_whatsappicon",
@@ -81,35 +57,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "whatsappicon()",
       "source_file": "src/components/icons/WhatsAppIcon.jsx",
       "source_location": "L3"
     },
     {
-      "id": "src_components_juxtaposeviewer_juxtaposeviewer",
-      "label": "JuxtaposeViewer()",
+      "id": "src_components_languageselector_languageselector",
+      "label": "LanguageSelector()",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "juxtaposeviewer()",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
+      "norm_label": "languageselector()",
+      "source_file": "src/components/LanguageSelector.jsx",
       "source_location": "L5"
-    },
-    {
-      "id": "src_components_layout_layout",
-      "label": "Layout()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "layout()",
-      "source_file": "src/components/Layout.jsx",
-      "source_location": "L11"
     },
     {
       "id": "src_components_methodsection_methodsection",
@@ -117,23 +81,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "methodsection()",
       "source_file": "src/components/MethodSection.jsx",
-      "source_location": "L3"
-    },
-    {
-      "id": "src_components_navbar_navbar",
-      "label": "Navbar()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "navbar()",
-      "source_file": "src/components/Navbar.jsx",
-      "source_location": "L6"
+      "source_location": "L4"
     },
     {
       "id": "src_components_portfoliogrid_portfoliogrid",
@@ -141,11 +93,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "portfoliogrid()",
       "source_file": "src/components/PortfolioGrid.jsx",
-      "source_location": "L11"
+      "source_location": "L12"
     },
     {
       "id": "src_components_projectestimator_projectestimator",
@@ -153,23 +105,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "projectestimator()",
       "source_file": "src/components/ProjectEstimator.jsx",
       "source_location": "L5"
-    },
-    {
-      "id": "src_components_scrolltotop_scrolltotop",
-      "label": "ScrollToTop()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "scrolltotop()",
-      "source_file": "src/components/ScrollToTop.jsx",
-      "source_location": "L7"
     },
     {
       "id": "src_components_seohead_seohead",
@@ -177,11 +117,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "seohead()",
       "source_file": "src/components/SEOHead.jsx",
       "source_location": "L6"
+    },
+    {
+      "id": "src_context_languagecontext_uselanguage",
+      "label": "useLanguage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "uselanguage()",
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L88"
     },
     {
       "id": "src_pages_aboutpage_aboutpage",
@@ -189,7 +141,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "aboutpage()",
       "source_file": "src/pages/AboutPage.jsx",
@@ -201,11 +153,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "briefingpage()",
       "source_file": "src/pages/BriefingPage.jsx",
-      "source_location": "L5"
+      "source_location": "L6"
+    },
+    {
+      "id": "src_pages_comparativopage_comparativopage",
+      "label": "ComparativoPage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "comparativopage()",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L6"
     },
     {
       "id": "src_pages_homepage_homepage",
@@ -213,23 +177,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "homepage()",
       "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L12"
-    },
-    {
-      "id": "src_pages_juxtaposepage_juxtaposepage",
-      "label": "JuxtaposePage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "juxtaposepage()",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L6"
+      "source_location": "L13"
     },
     {
       "id": "src_pages_methodpage_methodpage",
@@ -237,11 +189,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "methodpage()",
       "source_file": "src/pages/MethodPage.jsx",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "src_pages_notfoundpage_notfoundpage",
@@ -249,11 +201,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "notfoundpage()",
       "source_file": "src/pages/NotFoundPage.jsx",
-      "source_location": "L6"
+      "source_location": "L7"
     },
     {
       "id": "src_pages_projectspage_projectspage",
@@ -261,7 +213,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "projectspage()",
       "source_file": "src/pages/ProjectsPage.jsx",
@@ -273,11 +225,47 @@
       "_callable": true,
       "_origin": "ast",
       "community": 13,
-      "community_name": "main.jsx",
+      "community_name": "App.jsx",
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "src/App.jsx",
-      "source_location": "L23"
+      "source_location": "L24"
+    },
+    {
+      "id": "src_app_pageloadingfallback",
+      "label": "PageLoadingFallback()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "pageloadingfallback()",
+      "source_file": "src/App.jsx",
+      "source_location": "L17"
+    },
+    {
+      "id": "src_context_languagecontext_languageprovider",
+      "label": "LanguageProvider()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "languageprovider()",
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_context_portfoliocontext_portfolioprovider",
+      "label": "PortfolioProvider()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "portfolioprovider()",
+      "source_file": "src/context/PortfolioContext.jsx",
+      "source_location": "L9"
     },
     {
       "id": "src_components_admin_admindashboard_admindashboard",
@@ -285,11 +273,59 @@
       "_callable": true,
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "admindashboard()",
       "source_file": "src/components/admin/AdminDashboard.jsx",
       "source_location": "L23"
+    },
+    {
+      "id": "src_components_footer_footer",
+      "label": "Footer()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Layout.jsx",
+      "file_type": "code",
+      "norm_label": "footer()",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_components_hexprismbackground_hexprismbackground",
+      "label": "HexPrismBackground()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Layout.jsx",
+      "file_type": "code",
+      "norm_label": "hexprismbackground()",
+      "source_file": "src/components/HexPrismBackground.jsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_layout_layout",
+      "label": "Layout()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Layout.jsx",
+      "file_type": "code",
+      "norm_label": "layout()",
+      "source_file": "src/components/Layout.jsx",
+      "source_location": "L11"
+    },
+    {
+      "id": "src_components_navbar_navbar",
+      "label": "Navbar()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Layout.jsx",
+      "file_type": "code",
+      "norm_label": "navbar()",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L8"
     },
     {
       "id": "src_components_projectmodal_projectmodal",
@@ -297,23 +333,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "projectmodal()",
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L18"
+      "source_location": "L19"
     },
     {
-      "id": "src_context_portfoliocontext_portfolioprovider",
-      "label": "PortfolioProvider()",
+      "id": "src_components_scrolltotop_scrolltotop",
+      "label": "ScrollToTop()",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
-      "norm_label": "portfolioprovider()",
-      "source_file": "src/context/PortfolioContext.jsx",
-      "source_location": "L9"
+      "norm_label": "scrolltotop()",
+      "source_file": "src/components/ScrollToTop.jsx",
+      "source_location": "L7"
     },
     {
       "id": "src_context_portfoliocontext_useportfolio",
@@ -321,7 +357,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "useportfolio()",
       "source_file": "src/context/PortfolioContext.jsx",
@@ -333,11 +369,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "projectdetailpage()",
       "source_file": "src/pages/ProjectDetailPage.jsx",
-      "source_location": "L20"
+      "source_location": "L21"
     },
     {
       "id": "src_components_interactive3dviewer_interactive3dviewer",
@@ -349,7 +385,7 @@
       "file_type": "code",
       "norm_label": "interactive3dviewer()",
       "source_file": "src/components/Interactive3DViewer.jsx",
-      "source_location": "L17"
+      "source_location": "L18"
     },
     {
       "id": "package",
@@ -561,17 +597,6 @@
       "source_location": "L4"
     },
     {
-      "id": "src_components_hexprismbackground",
-      "label": "HexPrismBackground.jsx",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "hexprismbackground.jsx",
-      "source_file": "src/components/HexPrismBackground.jsx",
-      "source_location": "L1"
-    },
-    {
       "id": "src_components_interactive3dviewer",
       "label": "Interactive3DViewer.jsx",
       "_origin": "ast",
@@ -715,17 +740,6 @@
       "source_location": "L29"
     },
     {
-      "id": "ref_three",
-      "label": "three",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "package.json",
-      "file_type": "concept",
-      "norm_label": "three",
-      "source_file": "package.json",
-      "source_location": "L25"
-    },
-    {
       "id": "ref_three_stdlib",
       "label": "three-stdlib",
       "_origin": "ast",
@@ -827,124 +841,36 @@
       "source_location": "L1"
     },
     {
-      "id": "src_app",
-      "label": "App.jsx",
+      "id": "src_app_comparativopage",
+      "label": "ComparativoPage",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "app.jsx",
-      "source_file": "src/App.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_app_aboutpage",
-      "label": "AboutPage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "aboutpage",
-      "source_file": "src/App.jsx",
-      "source_location": "L12"
-    },
-    {
-      "id": "src_app_briefingpage",
-      "label": "BriefingPage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "briefingpage",
-      "source_file": "src/App.jsx",
-      "source_location": "L13"
-    },
-    {
-      "id": "src_app_homepage",
-      "label": "HomePage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "homepage",
-      "source_file": "src/App.jsx",
-      "source_location": "L7"
-    },
-    {
-      "id": "src_app_juxtaposepage",
-      "label": "JuxtaposePage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "juxtaposepage",
-      "source_file": "src/App.jsx",
-      "source_location": "L10"
-    },
-    {
-      "id": "src_app_methodpage",
-      "label": "MethodPage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "methodpage",
+      "norm_label": "comparativopage",
       "source_file": "src/App.jsx",
       "source_location": "L11"
-    },
-    {
-      "id": "src_app_notfoundpage",
-      "label": "NotFoundPage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "notfoundpage",
-      "source_file": "src/App.jsx",
-      "source_location": "L14"
-    },
-    {
-      "id": "src_app_projectdetailpage",
-      "label": "ProjectDetailPage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "projectdetailpage",
-      "source_file": "src/App.jsx",
-      "source_location": "L9"
-    },
-    {
-      "id": "src_app_projectspage",
-      "label": "ProjectsPage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "projectspage",
-      "source_file": "src/App.jsx",
-      "source_location": "L8"
     },
     {
       "id": "src_components_aboutsection",
       "label": "AboutSection.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "aboutsection.jsx",
       "source_file": "src/components/AboutSection.jsx",
       "source_location": "L1"
     },
     {
-      "id": "src_components_footer",
-      "label": "Footer.jsx",
+      "id": "src_components_comparativoviewer",
+      "label": "ComparativoViewer.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "footer.jsx",
-      "source_file": "src/components/Footer.jsx",
+      "norm_label": "comparativoviewer.jsx",
+      "source_file": "src/components/ComparativoViewer.jsx",
       "source_location": "L1"
     },
     {
@@ -952,7 +878,7 @@
       "label": "Hero.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "hero.jsx",
       "source_file": "src/components/Hero.jsx",
@@ -963,32 +889,21 @@
       "label": "WhatsAppIcon.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "whatsappicon.jsx",
       "source_file": "src/components/icons/WhatsAppIcon.jsx",
       "source_location": "L1"
     },
     {
-      "id": "src_components_juxtaposeviewer",
-      "label": "JuxtaposeViewer.jsx",
+      "id": "src_components_languageselector",
+      "label": "LanguageSelector.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "juxtaposeviewer.jsx",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_layout",
-      "label": "Layout.jsx",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "layout.jsx",
-      "source_file": "src/components/Layout.jsx",
+      "norm_label": "languageselector.jsx",
+      "source_file": "src/components/LanguageSelector.jsx",
       "source_location": "L1"
     },
     {
@@ -996,7 +911,7 @@
       "label": "MethodSection.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "methodsection.jsx",
       "source_file": "src/components/MethodSection.jsx",
@@ -1007,7 +922,7 @@
       "label": "Navbar.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "navbar.jsx",
       "source_file": "src/components/Navbar.jsx",
@@ -1018,7 +933,7 @@
       "label": "PortfolioGrid.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "portfoliogrid.jsx",
       "source_file": "src/components/PortfolioGrid.jsx",
@@ -1029,21 +944,10 @@
       "label": "ProjectEstimator.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "projectestimator.jsx",
       "source_file": "src/components/ProjectEstimator.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_scrolltotop",
-      "label": "ScrollToTop.jsx",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "scrolltotop.jsx",
-      "source_file": "src/components/ScrollToTop.jsx",
       "source_location": "L1"
     },
     {
@@ -1051,40 +955,95 @@
       "label": "SEOHead.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "seohead.jsx",
       "source_file": "src/components/SEOHead.jsx",
       "source_location": "L1"
     },
     {
-      "id": "src_data_juxtaposecases",
-      "label": "juxtaposeCases.js",
+      "id": "src_context_languagecontext",
+      "label": "LanguageContext.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "juxtaposecases.js",
-      "source_file": "src/data/juxtaposeCases.js",
+      "norm_label": "languagecontext.jsx",
+      "source_file": "src/context/LanguageContext.jsx",
       "source_location": "L1"
     },
     {
-      "id": "src_data_juxtaposecases_defaultjuxtaposecases",
-      "label": "defaultJuxtaposeCases",
+      "id": "src_context_languagecontext_languagecontext",
+      "label": "LanguageContext",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "defaultjuxtaposecases",
-      "source_file": "src/data/juxtaposeCases.js",
+      "norm_label": "languagecontext",
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_context_languagecontext_supported_languages",
+      "label": "SUPPORTED_LANGUAGES",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "supported_languages",
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L7"
+    },
+    {
+      "id": "src_data_comparativocases",
+      "label": "comparativoCases.js",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "comparativocases.js",
+      "source_file": "src/data/comparativoCases.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_data_comparativocases_defaultcomparativocases",
+      "label": "defaultComparativoCases",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "defaultcomparativocases",
+      "source_file": "src/data/comparativoCases.js",
       "source_location": "L11"
+    },
+    {
+      "id": "src_i18n_translations",
+      "label": "translations.js",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "translations.js",
+      "source_file": "src/i18n/translations.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_i18n_translations_translations",
+      "label": "translations",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "translations",
+      "source_file": "src/i18n/translations.js",
+      "source_location": "L6"
     },
     {
       "id": "src_pages_aboutpage",
       "label": "AboutPage.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "aboutpage.jsx",
       "source_file": "src/pages/AboutPage.jsx",
@@ -1095,10 +1054,21 @@
       "label": "BriefingPage.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "briefingpage.jsx",
       "source_file": "src/pages/BriefingPage.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_pages_comparativopage",
+      "label": "ComparativoPage.jsx",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "comparativopage.jsx",
+      "source_file": "src/pages/ComparativoPage.jsx",
       "source_location": "L1"
     },
     {
@@ -1106,21 +1076,10 @@
       "label": "HomePage.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "homepage.jsx",
       "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_pages_juxtaposepage",
-      "label": "JuxtaposePage.jsx",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "juxtaposepage.jsx",
-      "source_file": "src/pages/JuxtaposePage.jsx",
       "source_location": "L1"
     },
     {
@@ -1128,7 +1087,7 @@
       "label": "MethodPage.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "methodpage.jsx",
       "source_file": "src/pages/MethodPage.jsx",
@@ -1139,7 +1098,7 @@
       "label": "NotFoundPage.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "notfoundpage.jsx",
       "source_file": "src/pages/NotFoundPage.jsx",
@@ -1150,7 +1109,7 @@
       "label": "ProjectDetailPage.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "projectdetailpage.jsx",
       "source_file": "src/pages/ProjectDetailPage.jsx",
@@ -1161,7 +1120,7 @@
       "label": "ProjectsPage.jsx",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "code",
       "norm_label": "projectspage.jsx",
       "source_file": "src/pages/ProjectsPage.jsx",
@@ -1172,7 +1131,7 @@
       "label": "lucide-react",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "concept",
       "norm_label": "lucide-react",
       "source_file": "package.json",
@@ -1183,22 +1142,11 @@
       "label": "react",
       "_origin": "ast",
       "community": 1,
-      "community_name": "react",
+      "community_name": "useLanguage",
       "file_type": "concept",
       "norm_label": "react",
       "source_file": "package.json",
       "source_location": "L22"
-    },
-    {
-      "id": "ref_react_router_dom",
-      "label": "react-router-dom",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "react",
-      "file_type": "concept",
-      "norm_label": "react-router-dom",
-      "source_file": "package.json",
-      "source_location": "L24"
     },
     {
       "id": "docs_deployment_and_workflow",
@@ -1561,11 +1509,143 @@
       "source_location": "L1"
     },
     {
+      "id": "src_app",
+      "label": "App.jsx",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "app.jsx",
+      "source_file": "src/App.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_app_aboutpage",
+      "label": "AboutPage",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "aboutpage",
+      "source_file": "src/App.jsx",
+      "source_location": "L13"
+    },
+    {
+      "id": "src_app_briefingpage",
+      "label": "BriefingPage",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "briefingpage",
+      "source_file": "src/App.jsx",
+      "source_location": "L14"
+    },
+    {
+      "id": "src_app_homepage",
+      "label": "HomePage",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "homepage",
+      "source_file": "src/App.jsx",
+      "source_location": "L8"
+    },
+    {
+      "id": "src_app_methodpage",
+      "label": "MethodPage",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "methodpage",
+      "source_file": "src/App.jsx",
+      "source_location": "L12"
+    },
+    {
+      "id": "src_app_notfoundpage",
+      "label": "NotFoundPage",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "notfoundpage",
+      "source_file": "src/App.jsx",
+      "source_location": "L15"
+    },
+    {
+      "id": "src_app_projectdetailpage",
+      "label": "ProjectDetailPage",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "projectdetailpage",
+      "source_file": "src/App.jsx",
+      "source_location": "L10"
+    },
+    {
+      "id": "src_app_projectspage",
+      "label": "ProjectsPage",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "projectspage",
+      "source_file": "src/App.jsx",
+      "source_location": "L9"
+    },
+    {
+      "id": "src_context_portfoliocontext",
+      "label": "PortfolioContext.jsx",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "portfoliocontext.jsx",
+      "source_file": "src/context/PortfolioContext.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_context_portfoliocontext_portfoliocontext",
+      "label": "PortfolioContext",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "portfoliocontext",
+      "source_file": "src/context/PortfolioContext.jsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_data_defaultprojects",
+      "label": "defaultProjects.js",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "defaultprojects.js",
+      "source_file": "src/data/defaultProjects.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_data_defaultprojects_defaultprojects",
+      "label": "defaultProjects",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "App.jsx",
+      "file_type": "code",
+      "norm_label": "defaultprojects",
+      "source_file": "src/data/defaultProjects.js",
+      "source_location": "L1"
+    },
+    {
       "id": "src_main",
       "label": "main.jsx",
       "_origin": "ast",
       "community": 13,
-      "community_name": "main.jsx",
+      "community_name": "App.jsx",
       "file_type": "code",
       "norm_label": "main.jsx",
       "source_file": "src/main.jsx",
@@ -2385,10 +2465,43 @@
       "label": "AdminDashboard.jsx",
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "admindashboard.jsx",
       "source_file": "src/components/admin/AdminDashboard.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_footer",
+      "label": "Footer.jsx",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Layout.jsx",
+      "file_type": "code",
+      "norm_label": "footer.jsx",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_hexprismbackground",
+      "label": "HexPrismBackground.jsx",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Layout.jsx",
+      "file_type": "code",
+      "norm_label": "hexprismbackground.jsx",
+      "source_file": "src/components/HexPrismBackground.jsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_layout",
+      "label": "Layout.jsx",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "Layout.jsx",
+      "file_type": "code",
+      "norm_label": "layout.jsx",
+      "source_file": "src/components/Layout.jsx",
       "source_location": "L1"
     },
     {
@@ -2396,7 +2509,7 @@
       "label": "AdminDashboard",
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "admindashboard",
       "source_file": "src/components/Layout.jsx",
@@ -2407,7 +2520,7 @@
       "label": "ProjectModal",
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "projectmodal",
       "source_file": "src/components/Layout.jsx",
@@ -2418,55 +2531,44 @@
       "label": "ProjectModal.jsx",
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
       "norm_label": "projectmodal.jsx",
       "source_file": "src/components/ProjectModal.jsx",
       "source_location": "L1"
     },
     {
-      "id": "src_context_portfoliocontext",
-      "label": "PortfolioContext.jsx",
+      "id": "src_components_scrolltotop",
+      "label": "ScrollToTop.jsx",
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
+      "community_name": "Layout.jsx",
       "file_type": "code",
-      "norm_label": "portfoliocontext.jsx",
-      "source_file": "src/context/PortfolioContext.jsx",
+      "norm_label": "scrolltotop.jsx",
+      "source_file": "src/components/ScrollToTop.jsx",
       "source_location": "L1"
     },
     {
-      "id": "src_context_portfoliocontext_portfoliocontext",
-      "label": "PortfolioContext",
+      "id": "ref_react_router_dom",
+      "label": "react-router-dom",
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
-      "file_type": "code",
-      "norm_label": "portfoliocontext",
-      "source_file": "src/context/PortfolioContext.jsx",
-      "source_location": "L4"
+      "community_name": "Layout.jsx",
+      "file_type": "concept",
+      "norm_label": "react-router-dom",
+      "source_file": "package.json",
+      "source_location": "L24"
     },
     {
-      "id": "src_data_defaultprojects",
-      "label": "defaultProjects.js",
+      "id": "ref_three",
+      "label": "three",
       "_origin": "ast",
       "community": 5,
-      "community_name": "PortfolioContext.jsx",
-      "file_type": "code",
-      "norm_label": "defaultprojects.js",
-      "source_file": "src/data/defaultProjects.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_data_defaultprojects_defaultprojects",
-      "label": "defaultProjects",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "PortfolioContext.jsx",
-      "file_type": "code",
-      "norm_label": "defaultprojects",
-      "source_file": "src/data/defaultProjects.js",
-      "source_location": "L1"
+      "community_name": "Layout.jsx",
+      "file_type": "concept",
+      "norm_label": "three",
+      "source_file": "package.json",
+      "source_location": "L25"
     },
     {
       "id": "docs_brand_identity_manual_1_conceito_e_territ\u00f3rio_da_marca",
@@ -3139,7 +3241,7 @@
       "label": "ref_react_dom_client",
       "_origin": "semantic",
       "community": 13,
-      "community_name": "main.jsx",
+      "community_name": "App.jsx",
       "external": true,
       "file_type": "concept",
       "norm_label": "ref_react_dom_client",
@@ -3151,7 +3253,7 @@
       "label": "src_index",
       "_origin": "semantic",
       "community": 13,
-      "community_name": "main.jsx",
+      "community_name": "App.jsx",
       "external": true,
       "file_type": "concept",
       "norm_label": "src_index",
@@ -3160,6 +3262,18 @@
     }
   ],
   "links": [
+    {
+      "source": "src_components_aboutsection_aboutsection",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/AboutSection.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
     {
       "source": "src_components_admin_admindashboard_admindashboard",
       "target": "src_context_portfoliocontext_useportfolio",
@@ -3173,6 +3287,90 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_comparativoviewer_comparativoviewer",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_footer_footer",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero_hero",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_interactive3dviewer_interactive3dviewer",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/Interactive3DViewer.jsx",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_languageselector_languageselector",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/LanguageSelector.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_methodsection_methodsection",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/MethodSection.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar_navbar",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_portfoliogrid_portfoliogrid",
       "target": "src_context_portfoliocontext_useportfolio",
       "relation": "calls",
@@ -3181,7 +3379,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/components/PortfolioGrid.jsx",
-      "source_location": "L19",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_portfoliogrid_portfoliogrid",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/PortfolioGrid.jsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projectestimator_projectestimator",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/ProjectEstimator.jsx",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3193,7 +3415,91 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L19",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projectmodal_projectmodal",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/ProjectModal.jsx",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_aboutpage_aboutpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_briefingpage_briefingpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/BriefingPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage_comparativopage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_homepage_homepage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/HomePage.jsx",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_methodpage_methodpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/MethodPage.jsx",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_notfoundpage_notfoundpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/NotFoundPage.jsx",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3205,7 +3511,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/pages/ProjectDetailPage.jsx",
-      "source_location": "L22",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_projectdetailpage_projectdetailpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/ProjectDetailPage.jsx",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_projectspage_projectspage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/ProjectsPage.jsx",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -3218,7 +3548,7 @@
       "context": "import",
       "deferred": true,
       "source_file": "src/App.jsx",
-      "source_location": "L12",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -3231,7 +3561,20 @@
       "context": "import",
       "deferred": true,
       "source_file": "src/App.jsx",
-      "source_location": "L13",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app_comparativopage",
+      "target": "src_pages_comparativopage",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "deferred": true,
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -3244,20 +3587,7 @@
       "context": "import",
       "deferred": true,
       "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app_juxtaposepage",
-      "target": "src_pages_juxtaposepage",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "deferred": true,
-      "source_file": "src/App.jsx",
-      "source_location": "L10",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3270,7 +3600,7 @@
       "context": "import",
       "deferred": true,
       "source_file": "src/App.jsx",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -3283,7 +3613,7 @@
       "context": "import",
       "deferred": true,
       "source_file": "src/App.jsx",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -3296,7 +3626,7 @@
       "context": "import",
       "deferred": true,
       "source_file": "src/App.jsx",
-      "source_location": "L9",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3309,7 +3639,7 @@
       "context": "import",
       "deferred": true,
       "source_file": "src/App.jsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -3604,7 +3934,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_context_portfoliocontext_portfolioprovider",
+      "target": "src_context_languagecontext_languageprovider",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3616,7 +3946,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_components_layout_layout",
+      "target": "src_context_portfoliocontext_portfolioprovider",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3624,6 +3954,30 @@
       "context": "import",
       "source_file": "src/App.jsx",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_layout_layout",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aboutsection",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/AboutSection.jsx",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -3639,6 +3993,30 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_comparativoviewer",
+      "target": "src_data_comparativocases_defaultcomparativocases",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_footer",
       "target": "src_components_icons_whatsappicon_whatsappicon",
       "relation": "imports",
@@ -3651,14 +4029,50 @@
       "weight": 1.0
     },
     {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_data_juxtaposecases_defaultjuxtaposecases",
+      "source": "src_components_footer",
+      "target": "src_context_languagecontext_uselanguage",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_interactive3dviewer",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Interactive3DViewer.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_languageselector",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/LanguageSelector.jsx",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -3711,6 +4125,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_methodsection",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/MethodSection.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_navbar",
       "target": "src_components_icons_whatsappicon_whatsappicon",
       "relation": "imports",
@@ -3720,6 +4146,30 @@
       "context": "import",
       "source_file": "src/components/Navbar.jsx",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar",
+      "target": "src_components_languageselector_languageselector",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -3735,8 +4185,32 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_portfoliogrid",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/PortfolioGrid.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_projectestimator",
       "target": "src_components_icons_whatsappicon_whatsappicon",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ProjectEstimator.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projectestimator",
+      "target": "src_context_languagecontext_uselanguage",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3760,7 +4234,7 @@
     },
     {
       "source": "src_components_projectmodal",
-      "target": "src_components_interactive3dviewer_interactive3dviewer",
+      "target": "src_context_languagecontext_uselanguage",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3768,6 +4242,30 @@
       "context": "import",
       "source_file": "src/components/ProjectModal.jsx",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projectmodal",
+      "target": "src_components_interactive3dviewer_interactive3dviewer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ProjectModal.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_languagecontext",
+      "target": "src_i18n_translations_translations",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -3831,6 +4329,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_aboutpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/AboutPage.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_briefingpage",
       "target": "src_components_projectestimator_projectestimator",
       "relation": "imports",
@@ -3855,6 +4365,66 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_briefingpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/BriefingPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_components_comparativoviewer_comparativoviewer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_components_seohead_seohead",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_homepage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/HomePage.jsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_homepage",
       "target": "src_components_hero_hero",
       "relation": "imports",
@@ -3868,7 +4438,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_juxtaposeviewer_juxtaposeviewer",
+      "target": "src_components_comparativoviewer_comparativoviewer",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -3939,30 +4509,6 @@
       "weight": 1.0
     },
     {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_juxtaposeviewer_juxtaposeviewer",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_seohead_seohead",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
       "source": "src_pages_methodpage",
       "target": "src_components_methodsection_methodsection",
       "relation": "imports",
@@ -3987,6 +4533,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_methodpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/MethodPage.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_notfoundpage",
       "target": "src_components_seohead_seohead",
       "relation": "imports",
@@ -3996,6 +4554,18 @@
       "context": "import",
       "source_file": "src/pages/NotFoundPage.jsx",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_notfoundpage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/NotFoundPage.jsx",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -4012,7 +4582,7 @@
     },
     {
       "source": "src_pages_projectdetailpage",
-      "target": "src_components_interactive3dviewer_interactive3dviewer",
+      "target": "src_context_languagecontext_uselanguage",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4024,7 +4594,7 @@
     },
     {
       "source": "src_pages_projectdetailpage",
-      "target": "src_components_seohead_seohead",
+      "target": "src_components_interactive3dviewer_interactive3dviewer",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4036,7 +4606,7 @@
     },
     {
       "source": "src_pages_projectdetailpage",
-      "target": "src_components_icons_whatsappicon_whatsappicon",
+      "target": "src_components_seohead_seohead",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4044,6 +4614,18 @@
       "context": "import",
       "source_file": "src/pages/ProjectDetailPage.jsx",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_projectdetailpage",
+      "target": "src_components_icons_whatsappicon_whatsappicon",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ProjectDetailPage.jsx",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -4068,6 +4650,18 @@
       "context": "import",
       "source_file": "src/pages/ProjectsPage.jsx",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_projectspage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ProjectsPage.jsx",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4096,7 +4690,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_context_portfoliocontext",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4108,7 +4702,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_components_layout",
+      "target": "src_context_portfoliocontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4116,6 +4710,18 @@
       "context": "import",
       "source_file": "src/App.jsx",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
+      "target": "src_components_layout",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/App.jsx",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -4128,6 +4734,18 @@
       "context": "import",
       "source_file": "src/components/AboutSection.jsx",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_aboutsection",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/AboutSection.jsx",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -4164,6 +4782,54 @@
       "context": "import",
       "source_file": "src/components/admin/AdminDashboard.jsx",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "src_data_comparativocases",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4215,6 +4881,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_footer",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Footer.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_hero",
       "target": "ref_react",
       "relation": "imports_from",
@@ -4236,6 +4914,18 @@
       "context": "import",
       "source_file": "src/components/Hero.jsx",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -4324,7 +5014,7 @@
     },
     {
       "source": "src_components_interactive3dviewer",
-      "target": "ref_lucide_react",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4335,38 +5025,50 @@
       "weight": 1.0
     },
     {
-      "source": "src_components_juxtaposeviewer",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
+      "source": "src_components_interactive3dviewer",
       "target": "ref_lucide_react",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L2",
+      "source_file": "src/components/Interactive3DViewer.jsx",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_data_juxtaposecases",
+      "source": "src_components_languageselector",
+      "target": "ref_react",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
+      "source_file": "src/components/LanguageSelector.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_languageselector",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/LanguageSelector.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_languageselector",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/LanguageSelector.jsx",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -4455,6 +5157,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_methodsection",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/MethodSection.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_navbar",
       "target": "ref_react",
       "relation": "imports_from",
@@ -4503,6 +5217,30 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_navbar",
+      "target": "src_components_languageselector",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_navbar",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Navbar.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_portfoliogrid",
       "target": "ref_react",
       "relation": "imports_from",
@@ -4540,7 +5278,7 @@
     },
     {
       "source": "src_components_portfoliogrid",
-      "target": "ref_lucide_react",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4548,6 +5286,18 @@
       "context": "import",
       "source_file": "src/components/PortfolioGrid.jsx",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_portfoliogrid",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/PortfolioGrid.jsx",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -4564,7 +5314,7 @@
     },
     {
       "source": "src_components_projectestimator",
-      "target": "ref_lucide_react",
+      "target": "src_components_icons_whatsappicon",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4576,7 +5326,7 @@
     },
     {
       "source": "src_components_projectestimator",
-      "target": "src_components_icons_whatsappicon",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4608,6 +5358,18 @@
       "context": "import",
       "source_file": "src/components/ProjectModal.jsx",
       "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_projectmodal",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ProjectModal.jsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -4619,7 +5381,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4631,7 +5393,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -4668,6 +5430,30 @@
       "context": "import",
       "source_file": "src/components/SEOHead.jsx",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_languagecontext",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_languagecontext",
+      "target": "src_i18n_translations",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -4792,7 +5578,7 @@
     },
     {
       "source": "src_pages_aboutpage",
-      "target": "ref_lucide_react",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4839,6 +5625,66 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_briefingpage",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/BriefingPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_components_comparativoviewer",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_components_seohead",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_homepage",
       "target": "ref_react",
       "relation": "imports_from",
@@ -4860,6 +5706,18 @@
       "context": "import",
       "source_file": "src/pages/HomePage.jsx",
       "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_homepage",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/HomePage.jsx",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -4888,7 +5746,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_juxtaposeviewer",
+      "target": "src_components_comparativoviewer",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4959,54 +5817,6 @@
       "weight": 1.0
     },
     {
-      "source": "src_pages_juxtaposepage",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_juxtaposeviewer",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_seohead",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "ref_lucide_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
       "source": "src_pages_methodpage",
       "target": "ref_react",
       "relation": "imports_from",
@@ -5067,6 +5877,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_methodpage",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/MethodPage.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_notfoundpage",
       "target": "ref_react",
       "relation": "imports_from",
@@ -5112,6 +5934,18 @@
       "context": "import",
       "source_file": "src/pages/NotFoundPage.jsx",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_notfoundpage",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/NotFoundPage.jsx",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -5152,7 +5986,7 @@
     },
     {
       "source": "src_pages_projectdetailpage",
-      "target": "src_components_interactive3dviewer",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5164,7 +5998,7 @@
     },
     {
       "source": "src_pages_projectdetailpage",
-      "target": "src_components_seohead",
+      "target": "src_components_interactive3dviewer",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5176,7 +6010,7 @@
     },
     {
       "source": "src_pages_projectdetailpage",
-      "target": "src_components_icons_whatsappicon",
+      "target": "src_components_seohead",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5188,7 +6022,7 @@
     },
     {
       "source": "src_pages_projectdetailpage",
-      "target": "ref_lucide_react",
+      "target": "src_components_icons_whatsappicon",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5196,6 +6030,18 @@
       "context": "import",
       "source_file": "src/pages/ProjectDetailPage.jsx",
       "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_projectdetailpage",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ProjectDetailPage.jsx",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -5236,7 +6082,7 @@
     },
     {
       "source": "src_pages_projectspage",
-      "target": "ref_lucide_react",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7011,7 +7857,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_app_juxtaposepage",
+      "target": "src_app_projectdetailpage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7022,7 +7868,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_app_methodpage",
+      "target": "src_app_comparativopage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7033,7 +7879,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_app_aboutpage",
+      "target": "src_app_methodpage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7044,7 +7890,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_app_briefingpage",
+      "target": "src_app_aboutpage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7055,7 +7901,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_app_notfoundpage",
+      "target": "src_app_briefingpage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7066,13 +7912,24 @@
     },
     {
       "source": "src_app",
+      "target": "src_app_notfoundpage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.jsx",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_app",
       "target": "src_app_pageloadingfallback",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/App.jsx",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -7083,7 +7940,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/App.jsx",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -7094,23 +7951,12 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/App.jsx",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app",
-      "target": "src_app_projectspage",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/App.jsx",
       "source_location": "L8",
       "weight": 1.0
     },
     {
       "source": "src_app",
-      "target": "src_app_projectdetailpage",
+      "target": "src_app_projectspage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7127,7 +7973,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/AboutSection.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -7142,6 +7988,17 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_comparativoviewer",
+      "target": "src_components_comparativoviewer_comparativoviewer",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_footer",
       "target": "src_components_footer_footer",
       "relation": "contains",
@@ -7149,7 +8006,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Footer.jsx",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -7160,7 +8017,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -7193,17 +8050,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Interactive3DViewer.jsx",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_components_juxtaposeviewer_juxtaposeviewer",
+      "source": "src_components_languageselector",
+      "target": "src_components_languageselector_languageselector",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/components/JuxtaposeViewer.jsx",
+      "source_file": "src/components/LanguageSelector.jsx",
       "source_location": "L5",
       "weight": 1.0
     },
@@ -7248,7 +8105,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/MethodSection.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -7259,7 +8116,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Navbar.jsx",
-      "source_location": "L6",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -7270,7 +8127,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/PortfolioGrid.jsx",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -7292,7 +8149,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/ProjectModal.jsx",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -7315,6 +8172,50 @@
       "confidence_score": 1.0,
       "source_file": "src/components/SEOHead.jsx",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_languagecontext",
+      "target": "src_context_languagecontext_languageprovider",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_languagecontext",
+      "target": "src_context_languagecontext_languagecontext",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_languagecontext",
+      "target": "src_context_languagecontext_supported_languages",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_context_languagecontext",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/context/LanguageContext.jsx",
+      "source_location": "L88",
       "weight": 1.0
     },
     {
@@ -7351,6 +8252,17 @@
       "weight": 1.0
     },
     {
+      "source": "src_data_comparativocases",
+      "target": "src_data_comparativocases_defaultcomparativocases",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/data/comparativoCases.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "src_data_defaultprojects",
       "target": "src_data_defaultprojects_defaultprojects",
       "relation": "contains",
@@ -7362,14 +8274,14 @@
       "weight": 1.0
     },
     {
-      "source": "src_data_juxtaposecases",
-      "target": "src_data_juxtaposecases_defaultjuxtaposecases",
+      "source": "src_i18n_translations",
+      "target": "src_i18n_translations_translations",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/data/juxtaposeCases.js",
-      "source_location": "L11",
+      "source_file": "src/i18n/translations.js",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -7391,7 +8303,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/pages/BriefingPage.jsx",
-      "source_location": "L5",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_pages_comparativopage_comparativopage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -7402,18 +8325,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_pages_juxtaposepage_juxtaposepage",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L6",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -7424,7 +8336,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/pages/MethodPage.jsx",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -7435,7 +8347,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/pages/NotFoundPage.jsx",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -7446,7 +8358,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/pages/ProjectDetailPage.jsx",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -7491,7 +8403,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_pages_homepage",
+      "target": "src_pages_comparativopage",
       "relation": "dynamic_import",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7500,7 +8412,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_pages_juxtaposepage",
+      "target": "src_pages_homepage",
       "relation": "dynamic_import",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7686,5 +8598,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7683e16bed91ae936c2f4650e86568eb2330524c"
+  "built_at_commit": "c93322dabca431f112968c34c37a74699dc93562"
 }

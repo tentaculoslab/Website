@@ -14,9 +14,9 @@ export const BriefingPage = () => {
         canonicalPath="/briefing"
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 space-y-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 space-y-3">
         <span className="rotulo-tecnico block">
-          {t('briefing.tag', '0 5 · B R I E F I N G  T É C N I C O')}
+          {t('briefing.tag', 'B R I E F I N G  T É C N I C O')}
         </span>
         <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
           {t('briefing.titlePrefix', 'Terminal executivo:')}{' '}
@@ -29,7 +29,7 @@ export const BriefingPage = () => {
         </p>
       </div>
 
-      <ProjectEstimator />
+      <ProjectEstimator hideHeader={true} />
     </div>
   );
 };

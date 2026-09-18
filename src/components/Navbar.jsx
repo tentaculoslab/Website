@@ -55,16 +55,16 @@ export const Navbar = () => {
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex items-center space-x-6">
-            <NavLink to="/projetos" className={navLinkClass}>
+            <NavLink to="/projects" className={navLinkClass}>
               {t('nav.projects', 'Projetos')}
             </NavLink>
-            <NavLink to="/comparativo" className={navLinkClass}>
+            <NavLink to="/comparison" className={navLinkClass}>
               {t('nav.comparativo', '3D vs Real')}
             </NavLink>
-            <NavLink to="/metodo" className={navLinkClass}>
+            <NavLink to="/method" className={navLinkClass}>
               {t('nav.method', 'Método')}
             </NavLink>
-            <NavLink to="/sobre" className={navLinkClass}>
+            <NavLink to="/about" className={navLinkClass}>
               {t('nav.about', 'Quem Somos')}
             </NavLink>
             <NavLink to="/briefing" className={navLinkClass}>
@@ -115,7 +115,7 @@ export const Navbar = () => {
               </NavLink>
 
               <NavLink 
-                to="/projetos" 
+                to="/projects" 
                 onClick={() => setMobileMenuOpen(false)}
                 className={mobileNavLinkClass}
               >
@@ -123,15 +123,15 @@ export const Navbar = () => {
               </NavLink>
 
               <NavLink 
-                to="/comparativo" 
+                to="/comparison" 
                 onClick={() => setMobileMenuOpen(false)}
                 className={mobileNavLinkClass}
               >
-                {t('nav.comparativo', '3D vs Real (Juxtapose)')}
+                {t('nav.comparativo', '3D vs Real')}
               </NavLink>
 
               <NavLink 
-                to="/metodo" 
+                to="/method" 
                 onClick={() => setMobileMenuOpen(false)}
                 className={mobileNavLinkClass}
               >
@@ -139,7 +139,7 @@ export const Navbar = () => {
               </NavLink>
 
               <NavLink 
-                to="/sobre" 
+                to="/about" 
                 onClick={() => setMobileMenuOpen(false)}
                 className={mobileNavLinkClass}
               >

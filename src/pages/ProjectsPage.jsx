@@ -11,25 +11,25 @@ export const ProjectsPage = () => {
       <SEOHead 
         title={`${t('projects.titlePrefix', 'Projetos')} | Tentáculos Lab`}
         description={t('projects.subtitle', 'Explore o acervo de projetos cenográficos, palcos, bares, ativações e ambientações imersivas desenvolvidas em modelagem 3D executável pela Tentáculos Lab.')}
-        canonicalPath="/projetos"
+        canonicalPath="/projects"
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 space-y-3">
         <span className="rotulo-tecnico block">
-          {t('projects.tag', '0 1 · A C E R V O  T É C N I C O')}
+          {t('projects.pageTag', 'A C E R V O  T É C N I C O')}
         </span>
         <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-          {t('projects.titlePrefix', 'Projetos cenográficos:')}{' '}
+          {t('projects.pageTitlePrefix', 'Projetos cenográficos:')}{' '}
           <span className="font-semibold text-[#63A4FF]">
-            {t('projects.titleHighlight', 'do conceito à execução')}
+            {t('projects.pageTitleHighlight', 'do conceito à execução')}
           </span>
         </h1>
         <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-          {t('projects.subtitle', 'Navegue pelas 5 tipologias oficiais atendidas pelo estúdio. Cada projeto possui espacialização 3D, memorial descritivo, cálculo volumétrico e compatibilização estrutural.')}
+          {t('projects.pageSubtitle', 'Navegue pelas 5 tipologias oficiais atendidas pelo estúdio. Cada projeto possui espacialização 3D, memorial descritivo, cálculo volumétrico e compatibilização estrutural.')}
         </p>
       </div>
 
-      <PortfolioGrid />
+      <PortfolioGrid hideHeader={true} />
     </div>
   );
 };

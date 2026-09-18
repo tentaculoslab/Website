@@ -33,7 +33,7 @@ export const ProjectDetailPage = () => {
         <h1 className="text-2xl font-light text-white">Projeto não localizado no acervo</h1>
         <p className="text-slate-400 text-sm">O projeto que você está buscando pode ter sido reclassificado ou atualizado.</p>
         <Link 
-          to="/projetos" 
+          to="/projects" 
           className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-[#377BDB] text-white text-xs font-medium"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -52,13 +52,13 @@ export const ProjectDetailPage = () => {
       <SEOHead 
         title={`${project.title} • Detalhamento 3D | Tentáculos Lab`}
         description={project.description || 'Detalhamento técnico 3D, memorial descritivo e maquete executiva desenvolvida pela Tentáculos Lab.'}
-        canonicalPath={`/projeto/${project.id}`}
+        canonicalPath={`/projects/${project.id}`}
       />
 
       {/* Voltar ao Acervo */}
       <div>
         <Link 
-          to="/projetos" 
+          to="/projects" 
           className="inline-flex items-center gap-2 text-xs text-slate-400 hover:text-[#63A4FF] transition-colors font-medium"
           style={{ fontFamily: 'Poppins, sans-serif' }}
         >

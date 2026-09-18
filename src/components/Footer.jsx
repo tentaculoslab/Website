@@ -45,10 +45,10 @@ export const Footer = () => {
             </span>
             <ul className="space-y-2 text-xs font-light text-slate-300">
               <li><Link to="/" className="hover:text-[#63A4FF] transition-colors">{t('nav.home', 'Início')}</Link></li>
-              <li><Link to="/projetos" className="hover:text-[#63A4FF] transition-colors">{t('nav.projects', 'Projetos')}</Link></li>
-              <li><Link to="/comparativo" className="hover:text-[#63A4FF] transition-colors">{t('nav.comparativo', '3D vs Real')}</Link></li>
-              <li><Link to="/metodo" className="hover:text-[#63A4FF] transition-colors">{t('nav.method', 'Método')}</Link></li>
-              <li><Link to="/sobre" className="hover:text-[#63A4FF] transition-colors">{t('nav.about', 'Quem Somos')}</Link></li>
+              <li><Link to="/projects" className="hover:text-[#63A4FF] transition-colors">{t('nav.projects', 'Projetos')}</Link></li>
+              <li><Link to="/comparison" className="hover:text-[#63A4FF] transition-colors">{t('nav.comparativo', '3D vs Real')}</Link></li>
+              <li><Link to="/method" className="hover:text-[#63A4FF] transition-colors">{t('nav.method', 'Método')}</Link></li>
+              <li><Link to="/about" className="hover:text-[#63A4FF] transition-colors">{t('nav.about', 'Quem Somos')}</Link></li>
               <li><Link to="/briefing" className="hover:text-[#63A4FF] transition-colors">{t('nav.briefing', 'Briefing')}</Link></li>
             </ul>
           </div>
@@ -59,11 +59,11 @@ export const Footer = () => {
               {t('footer.typologiesTitle', 'TIPOLOGIAS')}
             </span>
             <ul className="space-y-2 text-xs font-light text-slate-300">
-              <li><Link to="/projetos" className="hover:text-[#63A4FF] transition-colors">Palcos & Arenas</Link></li>
-              <li><Link to="/projetos" className="hover:text-[#63A4FF] transition-colors">Bares & Hospitalidade</Link></li>
-              <li><Link to="/projetos" className="hover:text-[#63A4FF] transition-colors">Ambientação Imersiva</Link></li>
-              <li><Link to="/projetos" className="hover:text-[#63A4FF] transition-colors">Espaços Instagramáveis</Link></li>
-              <li><Link to="/projetos" className="hover:text-[#63A4FF] transition-colors">Ativações de Marca</Link></li>
+              <li><Link to="/projects" className="hover:text-[#63A4FF] transition-colors">Palcos & Arenas</Link></li>
+              <li><Link to="/projects" className="hover:text-[#63A4FF] transition-colors">Bares & Hospitalidade</Link></li>
+              <li><Link to="/projects" className="hover:text-[#63A4FF] transition-colors">Ambientação Imersiva</Link></li>
+              <li><Link to="/projects" className="hover:text-[#63A4FF] transition-colors">Espaços Instagramáveis</Link></li>
+              <li><Link to="/projects" className="hover:text-[#63A4FF] transition-colors">Ativações de Marca</Link></li>
             </ul>
           </div>
 

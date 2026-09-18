@@ -32,37 +32,37 @@ export const translations = {
       festivalsLabel: 'EXPERIÊNCIA COMPROVADA EM GRANDES PRODUÇÕES',
       festivals: 'Weekend Pedra Azul • Tomorrowland Brasil • Lollapalooza • Camarote Brahma'
     },
-    juxtapose: {
-      tag: '0 3 · T E C N O L O G I A  J U X T A P O S E',
+    comparativo: {
+      tag: 'C O M P A R A T I V O  3 D  V S  R E A L',
       titlePrefix: 'Do 3D à realidade:',
       titleHighlight: 'fidelidade milimétrica',
       subtitle: 'Mecanismo interativo de comparação técnica integrado ao projeto. Permite ao cliente inspecionar lado a lado a correspondência exata entre o modelo executivo 3D e o evento montado.',
       dragHint: 'Arraste para comparar',
-      beforeLabel: '01 · MODELAGEM 3D (IDEALIZADO)',
-      afterLabel: '02 · EVENTO REAL (EXECUTADO)',
+      beforeLabel: 'MODELAGEM 3D (IDEALIZADO)',
+      afterLabel: 'EVENTO REAL (EXECUTADO)',
       slot1Title: 'Slot Técnico 01 · Inspeção Estrutural & Cenográfica',
       slot1Desc: 'Demonstração ativa da tecnologia de comparação milimétrica entre projeto executivo 3D e montagem real. Arraste a barra para inspecionar a fidelidade.',
       slot1Specs: 'Tecnologia Pronta · Aguardando fotos oficiais do cliente',
       slot2Title: 'Slot Técnico 02 · Ativação & Ambientação',
-      slot2Desc: 'Espaço pré-configurado no sistema Juxtapose para inclusão imediata do segundo case oficial de cenografia ou ativação.',
+      slot2Desc: 'Espaço pré-configurado no sistema de comparação para inclusão imediata do segundo case oficial de cenografia ou ativação.',
       slot2Specs: 'Resolução recomendada: 1920x1080 (16:9)',
-      pageTag: '0 2 · T E C N O L O G I A  J U X T A P O S E',
+      pageTag: 'C O M P A R A T I V O  3 D  V S  R E A L',
       pageTitlePrefix: 'O que é idealizado:',
       pageTitleHighlight: 'vira fato executado',
       pageSubtitle: 'Nossa modelagem não é uma ilustração artística ou render genérico de IA. É uma planta executiva tridimensional parametrizada para montagem real sem surpresas no evento.',
-      pillar1Tag: '01 · PARAMETRIZAÇÃO 1:1',
+      pillar1Tag: 'PARAMETRIZAÇÃO 1:1',
       pillar1Title: 'Escala e Proporção Real',
       pillar1Desc: 'Cada treliça, módulo de bar e painel de LED é inserido com suas dimensões físicas milimétricas exatas dos fornecedores do evento.',
-      pillar2Tag: '02 · ILUMINAÇÃO CÊNICA',
+      pillar2Tag: 'ILUMINAÇÃO CÊNICA',
       pillar2Title: 'Simulação Volumétrica de Luz',
       pillar2Desc: 'Os feixes de luz, temperatura de cor e pontos de pirotecnia são simulados na modelagem 3D para antecipar o impacto visual da noite.',
-      pillar3Tag: '03 · ZERO IMPROVISO',
+      pillar3Tag: 'ZERO IMPROVISO',
       pillar3Title: 'Compatibilidade de Montagem',
       pillar3Desc: 'Eliminamos o retrabalho em campo: a equipe de produção monta com base nas coordenadas e eixos gerados diretamente da maquete técnica.',
-      viewDetailsLink: 'Ver detalhes da tecnologia Juxtapose'
+      viewDetailsLink: 'Ver detalhes do comparativo 3D vs Real'
     },
     method: {
-      tag: '0 2 · M E T O D O L O G I A',
+      tag: 'M E T O D O L O G I A',
       titlePrefix: 'Do briefing ao render aprovado:',
       titleHighlight: 'o método',
       subtitle: 'O cliente aprova vendo, não imaginando. Dividimos o projeto em 4 frentes que garantem precisão técnica e impacto visual.',
@@ -92,7 +92,7 @@ export const translations = {
       ctaBoxBtn: 'Preencher Briefing Técnico'
     },
     projects: {
-      tag: '0 1 · P R O J E T O S',
+      tag: 'P R O J E T O S',
       titlePrefix: 'Atendemos os',
       titleHighlight: 'principais tipos de projeto',
       subtitle: 'Palcos, bares temáticos, ambientação imersiva, instagramáveis e ativações de marca com detalhamento 3D executável.',
@@ -109,7 +109,7 @@ export const translations = {
         instagramaveis: 'Instagramáveis',
         ativacoes: 'Ativação de Marcas'
       },
-      pageTag: '0 1 · A C E R V O  T É C N I C O',
+      pageTag: 'A C E R V O  T É C N I C O',
       pageTitlePrefix: 'Projetos cenográficos:',
       pageTitleHighlight: 'do conceito à execução',
       pageSubtitle: 'Navegue pelas 5 tipologias oficiais atendidas pelo estúdio. Cada projeto possui espacialização 3D, memorial descritivo, cálculo volumétrico e compatibilização estrutural.'
@@ -144,7 +144,7 @@ export const translations = {
       playRotation: 'Ativar Rotação 360°'
     },
     about: {
-      tag: '0 4 · L I D E R A N Ç A  T É C N I C A',
+      tag: 'L I D E R A N Ç A  T É C N I C A',
       titlePrefix: 'Conectando criação e produção:',
       titleHighlight: 'Lucas Castro',
       subtitle: 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, cálculo de rigging e a experiência sensorial do público.',
@@ -157,7 +157,7 @@ export const translations = {
       directContactSub: 'lucas@tentaculosproducoes.com.br • Atendimento a marcas, agências e produtoras de eventos.'
     },
     briefing: {
-      tag: '0 5 · B R I E F I N G  T É C N I C O',
+      tag: 'B R I E F I N G  T É C N I C O',
       titlePrefix: 'Terminal executivo:',
       titleHighlight: 'alinhe sua produção',
       subtitle: 'Preencha os parâmetros essenciais da sua demanda. Seu briefing será sintetizado em memorial técnico e enviado com prioridade direta para Lucas Castro.',
@@ -226,37 +226,37 @@ export const translations = {
       festivalsLabel: 'PROVEN EXPERIENCE IN MAJOR PRODUCTIONS',
       festivals: 'Weekend Pedra Azul • Tomorrowland Brasil • Lollapalooza • Camarote Brahma'
     },
-    juxtapose: {
-      tag: '0 3 · J U X T A P O S E  T E C H N O L O G Y',
+    comparativo: {
+      tag: '3 D  V S  R E A L  C O M P A R I S O N',
       titlePrefix: 'From 3D to reality:',
-      titleHighlight: 'millimeter fidelity',
-      subtitle: 'Interactive technical comparison engine integrated into the project. Allows clients to inspect side-by-side the exact correspondence between the executive 3D model and the assembled event.',
+      titleHighlight: 'millimeter precision',
+      subtitle: 'Integrated interactive technical comparison engine. Allows clients to inspect side by side the exact correspondence between the executive 3D model and physical event setup.',
       dragHint: 'Drag to compare',
-      beforeLabel: '01 · 3D MODELING (IDEALIZED)',
-      afterLabel: '02 · REAL EVENT (EXECUTED)',
+      beforeLabel: '3D MODELING (IDEALIZED)',
+      afterLabel: 'REAL EVENT (EXECUTED)',
       slot1Title: 'Technical Slot 01 · Structural & Scenographic Inspection',
       slot1Desc: 'Live demonstration of millimeter comparison technology between executive 3D project and physical assembly. Drag the slider to inspect fidelity.',
       slot1Specs: 'Technology Ready · Awaiting official client assets',
       slot2Title: 'Technical Slot 02 · Activation & Environment',
-      slot2Desc: 'Pre-configured space in the Juxtapose system for immediate inclusion of the second official scenography or activation case.',
+      slot2Desc: 'Pre-configured space in the comparison system for immediate inclusion of the second official scenography or activation case.',
       slot2Specs: 'Recommended resolution: 1920x1080 (16:9)',
-      pageTag: '0 2 · J U X T A P O S E  T E C H N O L O G Y',
+      pageTag: '3 D  V S  R E A L  C O M P A R I S O N',
       pageTitlePrefix: 'What is idealized:',
       pageTitleHighlight: 'becomes executed reality',
       pageSubtitle: 'Our modeling is not an artistic illustration or a generic AI render. It is a three-dimensional executive blueprint parameterized for real assembly without surprises on event day.',
-      pillar1Tag: '01 · 1:1 PARAMETERIZATION',
+      pillar1Tag: '1:1 PARAMETERIZATION',
       pillar1Title: 'Real Scale & Proportion',
       pillar1Desc: 'Every box truss, bar counter module and LED panel is modeled using the exact millimeter physical dimensions from event suppliers.',
-      pillar2Tag: '02 · STAGE LIGHTING',
+      pillar2Tag: 'STAGE LIGHTING',
       pillar2Title: 'Volumetric Light Simulation',
       pillar2Desc: 'Light beams, color temperatures and pyrotechnic positions are simulated in 3D to anticipate visual night impact accurately.',
-      pillar3Tag: '03 · ZERO IMPROVISATION',
+      pillar3Tag: 'ZERO IMPROVISATION',
       pillar3Title: 'Assembly Compatibility',
       pillar3Desc: 'We eliminate on-site guesswork: the production team builds strictly following coordinates and axes extracted from the technical model.',
-      viewDetailsLink: 'View Juxtapose technology details'
+      viewDetailsLink: 'View 3D vs Real comparison details'
     },
     method: {
-      tag: '0 2 · M E T H O D O L O G Y',
+      tag: 'M E T H O D O L O G Y',
       titlePrefix: 'From briefing to approved render:',
       titleHighlight: 'the method',
       subtitle: 'Clients approve by seeing, not by imagining. We split the project into 4 foundation fronts guaranteeing technical precision and visual impact.',
@@ -286,7 +286,7 @@ export const translations = {
       ctaBoxBtn: 'Fill Technical Briefing'
     },
     projects: {
-      tag: '0 1 · P R O J E C T S',
+      tag: 'P R O J E C T S',
       titlePrefix: 'We engineer the',
       titleHighlight: 'main project typologies',
       subtitle: 'Stages, thematic bars, immersive environments, photo opportunities and brand activations with executable 3D detailing.',
@@ -303,7 +303,7 @@ export const translations = {
         instagramaveis: 'Photo Opportunities',
         ativacoes: 'Brand Activations'
       },
-      pageTag: '0 1 · T E C H N I C A L  A R C H I V E',
+      pageTag: 'T E C H N I C A L  A R C H I V E',
       pageTitlePrefix: 'Scenographic projects:',
       pageTitleHighlight: 'from concept to execution',
       pageSubtitle: 'Explore the 5 official typologies engineered by the studio. Each project features 3D spatialization, technical memorial, volumetric calculations and structural compatibility.'
@@ -338,7 +338,7 @@ export const translations = {
       playRotation: 'Play 360° Rotation'
     },
     about: {
-      tag: '0 4 · T E C H N I C A L  L E A D E R S H I P',
+      tag: 'T E C H N I C A L  L E A D E R S H I P',
       titlePrefix: 'Bridging design and production:',
       titleHighlight: 'Lucas Castro',
       subtitle: 'Solid experience across high-profile festival productions, connecting aesthetics, technical feasibility, rigging calculations and sensory audience experience.',
@@ -351,7 +351,7 @@ export const translations = {
       directContactSub: 'lucas@tentaculosproducoes.com.br • Dedicated service for brands, agencies and festival promoters.'
     },
     briefing: {
-      tag: '0 5 · T E C H N I C A L  B R I E F I N G',
+      tag: 'T E C H N I C A L  B R I E F I N G',
       titlePrefix: 'Executive terminal:',
       titleHighlight: 'align your production',
       subtitle: 'Fill in your project requirements. Your briefing will be synthesized into a technical memorial and routed with direct priority to Lucas Castro.',
@@ -420,37 +420,37 @@ export const translations = {
       festivalsLabel: 'EXPERIENCIA COMPROBADA EN GRANDES PRODUCCIONES',
       festivals: 'Weekend Pedra Azul • Tomorrowland Brasil • Lollapalooza • Camarote Brahma'
     },
-    juxtapose: {
-      tag: '0 3 · T E C N O L O G Í A  J U X T A P O S E',
+    comparativo: {
+      tag: 'C O M P A R A T I V O  3 D  V S  R E A L',
       titlePrefix: 'Del 3D a la realidad:',
-      titleHighlight: 'fidelidad milimétrica',
-      subtitle: 'Mecanismo interactivo de comparación técnica integrado al proyecto. Permite al cliente inspeccionar lado a lado la correspondencia exacta entre el modelo ejecutivo 3D y el evento montado.',
+      titleHighlight: 'precisión milimétrica',
+      subtitle: 'Mecanismo interactivo de comparación técnica integrado en el proyecto. Permite al cliente inspeccionar lado a lado la correspondencia exacta entre el modelo ejecutivo 3D y el evento montado.',
       dragHint: 'Arrastre para comparar',
-      beforeLabel: '01 · MODELADO 3D (IDEALIZADO)',
-      afterLabel: '02 · EVENTO REAL (EJECUTADO)',
+      beforeLabel: 'MODELADO 3D (IDEALIZADO)',
+      afterLabel: 'EVENTO REAL (EJECUTADO)',
       slot1Title: 'Slot Técnico 01 · Inspección Estructural y Escenográfica',
       slot1Desc: 'Demostración activa de la tecnología de comparación milimétrica entre proyecto ejecutivo 3D y montaje real. Arrastre el control para inspeccionar la fidelidad.',
       slot1Specs: 'Tecnología Lista · Esperando activos fotográficos oficiales',
       slot2Title: 'Slot Técnico 02 · Activación y Ambientación',
-      slot2Desc: 'Espacio preconfigurado en el sistema Juxtapose para inclusión inmediata del segundo caso oficial de escenografía o activación.',
+      slot2Desc: 'Espacio preconfigurado en el sistema de comparación para inclusión inmediata del segundo caso oficial de escenografía o activación.',
       slot2Specs: 'Resolución recomendada: 1920x1080 (16:9)',
-      pageTag: '0 2 · T E C N O L O G Í A  J U X T A P O S E',
+      pageTag: 'C O M P A R A T I V O  3 D  V S  R E A L',
       pageTitlePrefix: 'Lo que se idealiza:',
       pageTitleHighlight: 'se convierte en hecho ejecutado',
       pageSubtitle: 'Nuestro modelado no es una ilustración artística ni un render genérico de IA. Es un plano ejecutivo tridimensional parametrizado para montaje real sin sorpresas en el evento.',
-      pillar1Tag: '01 · PARAMETRIZACIÓN 1:1',
+      pillar1Tag: 'PARAMETRIZACIÓN 1:1',
       pillar1Title: 'Escala y Proporción Real',
       pillar1Desc: 'Cada estructura box truss, módulo de bar y pantalla LED se modela con sus dimensiones físicas milimétricas exactas de los proveedores del evento.',
-      pillar2Tag: '02 · ILUMINACIÓN ESCÉNICA',
+      pillar2Tag: 'ILUMINACIÓN ESCÉNICA',
       pillar2Title: 'Simulación Volumétrica de Luz',
       pillar2Desc: 'Los haces de luz, temperatura de color y puntos de pirotecnia se simulan en 3D para anticipar el impacto visual nocturno con precisión.',
-      pillar3Tag: '03 · CERO IMPROVISACIÓN',
+      pillar3Tag: 'CERO IMPROVISACIÓN',
       pillar3Title: 'Compatibilidad de Montaje',
       pillar3Desc: 'Eliminamos la improvisación en campo: el equipo de producción monta en base a coordenadas y ejes extraídos de la maqueta técnica.',
-      viewDetailsLink: 'Ver detalles de la tecnología Juxtapose'
+      viewDetailsLink: 'Ver detalles del comparativo 3D vs Real'
     },
     method: {
-      tag: '0 2 · M E T O D O L O G Í A',
+      tag: 'M E T O D O L O G Í A',
       titlePrefix: 'Del briefing al render aprobado:',
       titleHighlight: 'el método',
       subtitle: 'El cliente aprueba viendo, no imaginando. Dividimos el proyecto en 4 frentes de fundación que garantizan precisión técnica e impacto visual.',
@@ -480,7 +480,7 @@ export const translations = {
       ctaBoxBtn: 'Completar Briefing Técnico'
     },
     projects: {
-      tag: '0 1 · P R O Y E C T O S',
+      tag: 'P R O Y E C T O S',
       titlePrefix: 'Atendemos las',
       titleHighlight: 'principales tipologías de proyecto',
       subtitle: 'Escenarios, bares temáticos, ambientación inmersiva, espacios instagramables y activaciones de marca con modelado 3D ejecutable.',
@@ -497,7 +497,7 @@ export const translations = {
         instagramaveis: 'Espacios Instagramables',
         ativacoes: 'Activación de Marcas'
       },
-      pageTag: '0 1 · A R C H I V O  T É C N I C O',
+      pageTag: 'A R C H I V O  T É C N I C O',
       pageTitlePrefix: 'Proyectos escenográficos:',
       pageTitleHighlight: 'del concepto a la ejecución',
       pageSubtitle: 'Explore las 5 tipologías oficiales atendidas por el estudio. Cada proyecto cuenta con espacialización 3D, memoria descriptiva, cálculo volumétrico y compatibilidad estructural.'
@@ -532,7 +532,7 @@ export const translations = {
       playRotation: 'Activar Rotación 360°'
     },
     about: {
-      tag: '0 4 · L I D E R A Z G O  T É C N I C O',
+      tag: 'L I D E R A Z G O  T É C N I C O',
       titlePrefix: 'Conectando creación y producción:',
       titleHighlight: 'Lucas Castro',
       subtitle: 'Experiencia consolidada en festivales de gran escala, conectando estética, viabilidad técnica, cálculo de rigging y la experiencia sensorial del público.',
@@ -545,7 +545,7 @@ export const translations = {
       directContactSub: 'lucas@tentaculosproducoes.com.br • Atención para marcas, agencias y productoras de eventos.'
     },
     briefing: {
-      tag: '0 5 · B R I E F I N G  T É C N I C O',
+      tag: 'B R I E F I N G  T É C N I C O',
       titlePrefix: 'Terminal ejecutivo:',
       titleHighlight: 'alinee su producción',
       subtitle: 'Complete los parámetros esenciales de su evento. Su briefing será sintetizado en una memoria técnica y enviado con prioridad directa a Lucas Castro.',

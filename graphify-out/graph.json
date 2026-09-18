@@ -16,6 +16,18 @@
       "source_location": "L14"
     },
     {
+      "id": "src_app_app",
+      "label": "App()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "app()",
+      "source_file": "src/App.jsx",
+      "source_location": "L24"
+    },
+    {
       "id": "src_app_pageloadingfallback",
       "label": "PageLoadingFallback()",
       "_callable": true,
@@ -40,6 +52,18 @@
       "source_location": "L4"
     },
     {
+      "id": "src_components_comparativoviewer_comparativoviewer",
+      "label": "ComparativoViewer()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "comparativoviewer()",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L6"
+    },
+    {
       "id": "src_components_hero_hero",
       "label": "Hero()",
       "_callable": true,
@@ -49,7 +73,7 @@
       "file_type": "code",
       "norm_label": "hero()",
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L5"
+      "source_location": "L6"
     },
     {
       "id": "src_components_icons_whatsappicon_whatsappicon",
@@ -64,18 +88,6 @@
       "source_location": "L3"
     },
     {
-      "id": "src_components_juxtaposeviewer_juxtaposeviewer",
-      "label": "JuxtaposeViewer()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "useLanguage",
-      "file_type": "code",
-      "norm_label": "juxtaposeviewer()",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L6"
-    },
-    {
       "id": "src_components_languageselector_languageselector",
       "label": "LanguageSelector()",
       "_callable": true,
@@ -86,6 +98,18 @@
       "norm_label": "languageselector()",
       "source_file": "src/components/LanguageSelector.jsx",
       "source_location": "L5"
+    },
+    {
+      "id": "src_components_layout_layout",
+      "label": "Layout()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "layout()",
+      "source_file": "src/components/Layout.jsx",
+      "source_location": "L11"
     },
     {
       "id": "src_components_methodsection_methodsection",
@@ -196,27 +220,15 @@
       "source_location": "L6"
     },
     {
-      "id": "src_pages_homepage_homepage",
-      "label": "HomePage()",
+      "id": "src_pages_comparativopage_comparativopage",
+      "label": "ComparativoPage()",
       "_callable": true,
       "_origin": "ast",
       "community": 1,
       "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "homepage()",
-      "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L13"
-    },
-    {
-      "id": "src_pages_juxtaposepage_juxtaposepage",
-      "label": "JuxtaposePage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "useLanguage",
-      "file_type": "code",
-      "norm_label": "juxtaposepage()",
-      "source_file": "src/pages/JuxtaposePage.jsx",
+      "norm_label": "comparativopage()",
+      "source_file": "src/pages/ComparativoPage.jsx",
       "source_location": "L6"
     },
     {
@@ -244,6 +256,18 @@
       "source_location": "L7"
     },
     {
+      "id": "src_pages_projectdetailpage_projectdetailpage",
+      "label": "ProjectDetailPage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "projectdetailpage()",
+      "source_file": "src/pages/ProjectDetailPage.jsx",
+      "source_location": "L21"
+    },
+    {
       "id": "src_pages_projectspage_projectspage",
       "label": "ProjectsPage()",
       "_callable": true,
@@ -254,18 +278,6 @@
       "norm_label": "projectspage()",
       "source_file": "src/pages/ProjectsPage.jsx",
       "source_location": "L6"
-    },
-    {
-      "id": "src_app_app",
-      "label": "App()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "main.jsx",
-      "file_type": "code",
-      "norm_label": "app()",
-      "source_file": "src/App.jsx",
-      "source_location": "L24"
     },
     {
       "id": "src_components_admin_admindashboard_admindashboard",
@@ -302,18 +314,6 @@
       "norm_label": "hexprismbackground()",
       "source_file": "src/components/HexPrismBackground.jsx",
       "source_location": "L4"
-    },
-    {
-      "id": "src_components_layout_layout",
-      "label": "Layout()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "Layout.jsx",
-      "file_type": "code",
-      "norm_label": "layout()",
-      "source_file": "src/components/Layout.jsx",
-      "source_location": "L11"
     },
     {
       "id": "src_components_projectmodal_projectmodal",
@@ -364,16 +364,16 @@
       "source_location": "L175"
     },
     {
-      "id": "src_pages_projectdetailpage_projectdetailpage",
-      "label": "ProjectDetailPage()",
+      "id": "src_pages_homepage_homepage",
+      "label": "HomePage()",
       "_callable": true,
       "_origin": "ast",
       "community": 5,
       "community_name": "Layout.jsx",
       "file_type": "code",
-      "norm_label": "projectdetailpage()",
-      "source_file": "src/pages/ProjectDetailPage.jsx",
-      "source_location": "L21"
+      "norm_label": "homepage()",
+      "source_file": "src/pages/HomePage.jsx",
+      "source_location": "L19"
     },
     {
       "id": "src_components_interactive3dviewer_interactive3dviewer",
@@ -397,6 +397,105 @@
       "norm_label": "package.json",
       "source_file": "package.json",
       "source_location": "L1"
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "devdependencies",
+      "source_file": "package.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "package_devdependencies_oxlint",
+      "label": "oxlint",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "oxlint",
+      "source_file": "package.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "package_devdependencies_tailwindcss",
+      "label": "tailwindcss",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "tailwindcss",
+      "source_file": "package.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "package_devdependencies_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "@tailwindcss/vite",
+      "source_file": "package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "package_devdependencies_types_bun",
+      "label": "@types/bun",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "@types/bun",
+      "source_file": "package.json",
+      "source_location": "L30"
+    },
+    {
+      "id": "package_devdependencies_types_react",
+      "label": "@types/react",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "@types/react",
+      "source_file": "package.json",
+      "source_location": "L31"
+    },
+    {
+      "id": "package_devdependencies_types_react_dom",
+      "label": "@types/react-dom",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "@types/react-dom",
+      "source_file": "package.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "package_devdependencies_vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "vite",
+      "source_file": "package.json",
+      "source_location": "L36"
+    },
+    {
+      "id": "package_devdependencies_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "@vitejs/plugin-react",
+      "source_file": "package.json",
+      "source_location": "L33"
     },
     {
       "id": "package_name",
@@ -775,6 +874,17 @@
       "source_location": "L14"
     },
     {
+      "id": "src_app_comparativopage",
+      "label": "ComparativoPage",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "comparativopage",
+      "source_file": "src/App.jsx",
+      "source_location": "L11"
+    },
+    {
       "id": "src_app_homepage",
       "label": "HomePage",
       "_origin": "ast",
@@ -784,17 +894,6 @@
       "norm_label": "homepage",
       "source_file": "src/App.jsx",
       "source_location": "L8"
-    },
-    {
-      "id": "src_app_juxtaposepage",
-      "label": "JuxtaposePage",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "useLanguage",
-      "file_type": "code",
-      "norm_label": "juxtaposepage",
-      "source_file": "src/App.jsx",
-      "source_location": "L11"
     },
     {
       "id": "src_app_methodpage",
@@ -852,6 +951,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_components_comparativoviewer",
+      "label": "ComparativoViewer.jsx",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "comparativoviewer.jsx",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L1"
+    },
+    {
       "id": "src_components_hero",
       "label": "Hero.jsx",
       "_origin": "ast",
@@ -871,17 +981,6 @@
       "file_type": "code",
       "norm_label": "whatsappicon.jsx",
       "source_file": "src/components/icons/WhatsAppIcon.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_juxtaposeviewer",
-      "label": "JuxtaposeViewer.jsx",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "useLanguage",
-      "file_type": "code",
-      "norm_label": "juxtaposeviewer.jsx",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
       "source_location": "L1"
     },
     {
@@ -984,25 +1083,25 @@
       "source_location": "L7"
     },
     {
-      "id": "src_data_juxtaposecases",
-      "label": "juxtaposeCases.js",
+      "id": "src_data_comparativocases",
+      "label": "comparativoCases.js",
       "_origin": "ast",
       "community": 1,
       "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "juxtaposecases.js",
-      "source_file": "src/data/juxtaposeCases.js",
+      "norm_label": "comparativocases.js",
+      "source_file": "src/data/comparativoCases.js",
       "source_location": "L1"
     },
     {
-      "id": "src_data_juxtaposecases_defaultjuxtaposecases",
-      "label": "defaultJuxtaposeCases",
+      "id": "src_data_comparativocases_defaultcomparativocases",
+      "label": "defaultComparativoCases",
       "_origin": "ast",
       "community": 1,
       "community_name": "useLanguage",
       "file_type": "code",
-      "norm_label": "defaultjuxtaposecases",
-      "source_file": "src/data/juxtaposeCases.js",
+      "norm_label": "defaultcomparativocases",
+      "source_file": "src/data/comparativoCases.js",
       "source_location": "L11"
     },
     {
@@ -1028,6 +1127,17 @@
       "source_location": "L6"
     },
     {
+      "id": "src_main",
+      "label": "main.jsx",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "main.jsx",
+      "source_file": "src/main.jsx",
+      "source_location": "L1"
+    },
+    {
       "id": "src_pages_aboutpage",
       "label": "AboutPage.jsx",
       "_origin": "ast",
@@ -1050,6 +1160,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_pages_comparativopage",
+      "label": "ComparativoPage.jsx",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "useLanguage",
+      "file_type": "code",
+      "norm_label": "comparativopage.jsx",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L1"
+    },
+    {
       "id": "src_pages_homepage",
       "label": "HomePage.jsx",
       "_origin": "ast",
@@ -1058,17 +1179,6 @@
       "file_type": "code",
       "norm_label": "homepage.jsx",
       "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_pages_juxtaposepage",
-      "label": "JuxtaposePage.jsx",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "useLanguage",
-      "file_type": "code",
-      "norm_label": "juxtaposepage.jsx",
-      "source_file": "src/pages/JuxtaposePage.jsx",
       "source_location": "L1"
     },
     {
@@ -1498,17 +1608,6 @@
       "source_location": "L1"
     },
     {
-      "id": "src_main",
-      "label": "main.jsx",
-      "_origin": "ast",
-      "community": 13,
-      "community_name": "main.jsx",
-      "file_type": "code",
-      "norm_label": "main.jsx",
-      "source_file": "src/main.jsx",
-      "source_location": "L1"
-    },
-    {
       "id": "agents_rules_ui_design_system",
       "label": "ui-design-system.md",
       "_origin": "ast",
@@ -1884,105 +1983,6 @@
       "norm_label": "@types/three",
       "source_file": "package.json",
       "source_location": "L15"
-    },
-    {
-      "id": "package_devdependencies",
-      "label": "devDependencies",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "devdependencies",
-      "source_file": "package.json",
-      "source_location": "L28"
-    },
-    {
-      "id": "package_devdependencies_oxlint",
-      "label": "oxlint",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "oxlint",
-      "source_file": "package.json",
-      "source_location": "L34"
-    },
-    {
-      "id": "package_devdependencies_tailwindcss",
-      "label": "tailwindcss",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "tailwindcss",
-      "source_file": "package.json",
-      "source_location": "L35"
-    },
-    {
-      "id": "package_devdependencies_tailwindcss_vite",
-      "label": "@tailwindcss/vite",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "@tailwindcss/vite",
-      "source_file": "package.json",
-      "source_location": "L29"
-    },
-    {
-      "id": "package_devdependencies_types_bun",
-      "label": "@types/bun",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "@types/bun",
-      "source_file": "package.json",
-      "source_location": "L30"
-    },
-    {
-      "id": "package_devdependencies_types_react",
-      "label": "@types/react",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "@types/react",
-      "source_file": "package.json",
-      "source_location": "L31"
-    },
-    {
-      "id": "package_devdependencies_types_react_dom",
-      "label": "@types/react-dom",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "@types/react-dom",
-      "source_file": "package.json",
-      "source_location": "L32"
-    },
-    {
-      "id": "package_devdependencies_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "vite",
-      "source_file": "package.json",
-      "source_location": "L36"
-    },
-    {
-      "id": "package_devdependencies_vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
-      "_origin": "ast",
-      "community": 20,
-      "community_name": "devDependencies",
-      "file_type": "code",
-      "norm_label": "@vitejs/plugin-react",
-      "source_file": "package.json",
-      "source_location": "L33"
     },
     {
       "id": "public_api_projects",
@@ -3240,8 +3240,8 @@
       "id": "ref_react_dom_client",
       "label": "ref_react_dom_client",
       "_origin": "semantic",
-      "community": 13,
-      "community_name": "main.jsx",
+      "community": 1,
+      "community_name": "useLanguage",
       "external": true,
       "file_type": "concept",
       "norm_label": "ref_react_dom_client",
@@ -3252,8 +3252,8 @@
       "id": "src_index",
       "label": "src_index",
       "_origin": "semantic",
-      "community": 13,
-      "community_name": "main.jsx",
+      "community": 1,
+      "community_name": "useLanguage",
       "external": true,
       "file_type": "concept",
       "norm_label": "src_index",
@@ -3287,6 +3287,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_comparativoviewer_comparativoviewer",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_footer_footer",
       "target": "src_context_languagecontext_uselanguage",
       "relation": "calls",
@@ -3307,7 +3319,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -3320,18 +3332,6 @@
       "context": "call",
       "source_file": "src/components/Interactive3DViewer.jsx",
       "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer_juxtaposeviewer",
-      "target": "src_context_languagecontext_uselanguage",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3455,6 +3455,30 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_comparativopage_comparativopage",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_homepage_homepage",
+      "target": "src_context_portfoliocontext_useportfolio",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/HomePage.jsx",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_homepage_homepage",
       "target": "src_context_languagecontext_uselanguage",
       "relation": "calls",
@@ -3463,19 +3487,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L14",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage_juxtaposepage",
-      "target": "src_context_languagecontext_uselanguage",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L7",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -3565,6 +3577,19 @@
       "weight": 1.0
     },
     {
+      "source": "src_app_comparativopage",
+      "target": "src_pages_comparativopage",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "deferred": true,
+      "source_file": "src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "src_app_homepage",
       "target": "src_pages_homepage",
       "relation": "imports_from",
@@ -3575,19 +3600,6 @@
       "deferred": true,
       "source_file": "src/App.jsx",
       "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app_juxtaposepage",
-      "target": "src_pages_juxtaposepage",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "deferred": true,
-      "source_file": "src/App.jsx",
-      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -3993,6 +4005,30 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_comparativoviewer",
+      "target": "src_data_comparativocases_defaultcomparativocases",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "src_context_languagecontext_uselanguage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_footer",
       "target": "src_components_icons_whatsappicon_whatsappicon",
       "relation": "imports",
@@ -4025,7 +4061,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4038,30 +4074,6 @@
       "context": "import",
       "source_file": "src/components/Interactive3DViewer.jsx",
       "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_data_juxtaposecases_defaultjuxtaposecases",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_context_languagecontext_uselanguage",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4377,15 +4389,39 @@
       "weight": 1.0
     },
     {
-      "source": "src_pages_homepage",
+      "source": "src_pages_comparativopage",
+      "target": "src_components_comparativoviewer_comparativoviewer",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_components_seohead_seohead",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
       "target": "src_context_languagecontext_uselanguage",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L11",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4402,7 +4438,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_juxtaposeviewer_juxtaposeviewer",
+      "target": "src_components_seohead_seohead",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4414,7 +4450,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_methodsection_methodsection",
+      "target": "src_context_portfoliocontext_useportfolio",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4426,7 +4462,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_portfoliogrid_portfoliogrid",
+      "target": "src_context_languagecontext_uselanguage",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4438,7 +4474,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_aboutsection_aboutsection",
+      "target": "src_components_icons_whatsappicon_whatsappicon",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4446,66 +4482,6 @@
       "context": "import",
       "source_file": "src/pages/HomePage.jsx",
       "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_homepage",
-      "target": "src_components_projectestimator_projectestimator",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_homepage",
-      "target": "src_components_seohead_seohead",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_juxtaposeviewer_juxtaposeviewer",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_seohead_seohead",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_context_languagecontext_uselanguage",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4785,6 +4761,54 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_comparativoviewer",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "src_data_comparativocases",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_comparativoviewer",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_footer",
       "target": "ref_react",
       "relation": "imports_from",
@@ -4858,7 +4882,7 @@
     },
     {
       "source": "src_components_hero",
-      "target": "ref_lucide_react",
+      "target": "ref_react_router_dom",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4870,7 +4894,7 @@
     },
     {
       "source": "src_components_hero",
-      "target": "src_context_languagecontext",
+      "target": "ref_lucide_react",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -4878,6 +4902,18 @@
       "context": "import",
       "source_file": "src/components/Hero.jsx",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_components_hero",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/components/Hero.jsx",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -4986,54 +5022,6 @@
       "context": "import",
       "source_file": "src/components/Interactive3DViewer.jsx",
       "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
-      "target": "ref_lucide_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_data_juxtaposecases",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_context_languagecontext",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -5637,6 +5625,54 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_comparativopage",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_components_comparativoviewer",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_components_seohead",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_comparativopage",
+      "target": "src_context_languagecontext",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_homepage",
       "target": "ref_react",
       "relation": "imports_from",
@@ -5646,30 +5682,6 @@
       "context": "import",
       "source_file": "src/pages/HomePage.jsx",
       "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_homepage",
-      "target": "ref_lucide_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_homepage",
-      "target": "src_context_languagecontext",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -5698,7 +5710,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_juxtaposeviewer",
+      "target": "src_components_seohead",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5710,7 +5722,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_methodsection",
+      "target": "src_context_portfoliocontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5722,7 +5734,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_portfoliogrid",
+      "target": "src_context_languagecontext",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5734,7 +5746,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_aboutsection",
+      "target": "src_components_icons_whatsappicon",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5746,7 +5758,7 @@
     },
     {
       "source": "src_pages_homepage",
-      "target": "src_components_projectestimator",
+      "target": "ref_lucide_react",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -5754,66 +5766,6 @@
       "context": "import",
       "source_file": "src/pages/HomePage.jsx",
       "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_homepage",
-      "target": "src_components_seohead",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_juxtaposeviewer",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_components_seohead",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_context_languagecontext",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -7868,7 +7820,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_app_juxtaposepage",
+      "target": "src_app_comparativopage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -7988,6 +7940,17 @@
       "weight": 1.0
     },
     {
+      "source": "src_components_comparativoviewer",
+      "target": "src_components_comparativoviewer_comparativoviewer",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/ComparativoViewer.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "src_components_footer",
       "target": "src_components_footer_footer",
       "relation": "contains",
@@ -8006,7 +7969,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/components/Hero.jsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -8040,17 +8003,6 @@
       "confidence_score": 1.0,
       "source_file": "src/components/Interactive3DViewer.jsx",
       "source_location": "L18",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_juxtaposeviewer",
-      "target": "src_components_juxtaposeviewer_juxtaposeviewer",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/JuxtaposeViewer.jsx",
-      "source_location": "L6",
       "weight": 1.0
     },
     {
@@ -8252,6 +8204,17 @@
       "weight": 1.0
     },
     {
+      "source": "src_data_comparativocases",
+      "target": "src_data_comparativocases_defaultcomparativocases",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/data/comparativoCases.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "src_data_defaultprojects",
       "target": "src_data_defaultprojects_defaultprojects",
       "relation": "contains",
@@ -8260,17 +8223,6 @@
       "confidence_score": 1.0,
       "source_file": "src/data/defaultProjects.js",
       "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_data_juxtaposecases",
-      "target": "src_data_juxtaposecases_defaultjuxtaposecases",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/data/juxtaposeCases.js",
-      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -8307,6 +8259,17 @@
       "weight": 1.0
     },
     {
+      "source": "src_pages_comparativopage",
+      "target": "src_pages_comparativopage_comparativopage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/pages/ComparativoPage.jsx",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "src_pages_homepage",
       "target": "src_pages_homepage_homepage",
       "relation": "contains",
@@ -8314,18 +8277,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/pages/HomePage.jsx",
-      "source_location": "L13",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_juxtaposepage",
-      "target": "src_pages_juxtaposepage_juxtaposepage",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/pages/JuxtaposePage.jsx",
-      "source_location": "L6",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -8403,7 +8355,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_pages_homepage",
+      "target": "src_pages_comparativopage",
       "relation": "dynamic_import",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8412,7 +8364,7 @@
     },
     {
       "source": "src_app",
-      "target": "src_pages_juxtaposepage",
+      "target": "src_pages_homepage",
       "relation": "dynamic_import",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8598,5 +8550,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7683e16bed91ae936c2f4650e86568eb2330524c"
+  "built_at_commit": "c93322dabca431f112968c34c37a74699dc93562"
 }

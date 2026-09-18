@@ -15,9 +15,9 @@
     </image:image>
   </url>
 
-  <!-- Acervo de Projetos -->
+  <!-- Acervo de Projetos (Canonical Agentic English Route) -->
   <url>
-    <loc>https://tentaculoslab.com.br/projetos</loc>
+    <loc>https://tentaculoslab.com.br/projects</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -25,7 +25,7 @@
 
   <!-- Página Permanente do Projeto: Casa do Papai Noel -->
   <url>
-    <loc>https://tentaculoslab.com.br/projeto/proj-papai-noel</loc>
+    <loc>https://tentaculoslab.com.br/projects/proj-papai-noel</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -36,9 +36,9 @@
     </image:image>
   </url>
 
-  <!-- Tecnologia Juxtapose (3D vs Real) -->
+  <!-- Comparativo 3D vs Real -->
   <url>
-    <loc>https://tentaculoslab.com.br/comparativo</loc>
+    <loc>https://tentaculoslab.com.br/comparison</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -46,7 +46,7 @@
 
   <!-- Metodologia Oficial -->
   <url>
-    <loc>https://tentaculoslab.com.br/metodo</loc>
+    <loc>https://tentaculoslab.com.br/method</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -54,7 +54,7 @@
 
   <!-- Quem Somos (Lucas Castro) -->
   <url>
-    <loc>https://tentaculoslab.com.br/sobre</loc>
+    <loc>https://tentaculoslab.com.br/about</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>

@@ -13,12 +13,12 @@ export const MethodPage = () => {
       <SEOHead 
         title={`${t('method.titleHighlight', 'Método')} | Tentáculos Lab`}
         description={t('method.subtitle', 'Conheça o processo da Tentáculos Lab: Do briefing ao render aprovado. 4 Frentes de Fundação que unem conceito criativo e rigor técnico estrutural.')}
-        canonicalPath="/metodo"
+        canonicalPath="/method"
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 space-y-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 space-y-3">
         <span className="rotulo-tecnico block">
-          {t('method.tag', '0 3 · M E T O D O L O G I A')}
+          {t('method.tag', 'M E T O D O L O G I A')}
         </span>
         <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
           {t('method.titlePrefix', 'Do briefing ao render aprovado:')}{' '}
@@ -31,7 +31,7 @@ export const MethodPage = () => {
         </p>
       </div>
 
-      <MethodSection />
+      <MethodSection hideHeader={true} />
 
       {/* CTA para Iniciar Briefing */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 text-center">
@@ -58,7 +58,6 @@ export const MethodPage = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

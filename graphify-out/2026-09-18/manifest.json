@@ -24,27 +24,27 @@
     "semantic_hash": "7cbeefab4f2efc977005ce32f4ebd6d8"
   },
   "src/App.jsx": {
-    "mtime": 1789760873.969038,
-    "seen": 1789761002.2543259,
-    "ast_hash": "222736a307658f7e85972c71726265e0",
+    "mtime": 1789763905.811105,
+    "seen": 1789764025.2253246,
+    "ast_hash": "827fe2d4c5327c3be35200d51df3f88e",
     "semantic_hash": ""
   },
   "src/components/AboutSection.jsx": {
-    "mtime": 1789757630.2740595,
-    "seen": 1789760046.7138085,
-    "ast_hash": "e5ed451daa03fa5a39c572a5bf3db14c",
+    "mtime": 1789761906.320534,
+    "seen": 1789762161.3100662,
+    "ast_hash": "8a5c00d4369887f77f4536323951914f",
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1789760848.041434,
-    "seen": 1789761002.2543259,
-    "ast_hash": "b9058eb9b41d42ea14421cdde1b7a17a",
+    "mtime": 1789761976.654792,
+    "seen": 1789762161.3100662,
+    "ast_hash": "141a574dfd2f3ba2607346d81e312045",
     "semantic_hash": ""
   },
   "src/components/Hero.jsx": {
-    "mtime": 1789757229.0586872,
-    "seen": 1789760046.7138085,
-    "ast_hash": "33382d79ef0b00b4266064c13439f43c",
+    "mtime": 1789763897.7414806,
+    "seen": 1789764025.2253246,
+    "ast_hash": "2474ccbb9367e0377d992f433311ced8",
     "semantic_hash": ""
   },
   "src/components/HexPrismBackground.jsx": {
@@ -54,33 +54,33 @@
     "semantic_hash": ""
   },
   "src/components/Interactive3DViewer.jsx": {
-    "mtime": 1789759915.0648139,
-    "seen": 1789760046.7138085,
-    "ast_hash": "52b4b7cacb1cc06f73de43762e17f4c8",
+    "mtime": 1789762097.9612086,
+    "seen": 1789762161.3100662,
+    "ast_hash": "4bf9f639559f94d1b7f6f3b31b234e3e",
     "semantic_hash": ""
   },
   "src/components/Navbar.jsx": {
-    "mtime": 1789760827.5724194,
-    "seen": 1789761002.2543259,
-    "ast_hash": "eb67c865e0004e73443f1626821b15ee",
+    "mtime": 1789763693.425966,
+    "seen": 1789764025.2253246,
+    "ast_hash": "51c37cc4863e93b0b9c94275556ce299",
     "semantic_hash": ""
   },
   "src/components/PortfolioGrid.jsx": {
-    "mtime": 1789760864.2166047,
-    "seen": 1789761002.2543259,
-    "ast_hash": "c55b2d0b21ba0c04e06247b80a8db2d5",
+    "mtime": 1789761838.8708358,
+    "seen": 1789762161.3100662,
+    "ast_hash": "477fa9c1e1c68f0bcaa198ba4ad8cf64",
     "semantic_hash": ""
   },
   "src/components/ProjectEstimator.jsx": {
-    "mtime": 1789760420.011696,
-    "seen": 1789760440.6968658,
-    "ast_hash": "dd5f2387463747efdcf87d24e123e0cb",
+    "mtime": 1789761945.937956,
+    "seen": 1789762161.3100662,
+    "ast_hash": "9413ab97a9c5388fc1f7fa0167e2e900",
     "semantic_hash": ""
   },
   "src/components/ProjectModal.jsx": {
-    "mtime": 1789760165.7266457,
-    "seen": 1789760233.598221,
-    "ast_hash": "0bf8f3d9524de63e7ab655408d591ce1",
+    "mtime": 1789762138.5274398,
+    "seen": 1789762161.3100662,
+    "ast_hash": "ad33955433bff1dae3dd0af22990c7bc",
     "semantic_hash": ""
   },
   "src/components/admin/AdminDashboard.jsx": {
@@ -96,10 +96,10 @@
     "semantic_hash": ""
   },
   "src/data/defaultProjects.js": {
-    "mtime": 1786469718.165676,
-    "seen": 1789747293.5241938,
-    "ast_hash": "82789a54708bfbbb519dea0ff8003828",
-    "semantic_hash": "82789a54708bfbbb519dea0ff8003828"
+    "mtime": 1789761283.670051,
+    "seen": 1789762161.3100662,
+    "ast_hash": "73b79120cce04d1397703e1727b9cf21",
+    "semantic_hash": ""
   },
   "src/main.jsx": {
     "mtime": 1786452450.3444,
@@ -113,22 +113,10 @@
     "ast_hash": "7ab25efb594c96d9e55406853300f778",
     "semantic_hash": "7ab25efb594c96d9e55406853300f778"
   },
-  "src/components/JuxtaposeViewer.jsx": {
-    "mtime": 1789760159.3633475,
-    "seen": 1789760233.598221,
-    "ast_hash": "03b75f712dc07ecfbbf0f67801178a15",
-    "semantic_hash": ""
-  },
   "src/components/MethodSection.jsx": {
-    "mtime": 1789760931.3267024,
-    "seen": 1789761002.2543259,
-    "ast_hash": "b85c75aed428dfa164c2be8626a78e7e",
-    "semantic_hash": ""
-  },
-  "src/data/juxtaposeCases.js": {
-    "mtime": 1789759839.8331704,
-    "seen": 1789760046.7138085,
-    "ast_hash": "d0164e3eeb75edb8a1c9b3bd5aed7088",
+    "mtime": 1789761805.979149,
+    "seen": 1789762161.3100662,
+    "ast_hash": "fb7efbb86027b41e8e86f13e4f5b0e27",
     "semantic_hash": ""
   },
   ".agents/rules/agentic-web.md": {
@@ -234,9 +222,9 @@
     "semantic_hash": ""
   },
   "public/llms.txt": {
-    "mtime": 1789760966.1786523,
-    "seen": 1789761002.2543259,
-    "ast_hash": "1c6f58c37a1418cbd6558f96276ae361",
+    "mtime": 1789763789.5279176,
+    "seen": 1789764025.2253246,
+    "ast_hash": "356dfbef104455f12967b16ee4455631",
     "semantic_hash": ""
   },
   "public/robots.txt": {
@@ -666,51 +654,81 @@
     "semantic_hash": ""
   },
   "src/pages/AboutPage.jsx": {
-    "mtime": 1789760796.2671607,
-    "seen": 1789761002.2543259,
-    "ast_hash": "3faab9a8187722cc343850c6b80c3a2b",
+    "mtime": 1789761915.5393972,
+    "seen": 1789762161.3100662,
+    "ast_hash": "4aca2ffc756cd223f87d72df6cc50354",
     "semantic_hash": ""
   },
   "src/pages/BriefingPage.jsx": {
-    "mtime": 1789760803.9153328,
-    "seen": 1789761002.2543259,
-    "ast_hash": "020b59ac288e501689fa4412f17a3f58",
+    "mtime": 1789761953.1328478,
+    "seen": 1789762161.3100662,
+    "ast_hash": "a7f276e284583e34b9bf37aa5619973b",
     "semantic_hash": ""
   },
   "src/pages/HomePage.jsx": {
-    "mtime": 1789760902.5124898,
-    "seen": 1789761002.2543259,
-    "ast_hash": "8e179ca374caee0376c49c413e083ab2",
-    "semantic_hash": ""
-  },
-  "src/pages/JuxtaposePage.jsx": {
-    "mtime": 1789760777.8678522,
-    "seen": 1789761002.2543259,
-    "ast_hash": "eb3ac1ea06183ddc9f849aaebe50ded3",
+    "mtime": 1789763890.799152,
+    "seen": 1789764025.2253246,
+    "ast_hash": "3d45110750bcb22ae3601a31179d0536",
     "semantic_hash": ""
   },
   "src/pages/MethodPage.jsx": {
-    "mtime": 1789760786.9450257,
-    "seen": 1789761002.2543259,
-    "ast_hash": "73d69fb3e93f30d8b27fa9ee845bee23",
+    "mtime": 1789761817.4173243,
+    "seen": 1789762161.3100662,
+    "ast_hash": "fa1d740630040df29d5a1c182a95d61b",
     "semantic_hash": ""
   },
   "src/pages/NotFoundPage.jsx": {
-    "mtime": 1789760811.7360747,
-    "seen": 1789761002.2543259,
-    "ast_hash": "f8c6ec9203c792cc3fb216cb43342bcc",
+    "mtime": 1789761988.0440252,
+    "seen": 1789762161.3100662,
+    "ast_hash": "e3d0425d7f3acdded4a90878526b7642",
     "semantic_hash": ""
   },
   "src/pages/ProjectDetailPage.jsx": {
-    "mtime": 1789760895.408213,
-    "seen": 1789761002.2543259,
-    "ast_hash": "979b17b3470520133a1a092fa5261a6e",
+    "mtime": 1789761889.0537777,
+    "seen": 1789762161.3100662,
+    "ast_hash": "c136b68c3f0eeaf012aeefd6d8490024",
     "semantic_hash": ""
   },
   "src/pages/ProjectsPage.jsx": {
-    "mtime": 1789760753.7595017,
-    "seen": 1789761002.2543259,
-    "ast_hash": "6e68d877843875ae5dc300908c857693",
+    "mtime": 1789761858.107206,
+    "seen": 1789762161.3100662,
+    "ast_hash": "85e26bc99c12f8db9e7eb2a235e70998",
+    "semantic_hash": ""
+  },
+  "src/components/LanguageSelector.jsx": {
+    "mtime": 1789761715.0332642,
+    "seen": 1789762161.3100662,
+    "ast_hash": "509ec10b56536bc800943930b5b22744",
+    "semantic_hash": ""
+  },
+  "src/context/LanguageContext.jsx": {
+    "mtime": 1789761699.2116227,
+    "seen": 1789762161.3100662,
+    "ast_hash": "d81f74752f4136b65573fcc870332b54",
+    "semantic_hash": ""
+  },
+  "src/i18n/translations.js": {
+    "mtime": 1789763883.0658834,
+    "seen": 1789764025.2253246,
+    "ast_hash": "617df87f31365180331a6d1efacf5b2b",
+    "semantic_hash": ""
+  },
+  "src/components/ComparativoViewer.jsx": {
+    "mtime": 1789763868.0496583,
+    "seen": 1789764025.2253246,
+    "ast_hash": "a32e1ba5034c9b4517ee3005aab318a8",
+    "semantic_hash": ""
+  },
+  "src/data/comparativoCases.js": {
+    "mtime": 1789763858.6678097,
+    "seen": 1789764025.2253246,
+    "ast_hash": "9b089f7c4831305291caf7ad08443701",
+    "semantic_hash": ""
+  },
+  "src/pages/ComparativoPage.jsx": {
+    "mtime": 1789763874.717393,
+    "seen": 1789764025.2253246,
+    "ast_hash": "dea2a5f96e3b7a9e75a673f26a1ea2e6",
     "semantic_hash": ""
   }
 }

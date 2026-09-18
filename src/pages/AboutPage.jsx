@@ -12,12 +12,12 @@ export const AboutPage = () => {
       <SEOHead 
         title={`${t('nav.about', 'Quem Somos')} • Lucas Castro | Tentáculos Lab`}
         description={t('about.specialist', 'Conheça a mente por trás da Tentáculos Lab: Lucas Castro. Trajetória técnica em grandes produções e festivais.')}
-        canonicalPath="/sobre"
+        canonicalPath="/about"
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 space-y-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 space-y-3">
         <span className="rotulo-tecnico block">
-          {t('about.tag', '0 4 · L I D E R A N Ç A  T É C N I C A')}
+          {t('about.tag', 'L I D E R A N Ç A  T É C N I C A')}
         </span>
         <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
           {t('about.titlePrefix', 'Conectando criação e produção:')}{' '}
@@ -28,10 +28,10 @@ export const AboutPage = () => {
         </p>
       </div>
 
-      <AboutSection />
+      <AboutSection hideHeader={true} />
 
       {/* Contato Direto com Lucas */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
         <div className="card-chanfrado p-8 rounded-2xl bg-[#121D31] flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-1.5 text-center md:text-left">
             <span className="rotulo-tecnico text-[10px]">
@@ -59,7 +59,6 @@ export const AboutPage = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

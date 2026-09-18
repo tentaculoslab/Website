@@ -9,7 +9,7 @@ import {
   Calendar
 } from 'lucide-react';
 
-export const PortfolioGrid = () => {
+export const PortfolioGrid = ({ hideHeader = false }) => {
   const {
     filteredProjects,
     categories,
@@ -21,7 +21,7 @@ export const PortfolioGrid = () => {
   const { t } = useLanguage();
 
   return (
-    <section id="portfolio" className="py-12 sm:py-16 bg-[#0A1326] relative border-t border-white/[0.07]">
+    <section id="portfolio" className={`py-12 sm:py-16 bg-[#0A1326] relative ${hideHeader ? '' : 'border-t border-white/[0.07]'}`}>
       {/* Camada Blueprint de Fundo */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20 mix-blend-screen pointer-events-none"
@@ -31,45 +31,74 @@ export const PortfolioGrid = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
         
-        {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-          <div className="space-y-2">
-            <span className="rotulo-tecnico block">
-              {t('projects.tag', '0 1 · P R O J E T O S')}
-            </span>
-            <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-              {t('projects.titlePrefix', 'Atendemos os')}{' '}
-              <span className="font-semibold text-[#63A4FF]">
-                {t('projects.titleHighlight', 'principais tipos de projeto')}
+        {/* Section Header (opcional se renderizado em página dedicada) */}
+        {!hideHeader && (
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div className="space-y-2">
+              <span className="rotulo-tecnico block">
+                {t('projects.tag', 'P R O J E T O S')}
               </span>
-            </h2>
-            <p className="text-slate-400 text-sm max-w-xl font-light leading-relaxed">
-              {t('projects.subtitle', 'Palcos, bares temáticos, ambientação imersiva, instagramáveis e ativações de marca com detalhamento 3D executável.')}
-            </p>
-          </div>
+              <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
+                {t('projects.titlePrefix', 'Atendemos os')}{' '}
+                <span className="font-semibold text-[#63A4FF]">
+                  {t('projects.titleHighlight', 'principais tipos de projeto')}
+                </span>
+              </h2>
+              <p className="text-slate-400 text-sm max-w-xl font-light leading-relaxed">
+                {t('projects.subtitle', 'Palcos, bares temáticos, ambientação imersiva, instagramáveis e ativações de marca com detalhamento 3D executável.')}
+              </p>
+            </div>
 
-          {/* Search Box */}
-          <div className="relative w-full md:w-80">
-            <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-            <input
-              type="text"
-              placeholder={t('projects.searchPlaceholder', 'Buscar projeto ou especificação...')}
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-8 py-2.5 bg-[#121D31] border border-white/[0.1] focus:border-[#63A4FF] rounded-lg text-xs text-white placeholder-slate-500 focus:outline-none transition-colors"
-              style={{ fontFamily: 'Inter, sans-serif' }}
-            />
-            {searchQuery && (
-              <button 
-                onClick={() => setSearchQuery('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-xs"
-                aria-label="Limpar busca"
-              >
-                ✕
-              </button>
-            )}
+            {/* Search Box */}
+            <div className="relative w-full md:w-80">
+              <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+              <input
+                type="text"
+                placeholder={t('projects.searchPlaceholder', 'Buscar projeto ou especificação...')}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-10 pr-8 py-2.5 bg-[#121D31] border border-white/[0.1] focus:border-[#63A4FF] rounded-lg text-xs text-white placeholder-slate-500 focus:outline-none transition-colors"
+                style={{ fontFamily: 'Inter, sans-serif' }}
+              />
+              {searchQuery && (
+                <button 
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-xs"
+                  aria-label="Limpar busca"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
           </div>
-        </div>
+        )}
+
+        {/* Barra de Busca quando hideHeader for true */}
+        {hideHeader && (
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <span className="rotulo-tecnico text-slate-400">FILTROS E PESQUISA</span>
+            <div className="relative w-full sm:w-80">
+              <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+              <input
+                type="text"
+                placeholder={t('projects.searchPlaceholder', 'Buscar projeto ou especificação...')}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full pl-10 pr-8 py-2.5 bg-[#121D31] border border-white/[0.1] focus:border-[#63A4FF] rounded-lg text-xs text-white placeholder-slate-500 focus:outline-none transition-colors"
+                style={{ fontFamily: 'Inter, sans-serif' }}
+              />
+              {searchQuery && (
+                <button 
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-xs"
+                  aria-label="Limpar busca"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Tipologias Oficiais (Filtros de Categoria) */}
         <div className="flex items-center gap-2 overflow-x-auto pb-2 -mx-4 px-4 sm:mx-0 sm:px-0">
@@ -105,7 +134,7 @@ export const PortfolioGrid = () => {
             {filteredProjects.map((project) => (
               <Link
                 key={project.id}
-                to={`/projeto/${project.id}`}
+                to={`/projects/${project.id}`}
                 className="card-chanfrado rounded-xl overflow-hidden group cursor-pointer flex flex-col justify-between block transition-all"
               >
                 <div>

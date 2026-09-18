@@ -1,11 +1,11 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
-export const AboutSection = () => {
+export const AboutSection = ({ hideHeader = false }) => {
   const { t } = useLanguage();
 
   return (
-    <section id="about" className="py-24 sm:py-32 bg-[#0A1326] relative border-t border-white/[0.07] overflow-hidden">
+    <section id="about" className={`${hideHeader ? 'py-6 sm:py-8' : 'py-24 sm:py-32'} bg-[#0A1326] relative ${hideHeader ? '' : 'border-t border-white/[0.07]'} overflow-hidden`}>
       {/* Camada Blueprint Sutil */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20 mix-blend-screen pointer-events-none"
@@ -13,20 +13,20 @@ export const AboutSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-[#0A1326] via-[#050D19]/90 to-[#0A1326] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
         
-        {/* Bloco 03 · Quem Assina */}
-        <div className="space-y-4">
-          <span className="rotulo-tecnico block">
-            {t('about.tag', '0 3 · Q U E M   A S S I N A')}
-          </span>
-          <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-            {t('about.titlePrefix', 'Direção criativa &')}{' '}
-            <span className="font-semibold text-[#63A4FF]">
-              {t('about.titleHighlight', 'visão sistêmica')}
+        {/* Cabeçalho de Seção (somente quando não estiver na página dedicada) */}
+        {!hideHeader && (
+          <div className="space-y-4">
+            <span className="rotulo-tecnico block">
+              {t('about.tag', 'L I D E R A N Ç A  T É C N I C A')}
             </span>
-          </h2>
-        </div>
+            <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
+              {t('about.titlePrefix', 'Conectando criação e produção:')}{' '}
+              <span className="font-semibold text-[#63A4FF]">Lucas Castro</span>
+            </h2>
+          </div>
+        )}
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           

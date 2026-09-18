@@ -1,11 +1,12 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
 import { Layers, Sliders, ChevronLeft, ChevronRight, CheckCircle2 } from 'lucide-react';
-import { defaultJuxtaposeCases } from '../data/juxtaposeCases';
+import { defaultComparativoCases } from '../data/comparativoCases';
 import { useLanguage } from '../context/LanguageContext';
 
-export const JuxtaposeViewer = ({
+export const ComparativoViewer = ({
   initialPosition = 50,
-  cases = defaultJuxtaposeCases
+  cases = defaultComparativoCases,
+  hideHeader = false
 }) => {
   const { t } = useLanguage();
   const [activeCaseIndex, setActiveCaseIndex] = useState(0);
@@ -17,19 +18,19 @@ export const JuxtaposeViewer = ({
 
   // Dynamic translated case info
   const caseTitle = activeCaseIndex === 0
-    ? t('juxtapose.slot1Title', activeCase.title)
-    : t('juxtapose.slot2Title', activeCase.title);
+    ? t('comparativo.slot1Title', activeCase.title)
+    : t('comparativo.slot2Title', activeCase.title);
 
   const caseDesc = activeCaseIndex === 0
-    ? t('juxtapose.slot1Desc', activeCase.description)
-    : t('juxtapose.slot2Desc', activeCase.description);
+    ? t('comparativo.slot1Desc', activeCase.description)
+    : t('comparativo.slot2Desc', activeCase.description);
 
   const caseSpecs = activeCaseIndex === 0
-    ? t('juxtapose.slot1Specs', activeCase.specs)
-    : t('juxtapose.slot2Specs', activeCase.specs);
+    ? t('comparativo.slot1Specs', activeCase.specs)
+    : t('comparativo.slot2Specs', activeCase.specs);
 
-  const beforeLabel = t('juxtapose.beforeLabel', activeCase.beforeLabel);
-  const afterLabel = t('juxtapose.afterLabel', activeCase.afterLabel);
+  const beforeLabel = t('comparativo.beforeLabel', activeCase.beforeLabel);
+  const afterLabel = t('comparativo.afterLabel', activeCase.afterLabel);
 
   const updatePosition = useCallback((clientX) => {
     if (!containerRef.current) return;
@@ -69,7 +70,7 @@ export const JuxtaposeViewer = ({
   };
 
   return (
-    <section id="comparativo-tecnico" className="py-24 sm:py-32 bg-[#0A1326] relative border-t border-white/[0.07] overflow-hidden">
+    <section id="comparativo-tecnico" className={`${hideHeader ? 'py-6 sm:py-8' : 'py-24 sm:py-32'} bg-[#0A1326] relative ${hideHeader ? '' : 'border-t border-white/[0.07]'} overflow-hidden`}>
       {/* Background blueprint subtle texture (opacidade 20-30% conforme manual) */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-screen pointer-events-none"
@@ -77,48 +78,76 @@ export const JuxtaposeViewer = ({
       />
       <div className="absolute inset-0 bg-gradient-to-b from-[#0A1326] via-[#0A1326]/90 to-[#050D19] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8">
         
-        {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-          <div className="space-y-2">
-            <span className="rotulo-tecnico block">
-              {t('juxtapose.tag', '0 3 · T E C N O L O G I A  J U X T A P O S E')}
-            </span>
-            <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-              {t('juxtapose.titlePrefix', 'Do 3D à realidade:')}{' '}
-              <span className="font-semibold text-[#63A4FF]">
-                {t('juxtapose.titleHighlight', 'fidelidade milimétrica')}
+        {/* Section Header (se não for página dedicada) */}
+        {!hideHeader && (
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div className="space-y-2">
+              <span className="rotulo-tecnico block">
+                {t('comparativo.tag', 'C O M P A R A T I V O  3 D  V S  R E A L')}
               </span>
-            </h2>
-            <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-              {t('juxtapose.subtitle', 'Mecanismo interativo de comparação técnica integrado ao projeto. Permite ao cliente inspecionar lado a lado a correspondência exata entre o modelo executivo 3D e o evento montado.')}
-            </p>
-          </div>
+              <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
+                {t('comparativo.titlePrefix', 'Do 3D à realidade:')}{' '}
+                <span className="font-semibold text-[#63A4FF]">
+                  {t('comparativo.titleHighlight', 'fidelidade milimétrica')}
+                </span>
+              </h2>
+              <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
+                {t('comparativo.subtitle', 'Mecanismo interativo de comparação técnica integrado ao projeto. Permite ao cliente inspecionar lado a lado a correspondência exata entre o modelo executivo 3D e o evento montado.')}
+              </p>
+            </div>
 
-          {/* Selector Buttons for Slots */}
-          <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start md:self-auto">
-            {cases.map((c, idx) => (
-              <button
-                key={c.id}
-                onClick={() => {
-                  setActiveCaseIndex(idx);
-                  setSliderPos(50);
-                }}
-                className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-all ${
-                  activeCaseIndex === idx
-                    ? 'bg-[#377BDB] text-white shadow-md'
-                    : 'text-slate-400 hover:text-white hover:bg-white/[0.04]'
-                }`}
-                style={{ fontFamily: 'Poppins, sans-serif' }}
-              >
-                Slot {idx + 1}: {c.category}
-              </button>
-            ))}
+            {/* Selector Buttons for Slots */}
+            <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start md:self-auto">
+              {cases.map((c, idx) => (
+                <button
+                  key={c.id}
+                  onClick={() => {
+                    setActiveCaseIndex(idx);
+                    setSliderPos(50);
+                  }}
+                  className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-all ${
+                    activeCaseIndex === idx
+                      ? 'bg-[#377BDB] text-white shadow-md'
+                      : 'text-slate-400 hover:text-white hover:bg-white/[0.04]'
+                  }`}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                >
+                  Slot {idx + 1}: {c.category}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
-        {/* Juxtapose Interactive Canvas */}
+        {/* Slot Selector em barra limpa quando hideHeader for true */}
+        {hideHeader && (
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <span className="rotulo-tecnico text-slate-400">CASES DISPONÍVEIS</span>
+            <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start sm:self-auto">
+              {cases.map((c, idx) => (
+                <button
+                  key={c.id}
+                  onClick={() => {
+                    setActiveCaseIndex(idx);
+                    setSliderPos(50);
+                  }}
+                  className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-all ${
+                    activeCaseIndex === idx
+                      ? 'bg-[#377BDB] text-white shadow-md'
+                      : 'text-slate-400 hover:text-white hover:bg-white/[0.04]'
+                  }`}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                >
+                  Slot {idx + 1}: {c.category}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Interactive Comparison Canvas */}
         <div className="card-chanfrado rounded-xl p-2 sm:p-4 bg-[#121D31] shadow-2xl relative">
           
           <div
@@ -130,7 +159,7 @@ export const JuxtaposeViewer = ({
             aria-valuenow={Math.round(sliderPos)}
             aria-valuemin={0}
             aria-valuemax={100}
-            aria-label="Controle deslizante Juxtapose de comparação entre modelagem 3D e evento real"
+            aria-label="Controle deslizante de comparação entre modelagem 3D e evento real"
             className="relative aspect-[16/10] sm:aspect-video w-full select-none overflow-hidden rounded-lg bg-[#050D19] cursor-ew-resize outline-none focus:ring-2 focus:ring-[#63A4FF]"
             style={{ touchAction: 'pan-y' }}
           >
@@ -203,7 +232,7 @@ export const JuxtaposeViewer = ({
             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 px-3.5 py-1 rounded-full bg-[#0A1326]/80 backdrop-blur-md text-[10px] text-slate-300 border border-white/[0.08] pointer-events-none flex items-center gap-1.5">
               <Sliders className="w-3 h-3 text-[#63A4FF]" />
               <span style={{ fontFamily: 'Inter, sans-serif' }}>
-                {t('juxtapose.dragHint', 'Arraste para comparar')}
+                {t('comparativo.dragHint', 'Arraste para comparar')}
               </span>
             </div>
           </div>

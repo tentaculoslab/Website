@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
-export const MethodSection = () => {
+export const MethodSection = ({ hideHeader = false }) => {
   const { t } = useLanguage();
 
   const frentes = [
@@ -32,7 +32,7 @@ export const MethodSection = () => {
   ];
 
   return (
-    <section id="metodo" className="py-24 sm:py-32 bg-[#050D19] relative border-t border-white/[0.07] overflow-hidden">
+    <section id="metodo" className={`${hideHeader ? 'py-6 sm:py-8' : 'py-24 sm:py-32'} bg-[#050D19] relative ${hideHeader ? '' : 'border-t border-white/[0.07]'} overflow-hidden`}>
       {/* Blueprint background texture */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20 mix-blend-screen pointer-events-none"
@@ -40,65 +40,65 @@ export const MethodSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-[#050D19] via-[#0A1326]/80 to-[#0A1326] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-16">
         
-        {/* Bloco 02 · Método */}
-        <div className="space-y-12">
-          <div className="space-y-2">
-            <span className="rotulo-tecnico block">
-              {t('method.tag', '0 2 · M É T O D O')}
-            </span>
-            <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-              {t('method.titlePrefix', 'Do briefing ao')}{' '}
-              <span className="font-semibold text-[#63A4FF]">
-                {t('method.titleHighlight', 'render aprovado')}
+        {/* Bloco Inicial do Método (se não estiver em página dedicada com hideHeader) */}
+        {!hideHeader && (
+          <div className="space-y-12">
+            <div className="space-y-2">
+              <span className="rotulo-tecnico block">
+                {t('method.tag', 'M E T O D O L O G I A')}
               </span>
-            </h2>
-            <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-              {t('method.subtitle', 'O cliente aprova vendo, não imaginando. Dividimos o projeto em 4 frentes que garantem precisão técnica e impacto visual.')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Etapa 1 */}
-            <div className="card-chanfrado p-6 sm:p-8 rounded-xl bg-[#121D31] space-y-4">
-              <span className="rotulo-tecnico text-[10px] text-[#63A4FF]">
-                0 1 · B R I E F I N G   E   C O N C E I T O
-              </span>
-              <h3 className="text-lg font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                {t('method.frente1Title', 'Conceito')} & Análise
-              </h3>
-              <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-                {t('method.frente1Desc', 'O trabalho começa pela análise do briefing, entendendo o propósito do projeto, o público, o espaço disponível, a identidade da marca, o orçamento e os resultados esperados.')}
+              <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
+                {t('method.titlePrefix', 'Do briefing ao')}{' '}
+                <span className="font-semibold text-[#63A4FF]">
+                  {t('method.titleHighlight', 'render aprovado')}
+                </span>
+              </h2>
+              <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
+                {t('method.subtitle', 'O cliente aprova vendo, não imaginando. Dividimos o projeto em 4 frentes que garantem precisão técnica e impacto visual.')}
               </p>
             </div>
 
-            {/* Etapa 2 */}
-            <div className="card-chanfrado p-6 sm:p-8 rounded-xl bg-[#121D31] space-y-4">
-              <span className="rotulo-tecnico text-[10px] text-[#63A4FF]">
-                0 2 · D E S E N V O L V I M E N T O
-              </span>
-              <h3 className="text-lg font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                {t('method.frente4Title', 'Projeto 3D')} & Detalhamento
-              </h3>
-              <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-                {t('method.frente4Desc', 'Modelagem e renders do evento montado — o cliente aprova vendo, não imaginando.')}
-              </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="card-chanfrado p-6 sm:p-8 rounded-xl bg-[#121D31] space-y-4">
+                <span className="rotulo-tecnico text-[10px] text-[#63A4FF]">
+                  B R I E F I N G   E   C O N C E I T O
+                </span>
+                <h3 className="text-lg font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                  {t('method.frente1Title', 'Conceito')} & Análise
+                </h3>
+                <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
+                  {t('method.frente1Desc', 'O trabalho começa pela análise do briefing, entendendo o propósito do projeto, o público, o espaço disponível, a identidade da marca, o orçamento e os resultados esperados.')}
+                </p>
+              </div>
+
+              <div className="card-chanfrado p-6 sm:p-8 rounded-xl bg-[#121D31] space-y-4">
+                <span className="rotulo-tecnico text-[10px] text-[#63A4FF]">
+                  D E S E N V O L V I M E N T O
+                </span>
+                <h3 className="text-lg font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                  {t('method.frente4Title', 'Projeto 3D')} & Detalhamento
+                </h3>
+                <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
+                  {t('method.frente4Desc', 'Modelagem e renders do evento montado — o cliente aprova vendo, não imaginando.')}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
-        {/* Bloco 04 · Escopo & Fundação do Projeto */}
-        <div className="space-y-12 pt-6">
+        {/* Frentes de Fundação e Entregas (sem tags numéricas confusas) */}
+        <div className="space-y-10">
           <div className="space-y-2">
             <span className="rotulo-tecnico block">
-              0 4 · E S C O P O
+              E S C O P O   E   E N T R E G A S
             </span>
-            <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-              Fundação <span className="font-semibold text-[#63A4FF]">do projeto</span>
+            <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
+              Fundação <span className="font-semibold text-[#63A4FF]">do projeto executivo</span>
             </h2>
             <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-              {t('method.subtitle', 'Quatro frentes que caminham juntas, do conceito ao arquivo técnico — cada uma com a sua entrega.')}
+              Quatro frentes que caminham juntas, do conceito à prancha técnica — cada uma com sua entrega formal descrita.
             </p>
           </div>
 
@@ -110,7 +110,7 @@ export const MethodSection = () => {
               >
                 <div className="space-y-3">
                   <span className="rotulo-tecnico text-base font-semibold text-[#63A4FF] block">
-                    {frente.num}
+                    Frente {frente.num}
                   </span>
                   <h3 className="text-base font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
                     {frente.title}

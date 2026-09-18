@@ -24,27 +24,27 @@
     "semantic_hash": "7cbeefab4f2efc977005ce32f4ebd6d8"
   },
   "src/App.jsx": {
-    "mtime": 1789761723.5456724,
-    "seen": 1789762161.3100662,
-    "ast_hash": "5f42aead01794da48cad20de21c6e55d",
+    "mtime": 1789764304.3859608,
+    "seen": 1789764765.3996832,
+    "ast_hash": "58392db76807ad6afcc704e8b79c8a65",
     "semantic_hash": ""
   },
   "src/components/AboutSection.jsx": {
-    "mtime": 1789761906.320534,
-    "seen": 1789762161.3100662,
-    "ast_hash": "8a5c00d4369887f77f4536323951914f",
+    "mtime": 1789764530.2750194,
+    "seen": 1789764765.3996832,
+    "ast_hash": "fc420e7c3830b93063a54a67f951aa27",
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1789761976.654792,
-    "seen": 1789762161.3100662,
-    "ast_hash": "141a574dfd2f3ba2607346d81e312045",
+    "mtime": 1789764327.7336855,
+    "seen": 1789764765.3996832,
+    "ast_hash": "59c84fc71e0465751718859508e8d583",
     "semantic_hash": ""
   },
   "src/components/Hero.jsx": {
-    "mtime": 1789761753.0346968,
-    "seen": 1789762161.3100662,
-    "ast_hash": "41e5790d1f6e31430f593251ce273787",
+    "mtime": 1789764405.4840443,
+    "seen": 1789764765.3996832,
+    "ast_hash": "e1ca3ed8351df6e834584eb637559037",
     "semantic_hash": ""
   },
   "src/components/HexPrismBackground.jsx": {
@@ -60,21 +60,21 @@
     "semantic_hash": ""
   },
   "src/components/Navbar.jsx": {
-    "mtime": 1789761737.4939122,
-    "seen": 1789762161.3100662,
-    "ast_hash": "6d63351f73529a4893713ac54374a65d",
+    "mtime": 1789764315.2982516,
+    "seen": 1789764765.3996832,
+    "ast_hash": "f300aabc9b6494df7ee292481d0e5ff0",
     "semantic_hash": ""
   },
   "src/components/PortfolioGrid.jsx": {
-    "mtime": 1789761838.8708358,
-    "seen": 1789762161.3100662,
-    "ast_hash": "477fa9c1e1c68f0bcaa198ba4ad8cf64",
+    "mtime": 1789764727.799602,
+    "seen": 1789764765.3996832,
+    "ast_hash": "6ae574e1785cc426ef7e13c51754d0df",
     "semantic_hash": ""
   },
   "src/components/ProjectEstimator.jsx": {
-    "mtime": 1789761945.937956,
-    "seen": 1789762161.3100662,
-    "ast_hash": "9413ab97a9c5388fc1f7fa0167e2e900",
+    "mtime": 1789764564.1942258,
+    "seen": 1789764765.3996832,
+    "ast_hash": "715032fa7ea66e2f5e8a6f6df582f9fc",
     "semantic_hash": ""
   },
   "src/components/ProjectModal.jsx": {
@@ -113,22 +113,10 @@
     "ast_hash": "7ab25efb594c96d9e55406853300f778",
     "semantic_hash": "7ab25efb594c96d9e55406853300f778"
   },
-  "src/components/JuxtaposeViewer.jsx": {
-    "mtime": 1789761773.4475791,
-    "seen": 1789762161.3100662,
-    "ast_hash": "3320770fdc4562e3b006d279848f48f9",
-    "semantic_hash": ""
-  },
   "src/components/MethodSection.jsx": {
-    "mtime": 1789761805.979149,
-    "seen": 1789762161.3100662,
-    "ast_hash": "fb7efbb86027b41e8e86f13e4f5b0e27",
-    "semantic_hash": ""
-  },
-  "src/data/juxtaposeCases.js": {
-    "mtime": 1789759839.8331704,
-    "seen": 1789760046.7138085,
-    "ast_hash": "d0164e3eeb75edb8a1c9b3bd5aed7088",
+    "mtime": 1789764500.4793615,
+    "seen": 1789764765.3996832,
+    "ast_hash": "8185c02bfab010ea53ea85be30841ff8",
     "semantic_hash": ""
   },
   ".agents/rules/agentic-web.md": {
@@ -234,9 +222,9 @@
     "semantic_hash": ""
   },
   "public/llms.txt": {
-    "mtime": 1789760966.1786523,
-    "seen": 1789761002.2543259,
-    "ast_hash": "1c6f58c37a1418cbd6558f96276ae361",
+    "mtime": 1789764619.0214796,
+    "seen": 1789764765.3996832,
+    "ast_hash": "3267ab6fe0db3b6e78c422bbe4564853",
     "semantic_hash": ""
   },
   "public/robots.txt": {
@@ -666,33 +654,27 @@
     "semantic_hash": ""
   },
   "src/pages/AboutPage.jsx": {
-    "mtime": 1789761915.5393972,
-    "seen": 1789762161.3100662,
-    "ast_hash": "4aca2ffc756cd223f87d72df6cc50354",
+    "mtime": 1789764543.4998245,
+    "seen": 1789764765.3996832,
+    "ast_hash": "807a9f83ae3c25b35ff07144b2078685",
     "semantic_hash": ""
   },
   "src/pages/BriefingPage.jsx": {
-    "mtime": 1789761953.1328478,
-    "seen": 1789762161.3100662,
-    "ast_hash": "a7f276e284583e34b9bf37aa5619973b",
+    "mtime": 1789764577.8399508,
+    "seen": 1789764765.3996832,
+    "ast_hash": "5eb6804f2bd35174b975ab1dad2e25b3",
     "semantic_hash": ""
   },
   "src/pages/HomePage.jsx": {
-    "mtime": 1789762008.9376712,
-    "seen": 1789762161.3100662,
-    "ast_hash": "e8ca91c1d40f01c5e88e344aee58b1dd",
-    "semantic_hash": ""
-  },
-  "src/pages/JuxtaposePage.jsx": {
-    "mtime": 1789761785.5027606,
-    "seen": 1789762161.3100662,
-    "ast_hash": "6012ebd6604b25db4f879303eab9b1a6",
+    "mtime": 1789764748.831528,
+    "seen": 1789764765.3996832,
+    "ast_hash": "851b7a2f71debce6fe9682b5f456b650",
     "semantic_hash": ""
   },
   "src/pages/MethodPage.jsx": {
-    "mtime": 1789761817.4173243,
-    "seen": 1789762161.3100662,
-    "ast_hash": "fa1d740630040df29d5a1c182a95d61b",
+    "mtime": 1789764512.9297216,
+    "seen": 1789764765.3996832,
+    "ast_hash": "3fe61b55a35d9ed696cbc5216fe9a920",
     "semantic_hash": ""
   },
   "src/pages/NotFoundPage.jsx": {
@@ -702,15 +684,15 @@
     "semantic_hash": ""
   },
   "src/pages/ProjectDetailPage.jsx": {
-    "mtime": 1789761889.0537777,
-    "seen": 1789762161.3100662,
-    "ast_hash": "c136b68c3f0eeaf012aeefd6d8490024",
+    "mtime": 1789764590.670051,
+    "seen": 1789764765.3996832,
+    "ast_hash": "8dcc1c56a6654155a41202db00dbb694",
     "semantic_hash": ""
   },
   "src/pages/ProjectsPage.jsx": {
-    "mtime": 1789761858.107206,
-    "seen": 1789762161.3100662,
-    "ast_hash": "85e26bc99c12f8db9e7eb2a235e70998",
+    "mtime": 1789764440.402825,
+    "seen": 1789764765.3996832,
+    "ast_hash": "55bcac5e6a301e86a4463fa0e9dd3975",
     "semantic_hash": ""
   },
   "src/components/LanguageSelector.jsx": {
@@ -726,9 +708,27 @@
     "semantic_hash": ""
   },
   "src/i18n/translations.js": {
-    "mtime": 1789762073.5226395,
-    "seen": 1789762161.3100662,
-    "ast_hash": "7815c500067d05071e60eaba0488659e",
+    "mtime": 1789764272.2753353,
+    "seen": 1789764765.3996832,
+    "ast_hash": "10e72c0ede108847044efca6f441fe28",
+    "semantic_hash": ""
+  },
+  "src/components/ComparativoViewer.jsx": {
+    "mtime": 1789764470.94338,
+    "seen": 1789764765.3996832,
+    "ast_hash": "f07671152c9aa9b80ec81673927aa595",
+    "semantic_hash": ""
+  },
+  "src/data/comparativoCases.js": {
+    "mtime": 1789764682.907866,
+    "seen": 1789764765.3996832,
+    "ast_hash": "971b13dee64febe61adaad85ae6f80ce",
+    "semantic_hash": ""
+  },
+  "src/pages/ComparativoPage.jsx": {
+    "mtime": 1789764480.5222707,
+    "seen": 1789764765.3996832,
+    "ast_hash": "11318583470cc8d26d16323fdf69d1c2",
     "semantic_hash": ""
   }
 }

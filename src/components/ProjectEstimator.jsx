@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { useLanguage } from '../context/LanguageContext';
 
-export const ProjectEstimator = () => {
+export const ProjectEstimator = ({ hideHeader = false }) => {
   const { t, language } = useLanguage();
   const [projectType, setProjectType] = useState('Palcos');
   const [formData, setFormData] = useState({
@@ -46,7 +46,7 @@ export const ProjectEstimator = () => {
   };
 
   return (
-    <section id="contato" className="py-24 sm:py-32 bg-[#050D19] relative border-t border-white/[0.07] overflow-hidden">
+    <section id="contato" className={`${hideHeader ? 'py-6 sm:py-8' : 'py-24 sm:py-32'} bg-[#050D19] relative ${hideHeader ? '' : 'border-t border-white/[0.07]'} overflow-hidden`}>
       {/* Camada Blueprint Sutil */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-15 mix-blend-screen pointer-events-none"
@@ -56,21 +56,23 @@ export const ProjectEstimator = () => {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
         
-        {/* Header */}
-        <div className="text-center max-w-2xl mx-auto space-y-3">
-          <span className="rotulo-tecnico block">
-            {t('briefing.tag', '0 5 · B R I E F I N G   &   C O N T A T O')}
-          </span>
-          <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
-            {t('briefing.titlePrefix', 'Inicie a fundação do')}{' '}
-            <span className="font-semibold text-[#63A4FF]">
-              {t('briefing.titleHighlight', 'seu projeto')}
+        {/* Header (se não for página dedicada) */}
+        {!hideHeader && (
+          <div className="text-center max-w-2xl mx-auto space-y-3">
+            <span className="rotulo-tecnico block">
+              {t('briefing.tag', 'B R I E F I N G  T É C N I C O')}
             </span>
-          </h2>
-          <p className="text-slate-400 text-sm font-light leading-relaxed">
-            {t('briefing.subtitle', 'Compartilhe as diretrizes do seu evento para direcionamento criativo, layout em escala e modelagem 3D executável.')}
-          </p>
-        </div>
+            <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
+              {t('briefing.titlePrefix', 'Inicie a fundação do')}{' '}
+              <span className="font-semibold text-[#63A4FF]">
+                {t('briefing.titleHighlight', 'seu projeto')}
+              </span>
+            </h2>
+            <p className="text-slate-400 text-sm font-light leading-relaxed">
+              {t('briefing.subtitle', 'Compartilhe as diretrizes do seu evento para direcionamento criativo, layout em escala e modelagem 3D executável.')}
+            </p>
+          </div>
+        )}
 
         {/* Card do Formulário */}
         <div className="card-chanfrado rounded-2xl p-6 sm:p-10 bg-[#121D31] shadow-2xl space-y-8">

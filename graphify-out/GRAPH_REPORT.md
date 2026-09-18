@@ -1,17 +1,17 @@
 # Graph Report - Tentaculos Lab  (2026-09-18)
 
 ## Corpus Check
-- 53 files · ~1,054,653 words
+- 53 files · ~1,056,046 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: .css 2, (none) 1, .lock 1)
 
 ## Summary
-- 281 nodes · 464 edges · 21 communities (16 shown, 5 thin omitted)
+- 281 nodes · 460 edges · 19 communities (14 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.95)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7683e16b`
+- Built from commit: `c93322da`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,26 +29,24 @@
 - 🚀 Fluxo de Trabalho, Git e Deploy — Tentáculos Lab
 - 🔍 Diretrizes de SEO & Rankeamento no Google — Tentáculos Lab
 - 🏛️ Arquitetura do Sistema — Tentáculos Lab
-- main.jsx
 - UI & Design System Guidelines — Tentáculos Lab
 - Protocolo de Sincronização Contínua de Metadados (JSON-LD & Rich Snippets)
 - agentic-web.md
 - rules/graphify.md
 - seo-ranking.md
 - workflows/graphify.md
-- devDependencies
 
 ## God Nodes (most connected - your core abstractions)
 1. `useLanguage()` - 39 edges
 2. `react` - 30 edges
 3. `lucide-react` - 14 edges
-4. `react-router-dom` - 11 edges
-5. `SEOHead()` - 9 edges
-6. `usePortfolio()` - 9 edges
+4. `react-router-dom` - 12 edges
+5. `usePortfolio()` - 11 edges
+6. `SEOHead()` - 9 edges
 7. `📘 Manual de Identidade Visual e Guia Técnico de Marca` - 9 edges
 8. `🐙 Tentáculos Lab — Website & Portfólio Imersivo` - 8 edges
 9. `🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab` - 8 edges
-10. `⚡ Manual Técnico de Core Web Vitals (Nota Máxima) — Tentáculos Lab` - 7 edges
+10. `WhatsAppIcon()` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `4.3. Fallback Gracioso de Alta Definição (HD 360° Orbit)` --references--> `Interactive3DViewer()`  [INFERRED]
@@ -65,15 +63,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (21 total, 5 thin omitted)
+## Communities (19 total, 5 thin omitted)
 
 ### Community 0 - "package.json"
-Cohesion: 0.07
-Nodes (29): Diretrizes de Core Web Vitals (Não-Negociável) — Tentáculos Lab, name, private, scripts, build, dev, lint, preview (+21 more)
+Cohesion: 0.05
+Nodes (38): Diretrizes de Core Web Vitals (Não-Negociável) — Tentáculos Lab, devDependencies, oxlint, tailwindcss, @tailwindcss/vite, @types/bun, @types/react, @types/react-dom (+30 more)
 
 ### Community 1 - "useLanguage"
-Cohesion: 0.12
-Nodes (33): lucide-react, react, AboutPage, BriefingPage, HomePage, JuxtaposePage, MethodPage, NotFoundPage (+25 more)
+Cohesion: 0.10
+Nodes (37): lucide-react, react, ref_react_dom_client, AboutPage, App(), BriefingPage, ComparativoPage, HomePage (+29 more)
 
 ### Community 2 - "dependencies"
 Cohesion: 0.13
@@ -88,8 +86,8 @@ Cohesion: 0.08
 Nodes (21): 🎯 1. O que é um Website Agêntico?, 🏗️ 2. Pilares da Arquitetura Agêntica do Tentáculos Lab, 📄 3. Padrão `llms.txt` e `llms-full.txt` (Answer.AI Standard), 🔌 4. Endpoints de Dados Legíveis por Máquina (`/api/`), 🔍 5. Schema.org e Dados Estruturados em JSON-LD (`index.html`), 🤖 6. Permissões de Crawlers no `robots.txt`, ✅ 7. Protocolo de Revisitação Contínua de Dados (JSON-LD & Rich Snippets), 🤖 Diretrizes de Desenvolvimento Web Agêntica & GEO — Tentáculos Lab (+13 more)
 
 ### Community 5 - "Layout.jsx"
-Cohesion: 0.14
-Nodes (15): react-router-dom, three, AdminDashboard(), Footer(), HexPrismBackground(), AdminDashboard, Layout(), ProjectModal (+7 more)
+Cohesion: 0.15
+Nodes (14): react-router-dom, three, AdminDashboard(), Footer(), HexPrismBackground(), AdminDashboard, ProjectModal, ProjectModal() (+6 more)
 
 ### Community 6 - "📘 Manual de Identidade Visual e Guia Técnico de Marca"
 Cohesion: 0.10
@@ -119,17 +117,9 @@ Nodes (10): 🎯 1. Matriz de Palavras-Chave Estratégicas, 2.1. Hierarquia de T
 Cohesion: 0.22
 Nodes (8): 🧭 1. Visão Geral da Arquitetura, 📦 2. Camada de Estado Global (`PortfolioContext`), 3.1. `HexPrismBackground.jsx` (Cenário de Fundo 3D), 3.2. `Interactive3DViewer.jsx` (Visualizador 3D do Projeto), 3.3. `ProjectEstimator.jsx` (Calculadora Interativa), 🎨 3. Módulos & Componentes Principais, ⚡ 4. Pipeline de Assets e Mídia, 🏛️ Arquitetura do Sistema — Tentáculos Lab
 
-### Community 13 - "main.jsx"
-Cohesion: 0.50
-Nodes (3): ref_react_dom_client, App(), src_index
-
 ### Community 14 - "UI & Design System Guidelines — Tentáculos Lab"
 Cohesion: 0.33
 Nodes (5): 1. Cores Oficiais da Marca, 2. Tipografia Oficial & Hierarquia, 3. Elementos Gráficos & Estruturais, 4. Espaçamento & Whitespace, UI & Design System Guidelines — Tentáculos Lab
-
-### Community 20 - "devDependencies"
-Cohesion: 0.22
-Nodes (9): devDependencies, oxlint, tailwindcss, @tailwindcss/vite, @types/bun, @types/react, @types/react-dom, vite (+1 more)
 
 ## Knowledge Gaps
 - **138 isolated node(s):** `$schema`, `plugins`, `react/rules-of-hooks`, `react/only-export-components`, `name` (+133 more)
@@ -144,12 +134,12 @@ _Questions this graph is uniquely positioned to answer:_
 - **What connects `$schema`, `plugins`, `react/rules-of-hooks` to the rest of the system?**
   _138 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.06628787878787878 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05110336817653891 - nodes in this community are weakly interconnected._
 - **Should `useLanguage` be split into smaller, more focused modules?**
-  _Cohesion score 0.11558441558441558 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09672131147540984 - nodes in this community are weakly interconnected._
 - **Should `dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
 - **Should `README.md` be split into smaller, more focused modules?**
   _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Layout.jsx` be split into smaller, more focused modules?**
-  _Cohesion score 0.1383399209486166 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1471861471861472 - nodes in this community are weakly interconnected._

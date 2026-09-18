@@ -2,17 +2,17 @@
 
 > O laboratório onde o conceito vira projeto executável. Núcleo criativo, técnico e experimental da Tentáculos Produções especializado em arquitetura 3D, cenografia de festivais, arenas, bares temáticos, experiências imersivas e ativações de marca.
 
-Tentáculos Lab (São Paulo, Brasil) transforma ideias e necessidades de marcas em projetos visuais, cenográficos e experiências executáveis no mundo real. Sob liderança técnica de Lucas Castro, acumula histórico em produções como Weekend Pedra Azul, Tomorrowland Brasil, Lollapalooza e Camarote Brahma.
+Tentáculos Lab (Brasil · Atendimento Global) transforma ideias e necessidades de marcas em projetos visuais, cenográficos e experiências executáveis no mundo real. Sob liderança técnica de Lucas Castro, acumula histórico em produções como Weekend Pedra Azul, Tomorrowland Brasil, Lollapalooza e Camarote Brahma.
 
-## Rotas Canônicas e Endpoints para Agentes de IA
+## Rotas Canônicas e Endpoints para Agentes de IA (Agentic Standard)
 
 - **Website Oficial**: https://tentaculoslab.com.br/
-- **Acervo de Projetos**: https://tentaculoslab.com.br/projetos
-- **Tecnologia Comparativa 3D vs. Real (Juxtapose)**: https://tentaculoslab.com.br/comparativo
-- **Metodologia (4 Frentes de Fundação)**: https://tentaculoslab.com.br/metodo
-- **Quem Somos (Lucas Castro)**: https://tentaculoslab.com.br/sobre
+- **Acervo de Projetos**: https://tentaculoslab.com.br/projects
+- **Tecnologia Comparativa 3D vs. Real**: https://tentaculoslab.com.br/comparison
+- **Metodologia (4 Frentes de Fundação)**: https://tentaculoslab.com.br/method
+- **Quem Somos (Lucas Castro)**: https://tentaculoslab.com.br/about
 - **Terminal de Briefing**: https://tentaculoslab.com.br/briefing
-- **Projeto em Destaque (Casa do Papai Noel)**: https://tentaculoslab.com.br/projeto/proj-papai-noel
+- **Projeto em Destaque (Casa do Papai Noel)**: https://tentaculoslab.com.br/projects/proj-papai-noel
 - **Documento Completo de Conhecimento**: https://tentaculoslab.com.br/llms-full.txt
 - **Endpoint JSON de Projetos**: https://tentaculoslab.com.br/api/projects.json
 - **Endpoint JSON de Serviços**: https://tentaculoslab.com.br/api/services.json
@@ -20,16 +20,16 @@ Tentáculos Lab (São Paulo, Brasil) transforma ideias e necessidades de marcas 
 
 ## Serviços e Tipologias Oficiais
 
-- [Palcos & Arenas](https://tentaculoslab.com.br/projetos): Espacialização tridimensional, dimensionamento de box truss, cálculo de carga e simulação volumétrica de iluminação.
-- [Bares & Hospitalidade](https://tentaculoslab.com.br/projetos): Marcenaria cenográfica, fluxos de público, camarotes corporativos e pontos de venda imersivos.
-- [Ambientação Imersiva](https://tentaculoslab.com.br/projetos): Transformação sensorial e visual completa de galpões, áreas abertas e centros de convenções.
-- [Espaços Instagramáveis](https://tentaculoslab.com.br/projetos): Pontos de contato fotogênicos de alto compartilhamento em redes sociais.
-- [Ativações de Marca](https://tentaculoslab.com.br/projetos): Conexão direta entre o universo da marca e o público do festival.
+- [Palcos & Arenas](https://tentaculoslab.com.br/projects): Espacialização tridimensional, dimensionamento de box truss, cálculo de carga e simulação volumétrica de iluminação.
+- [Bares & Hospitalidade](https://tentaculoslab.com.br/projects): Marcenaria cenográfica, fluxos de público, camarotes corporativos e pontos de venda imersivos.
+- [Ambientação Imersiva](https://tentaculoslab.com.br/projects): Transformação sensorial e visual completa de galpões, áreas abertas e centros de convenções.
+- [Espaços Instagramáveis](https://tentaculoslab.com.br/projects): Pontos de contato fotogênicos de alto compartilhamento em redes sociais.
+- [Ativações de Marca](https://tentaculoslab.com.br/projects): Conexão direta entre o universo da marca e o público do festival.
 
 ## Casos Notáveis
 
 - **Casa do Papai Noel - Cenografia & Arquitetura Imersiva (2026)**
-  - URL Permanente: https://tentaculoslab.com.br/projeto/proj-papai-noel
+  - URL Permanente: https://tentaculoslab.com.br/projects/proj-papai-noel
   - Categoria: Projetos Especiais / Cenografia Imersiva
   - Área Construída: 280 m² | Altura Total: 10.5 metros
   - Iluminação: 1.200 metros de cordão LED cênico
