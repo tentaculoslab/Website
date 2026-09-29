@@ -1,5 +1,7 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { MethodSection } from '../components/MethodSection';
+import { CinematicConcertScroll } from '../components/CinematicConcertScroll';
 import { SEOHead } from '../components/SEOHead';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -17,46 +19,72 @@ export const MethodPage = () => {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 space-y-3">
-        <span className="rotulo-tecnico block">
-          {t('method.tag', 'M E T O D O L O G I A')}
-        </span>
-        <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
+        <motion.span 
+          initial={{ opacity: 0, y: -8 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="rotulo-tecnico block text-[#63A4FF]"
+        >
+          {t('method.tag', 'METODOLOGIA')}
+        </motion.span>
+        <motion.h1 
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.05 }}
+          className="text-3xl sm:text-5xl font-light text-white tracking-tight" 
+          style={{ fontFamily: 'Poppins, sans-serif' }}
+        >
           {t('method.titlePrefix', 'Do briefing ao render aprovado:')}{' '}
           <span className="font-semibold text-[#63A4FF]">
             {t('method.titleHighlight', 'o método')}
           </span>
-        </h1>
-        <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
+        </motion.h1>
+        <motion.p 
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.1 }}
+          className="text-slate-300 text-sm max-w-2xl font-light leading-relaxed"
+        >
           {t('method.subtitle', 'Dividimos o desenvolvimento do projeto em 4 frentes de fundação interconectadas para garantir previsibilidade de custos, viabilidade técnica e impacto visual inconfundível.')}
-        </p>
+        </motion.p>
       </div>
 
       <MethodSection hideHeader={true} />
 
+      {/* Evolução Cinemática de Palco (21st.dev Style Stage Scroll) */}
+      <CinematicConcertScroll />
+
       {/* CTA para Iniciar Briefing */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 text-center">
-        <div className="card-chanfrado p-8 sm:p-12 rounded-2xl bg-[#121D31] max-w-3xl mx-auto space-y-4">
-          <span className="rotulo-tecnico">{t('method.ctaBoxTitle', 'PRONTO PARA APLICAR ESSE MÉTODO NO SEU EVENTO?')}</span>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="card-chanfrado p-8 sm:p-12 rounded-2xl bg-[#121D31] max-w-3xl mx-auto space-y-4 border border-[#377BDB]/30 shadow-2xl"
+        >
+          <span className="rotulo-tecnico text-[#63A4FF]">{t('method.ctaBoxTitle', 'PRONTO PARA APLICAR ESSE MÉTODO NO SEU EVENTO?')}</span>
           <h2 className="text-2xl sm:text-3xl font-light text-white" style={{ fontFamily: 'Poppins, sans-serif' }}>
             {t('method.ctaBoxHeadingPrefix', 'Transforme seu briefing em um')}{' '}
             <span className="font-semibold text-[#63A4FF]">
               {t('method.ctaBoxHeadingHighlight', 'projeto executável')}
             </span>
           </h2>
-          <p className="text-slate-400 text-xs sm:text-sm font-light leading-relaxed max-w-xl mx-auto">
+          <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed max-w-xl mx-auto">
             {t('method.ctaBoxDesc', 'Envie as necessidades da sua marca ou produção diretamente para Lucas Castro e inicie a concepção 3D com precisão técnica.')}
           </p>
-          <div className="pt-2">
-            <Link
-              to="/briefing"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded bg-[#377BDB] hover:bg-[#4391FC] text-white text-xs font-medium uppercase tracking-wider transition-all shadow-lg"
-              style={{ fontFamily: 'Poppins, sans-serif' }}
-            >
-              <span>{t('method.ctaBoxBtn', 'Preencher Briefing Técnico')}</span>
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+          <div className="pt-2 flex justify-center">
+            <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+              <Link
+                to="/briefing"
+                className="inline-flex items-center gap-2 px-7 py-3.5 rounded bg-[#377BDB] hover:bg-[#4391FC] text-white text-xs font-semibold uppercase tracking-wider transition-colors shadow-lg shadow-[#377BDB]/25"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
+              >
+                <span>{t('method.ctaBoxBtn', 'Preencher Briefing Técnico')}</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

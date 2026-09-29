@@ -17,7 +17,7 @@ export const AboutPage = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 space-y-3">
         <span className="rotulo-tecnico block">
-          {t('about.tag', 'L I D E R A N Ç A  T É C N I C A')}
+          {t('about.tag', 'LIDERANÇA TÉCNICA')}
         </span>
         <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
           {t('about.titlePrefix', 'Conectando criação e produção:')}{' '}

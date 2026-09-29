@@ -16,7 +16,7 @@ export const ProjectsPage = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 space-y-3">
         <span className="rotulo-tecnico block">
-          {t('projects.pageTag', 'A C E R V O  T É C N I C O')}
+          {t('projects.pageTag', 'ACERVO TÉCNICO')}
         </span>
         <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
           {t('projects.pageTitlePrefix', 'Projetos cenográficos:')}{' '}

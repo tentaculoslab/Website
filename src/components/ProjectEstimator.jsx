@@ -20,7 +20,8 @@ export const ProjectEstimator = ({ hideHeader = false }) => {
     { key: 'Bares', label: language === 'en' ? 'Bars' : language === 'es' ? 'Bares' : 'Bares' },
     { key: 'Ambientação', label: language === 'en' ? 'Ambiance' : language === 'es' ? 'Ambientación' : 'Ambientação' },
     { key: 'Instagramáveis', label: language === 'en' ? 'Photo Spots' : language === 'es' ? 'Instagramables' : 'Instagramáveis' },
-    { key: 'Ativação de Marcas', label: language === 'en' ? 'Brand Activation' : language === 'es' ? 'Activación' : 'Ativação de Marcas' }
+    { key: 'Ativação de Marcas', label: language === 'en' ? 'Brand Activation' : language === 'es' ? 'Activación' : 'Ativação de Marcas' },
+    { key: 'Evento completo', label: language === 'en' ? 'Full Event' : language === 'es' ? 'Evento completo' : 'Evento completo' }
   ];
 
   const handleSubmit = (e) => {
@@ -60,7 +61,7 @@ export const ProjectEstimator = ({ hideHeader = false }) => {
         {!hideHeader && (
           <div className="text-center max-w-2xl mx-auto space-y-3">
             <span className="rotulo-tecnico block">
-              {t('briefing.tag', 'B R I E F I N G  T É C N I C O')}
+              {t('briefing.tag', 'BRIEFING TÉCNICO')}
             </span>
             <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
               {t('briefing.titlePrefix', 'Inicie a fundação do')}{' '}
@@ -84,7 +85,7 @@ export const ProjectEstimator = ({ hideHeader = false }) => {
               <label className="rotulo-tecnico text-[10px] text-slate-300 block">
                 {t('briefing.selectTypology', 'SELECIONE A TIPOLOGIA PRINCIPAL')}
               </label>
-              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2">
                 {tiposDisponiveis.map((item) => (
                   <button
                     type="button"

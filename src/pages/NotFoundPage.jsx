@@ -16,7 +16,7 @@ export const NotFoundPage = () => {
       />
 
       <span className="rotulo-tecnico block text-[#63A4FF]">
-        {t('notFound.tag', '4 0 4 · E R R O  D E  C O O R D E N A D A')}
+        {t('notFound.tag', '404 · ERRO DE COORDENADA')}
       </span>
 
       <h1 className="text-3xl sm:text-5xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>

@@ -19,6 +19,7 @@
     font-weight: 500;
     font-size: 11px;
     letter-spacing: 0.22em;
+    word-spacing: 0.45em;
     text-transform: uppercase;
     color: #63A4FF;
   }
@@ -96,4 +97,34 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #377BDB;
+}
+
+/* 21st.dev Kinetic Animations & Micro-Interactions */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes laser-sweep {
+  0%, 100% { transform: rotate(-25deg) translateY(-10%); opacity: 0.2; }
+  50% { transform: rotate(25deg) translateY(10%); opacity: 0.6; }
+}
+
+.animate-laser-sweep {
+  animation: laser-sweep 8s ease-in-out infinite;
+}
+
+/* 3D Perspective Card Container */
+.perspective-1000 {
+  perspective: 1000px;
 }

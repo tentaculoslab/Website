@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
-import { HexPrismBackground } from './HexPrismBackground';
+import { ScenicBlueprintBackground } from './ScenicBlueprintBackground';
 import { ScrollToTop } from './ScrollToTop';
 
 const ProjectModal = lazy(() => import('./ProjectModal').then(m => ({ default: m.ProjectModal })));
@@ -14,8 +14,8 @@ export const Layout = () => {
       {/* Scroll restoration on route change */}
       <ScrollToTop />
 
-      {/* Procedural 3D Blueprint Background */}
-      <HexPrismBackground />
+      {/* Background Arquitetônico & Blueprint Cênico Oficial */}
+      <ScenicBlueprintBackground />
 
       {/* Main App Container */}
       <div className="relative z-10 flex flex-col min-h-screen">

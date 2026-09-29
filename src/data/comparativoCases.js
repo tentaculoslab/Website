@@ -10,29 +10,42 @@
 
 export const defaultComparativoCases = [
   {
-    id: 'slot-tecnico-01',
-    isPlaceholder: true,
-    title: 'Slot Técnico 01 · Inspeção Estrutural & Cenográfica',
-    category: 'Comparativo 3D vs Real',
-    description: 'Demonstração ativa da tecnologia de comparação milimétrica entre projeto executivo 3D e montagem real. Arraste a barra para inspecionar a fidelidade.',
+    id: 'slot-palco-festival',
+    isPlaceholder: false,
+    title: 'Palco Principal de Festival · Elevação e Rigging Cênico',
+    category: 'Palcos & Arenas',
+    description: 'Inspeção comparativa da conformidade dimensional entre a malha tridimensional de treliças estruturais (CAD 3D) e o palco montado em escala real com iluminação cênica ativa.',
     beforeImage: '/backgrounds/stage-truss-elevation.jpg',
     beforeLabel: 'MODELAGEM 3D (IDEALIZADO)',
-    afterImage: '/backgrounds/truss-rigging-cad.jpg',
+    afterImage: '/backgrounds/stage-lighting-platform.jpg',
     afterLabel: 'EVENTO REAL (EXECUTADO)',
-    specs: 'Tecnologia Pronta · Aguardando fotos oficiais do cliente',
-    status: 'Comparador Ativo'
+    specs: 'Área: 420m² · Carga de Rigging: 18 Toneladas · Painéis LED P3.9: 180m²',
+    status: '100% Fidelidade Estrutural'
   },
   {
-    id: 'slot-tecnico-02',
-    isPlaceholder: true,
-    title: 'Slot Técnico 02 · Ativação & Ambientação',
-    category: 'Slot Reservado',
-    description: 'Espaço pré-configurado no sistema de comparação para inclusão imediata do segundo case oficial de cenografia ou ativação.',
-    beforeImage: '/backgrounds/portal-mobile.jpg',
+    id: 'slot-bar-cenografico',
+    isPlaceholder: false,
+    title: 'Lounge VIP & Bar Imersivo · Ambientação e Mobiliário',
+    category: 'Bares & Hospitalidade',
+    description: 'Comparação técnica entre a volumetria espacial 3D parametrizada do bar temático e a execução física com acabamentos, iluminação arquitetural e fluxo de atendimento.',
+    beforeImage: '/backgrounds/truss-rigging-cad.jpg',
     beforeLabel: 'MODELAGEM 3D (IDEALIZADO)',
-    afterImage: '/backgrounds/ambientacao-lounge.jpg',
+    afterImage: '/backgrounds/spotlight-truss.jpg',
     afterLabel: 'EVENTO REAL (EXECUTADO)',
-    specs: 'Resolução recomendada: 1920x1080 (16:9)',
-    status: 'Aguardando Ativos'
+    specs: 'Frente de Balcão: 24m · Módulos Estruturados: 8 · Iluminação Integrada',
+    status: '100% Fidelidade Executiva'
+  },
+  {
+    id: 'slot-portico-ativacao',
+    isPlaceholder: false,
+    title: 'Pórtico de Entrada Monumental · Arquitetura Efêmera',
+    category: 'Ativação & Fachadas',
+    description: 'Avaliação milimétrica do pórtico cenográfico de entrada: da maquete executiva 3D com eixos e volumetria à fabricação física e montagem no festival.',
+    beforeImage: '/backgrounds/logo-origin-3d.jpg',
+    beforeLabel: 'MODELAGEM 3D (IDEALIZADO)',
+    afterImage: '/cases/case-fachada-cenografia.jpg',
+    afterLabel: 'EVENTO REAL (EXECUTADO)',
+    specs: 'Vão Livre: 14 metros · Altura: 8.5 metros · Compatibilidade Estrutural Total',
+    status: '100% Fidelidade de Montagem'
   }
 ];

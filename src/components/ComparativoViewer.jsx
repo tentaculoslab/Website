@@ -1,4 +1,5 @@
 import React, { useState, useRef, useCallback, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Layers, Sliders, ChevronLeft, ChevronRight, CheckCircle2 } from 'lucide-react';
 import { defaultComparativoCases } from '../data/comparativoCases';
 import { useLanguage } from '../context/LanguageContext';
@@ -12,25 +13,32 @@ export const ComparativoViewer = ({
   const [activeCaseIndex, setActiveCaseIndex] = useState(0);
   const [sliderPos, setSliderPos] = useState(initialPosition);
   const [isDragging, setIsDragging] = useState(false);
+  const [containerWidth, setContainerWidth] = useState(0);
   const containerRef = useRef(null);
 
   const activeCase = cases[activeCaseIndex] || cases[0];
 
-  // Dynamic translated case info
-  const caseTitle = activeCaseIndex === 0
-    ? t('comparativo.slot1Title', activeCase.title)
-    : t('comparativo.slot2Title', activeCase.title);
+  // Informações dinâmicas do case selecionado
+  const caseTitle = activeCase.title;
+  const caseDesc = activeCase.description;
+  const caseSpecs = activeCase.specs;
 
-  const caseDesc = activeCaseIndex === 0
-    ? t('comparativo.slot1Desc', activeCase.description)
-    : t('comparativo.slot2Desc', activeCase.description);
+  const beforeLabel = activeCase.beforeLabel || t('comparativo.beforeLabel', 'MODELAGEM 3D (IDEALIZADO)');
+  const afterLabel = activeCase.afterLabel || t('comparativo.afterLabel', 'EVENTO REAL (EXECUTADO)');
 
-  const caseSpecs = activeCaseIndex === 0
-    ? t('comparativo.slot1Specs', activeCase.specs)
-    : t('comparativo.slot2Specs', activeCase.specs);
-
-  const beforeLabel = t('comparativo.beforeLabel', activeCase.beforeLabel);
-  const afterLabel = t('comparativo.afterLabel', activeCase.afterLabel);
+  // Atualização precisa da largura do container para evitar achatamento da imagem 3D cortada
+  useEffect(() => {
+    if (!containerRef.current) return;
+    const updateWidth = () => {
+      if (containerRef.current) {
+        setContainerWidth(containerRef.current.clientWidth);
+      }
+    };
+    updateWidth();
+    const observer = new ResizeObserver(updateWidth);
+    observer.observe(containerRef.current);
+    return () => observer.disconnect();
+  }, []);
 
   const updatePosition = useCallback((clientX) => {
     if (!containerRef.current) return;
@@ -70,7 +78,7 @@ export const ComparativoViewer = ({
   };
 
   return (
-    <section id="comparativo-tecnico" className={`${hideHeader ? 'py-6 sm:py-8' : 'py-24 sm:py-32'} bg-[#0A1326] relative ${hideHeader ? '' : 'border-t border-white/[0.07]'} overflow-hidden`}>
+    <section id="comparativo-tecnico" className={`${hideHeader ? 'py-6 sm:py-8' : 'py-20 sm:py-28'} bg-[#0A1326] relative ${hideHeader ? '' : 'border-t border-white/[0.07]'} overflow-hidden`}>
       {/* Background blueprint subtle texture (opacidade 20-30% conforme manual) */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-screen pointer-events-none"
@@ -84,38 +92,39 @@ export const ComparativoViewer = ({
         {!hideHeader && (
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div className="space-y-2">
-              <span className="rotulo-tecnico block">
-                {t('comparativo.tag', 'C O M P A R A T I V O  3 D  V S  R E A L')}
+              <span className="rotulo-tecnico block text-[#63A4FF]">
+                {t('comparativo.tag', 'COMPARATIVO 3D VS REAL')}
               </span>
-              <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
+              <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 {t('comparativo.titlePrefix', 'Do 3D à realidade:')}{' '}
                 <span className="font-semibold text-[#63A4FF]">
                   {t('comparativo.titleHighlight', 'fidelidade milimétrica')}
                 </span>
               </h2>
-              <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
+              <p className="text-slate-300 text-sm max-w-2xl font-light leading-relaxed">
                 {t('comparativo.subtitle', 'Mecanismo interativo de comparação técnica integrado ao projeto. Permite ao cliente inspecionar lado a lado a correspondência exata entre o modelo executivo 3D e o evento montado.')}
               </p>
             </div>
 
             {/* Selector Buttons for Slots */}
-            <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start md:self-auto">
+            <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start md:self-auto flex-wrap">
               {cases.map((c, idx) => (
-                <button
+                <motion.button
                   key={c.id}
+                  whileTap={{ scale: 0.96 }}
                   onClick={() => {
                     setActiveCaseIndex(idx);
                     setSliderPos(50);
                   }}
-                  className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-all ${
+                  className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-colors ${
                     activeCaseIndex === idx
-                      ? 'bg-[#377BDB] text-white shadow-md'
+                      ? 'bg-[#377BDB] text-white shadow-md shadow-[#377BDB]/30 font-semibold'
                       : 'text-slate-400 hover:text-white hover:bg-white/[0.04]'
                   }`}
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
-                  Slot {idx + 1}: {c.category}
-                </button>
+                  0{idx + 1} · {c.category}
+                </motion.button>
               ))}
             </div>
           </div>
@@ -125,23 +134,24 @@ export const ComparativoViewer = ({
         {hideHeader && (
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <span className="rotulo-tecnico text-slate-400">CASES DISPONÍVEIS</span>
-            <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start sm:self-auto">
+            <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start sm:self-auto flex-wrap">
               {cases.map((c, idx) => (
-                <button
+                <motion.button
                   key={c.id}
+                  whileTap={{ scale: 0.96 }}
                   onClick={() => {
                     setActiveCaseIndex(idx);
                     setSliderPos(50);
                   }}
-                  className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-all ${
+                  className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-colors ${
                     activeCaseIndex === idx
-                      ? 'bg-[#377BDB] text-white shadow-md'
+                      ? 'bg-[#377BDB] text-white shadow-md shadow-[#377BDB]/30 font-semibold'
                       : 'text-slate-400 hover:text-white hover:bg-white/[0.04]'
                   }`}
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
-                  Slot {idx + 1}: {c.category}
-                </button>
+                  0{idx + 1} · {c.category}
+                </motion.button>
               ))}
             </div>
           </div>
@@ -164,32 +174,47 @@ export const ComparativoViewer = ({
             style={{ touchAction: 'pan-y' }}
           >
             {/* After Image (Full Background - Evento Real) */}
-            <img
-              src={activeCase.afterImage}
-              alt={afterLabel}
-              className="absolute inset-0 h-full w-full object-cover pointer-events-none"
-              loading="lazy"
-            />
+            <AnimatePresence mode="wait">
+              <motion.img
+                key={`after-${activeCase.id}`}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                src={activeCase.afterImage}
+                alt={afterLabel}
+                className="absolute inset-0 h-full w-full object-cover pointer-events-none select-none"
+                loading="eager"
+              />
+            </AnimatePresence>
 
             {/* Before Image (Clipped Overlay - Projeto 3D) */}
             <div
-              className="absolute inset-0 h-full overflow-hidden pointer-events-none"
+              className="absolute inset-0 h-full overflow-hidden pointer-events-none select-none"
               style={{ width: `${sliderPos}%` }}
             >
-              <img
-                src={activeCase.beforeImage}
-                alt={beforeLabel}
-                className="absolute inset-0 h-full max-w-none object-cover"
-                style={{
-                  width: containerRef.current ? `${containerRef.current.clientWidth}px` : '100%'
-                }}
-                loading="lazy"
-              />
+              <AnimatePresence mode="wait">
+                <motion.img
+                  key={`before-${activeCase.id}`}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.3 }}
+                  src={activeCase.beforeImage}
+                  alt={beforeLabel}
+                  className="absolute inset-0 h-full max-w-none object-cover pointer-events-none select-none"
+                  style={{
+                    width: containerWidth ? `${containerWidth}px` : '100%',
+                    height: '100%'
+                  }}
+                  loading="eager"
+                />
+              </AnimatePresence>
             </div>
 
             {/* Before Badge (Top Left) */}
             <div 
-              className={`absolute top-4 left-4 z-20 px-3 py-1.5 rounded bg-[#0A1326]/90 backdrop-blur-md border border-[#377BDB]/40 transition-opacity duration-200 ${
+              className={`absolute top-4 left-4 z-20 px-3 py-1.5 rounded bg-[#0A1326]/90 backdrop-blur-md border border-[#377BDB]/40 transition-opacity duration-200 pointer-events-none ${
                 sliderPos < 15 ? 'opacity-0' : 'opacity-100'
               }`}
             >
@@ -201,7 +226,7 @@ export const ComparativoViewer = ({
 
             {/* After Badge (Top Right) */}
             <div 
-              className={`absolute top-4 right-4 z-20 px-3 py-1.5 rounded bg-[#0A1326]/90 backdrop-blur-md border border-white/[0.1] transition-opacity duration-200 ${
+              className={`absolute top-4 right-4 z-20 px-3 py-1.5 rounded bg-[#0A1326]/90 backdrop-blur-md border border-white/[0.1] transition-opacity duration-200 pointer-events-none ${
                 sliderPos > 85 ? 'opacity-0' : 'opacity-100'
               }`}
             >
@@ -219,8 +244,12 @@ export const ComparativoViewer = ({
               {/* Vertical line with subtle glow */}
               <div className="absolute top-0 bottom-0 w-[2px] -ml-[1px] bg-[#63A4FF] shadow-[0_0_12px_rgba(99,164,255,0.8)]" />
 
-              {/* Center Handle Button */}
-              <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#0A1326] border-2 border-[#63A4FF] shadow-[0_0_18px_rgba(99,164,255,0.7)] flex items-center justify-center text-white">
+              {/* Center Handle Button with tactile spring appearance */}
+              <div 
+                className={`absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 rounded-full bg-[#0A1326] border-2 border-[#63A4FF] shadow-[0_0_18px_rgba(99,164,255,0.7)] flex items-center justify-center text-white transition-transform ${
+                  isDragging ? 'scale-110' : 'scale-100'
+                }`}
+              >
                 <div className="flex items-center gap-0.5">
                   <ChevronLeft className="w-3.5 h-3.5 text-[#63A4FF]" />
                   <ChevronRight className="w-3.5 h-3.5 text-[#63A4FF]" />
@@ -229,7 +258,7 @@ export const ComparativoViewer = ({
             </div>
 
             {/* Mobile Interaction Hint */}
-            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 px-3.5 py-1 rounded-full bg-[#0A1326]/80 backdrop-blur-md text-[10px] text-slate-300 border border-white/[0.08] pointer-events-none flex items-center gap-1.5">
+            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 px-3.5 py-1 rounded-full bg-[#0A1326]/85 backdrop-blur-md text-[10px] text-slate-300 border border-white/[0.08] pointer-events-none flex items-center gap-1.5 shadow-md">
               <Sliders className="w-3 h-3 text-[#63A4FF]" />
               <span style={{ fontFamily: 'Inter, sans-serif' }}>
                 {t('comparativo.dragHint', 'Arraste para comparar')}
@@ -243,7 +272,7 @@ export const ComparativoViewer = ({
               <p className="font-semibold text-white tracking-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
                 {caseTitle}
               </p>
-              <p className="text-slate-400 text-[11px] font-light mt-0.5">
+              <p className="text-slate-300 text-[11px] font-light mt-0.5">
                 {caseDesc}
               </p>
             </div>

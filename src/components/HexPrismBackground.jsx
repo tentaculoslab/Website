@@ -8,8 +8,9 @@ export const HexPrismBackground = () => {
   useEffect(() => {
     if (!containerRef.current) return;
 
+    const currentContainer = containerRef.current;
     let scene, camera, renderer, animationFrameId;
-    let clock = new THREE.Clock();
+    const timer = new THREE.Timer();
     const prismsData = [];
 
     try {
@@ -27,7 +28,7 @@ export const HexPrismBackground = () => {
       renderer = new THREE.WebGLRenderer({ antialias: false, alpha: true, failIfMajorPerformanceCaveat: false });
       renderer.setSize(width, height);
       renderer.setPixelRatio(1);
-      containerRef.current.appendChild(renderer.domElement);
+      currentContainer.appendChild(renderer.domElement);
 
       // 4. Lighting
       const ambientLight = new THREE.AmbientLight(0x38bdf8, 0.6);
@@ -77,7 +78,8 @@ export const HexPrismBackground = () => {
       // 6. Animation Loop
       const animate = () => {
         animationFrameId = requestAnimationFrame(animate);
-        const elapsedTime = clock.getElapsedTime();
+        timer.update();
+        const elapsedTime = timer.getElapsed();
 
         prismsData.forEach((item) => {
           item.mesh.rotation.x += item.rotSpeedX;
@@ -105,10 +107,11 @@ export const HexPrismBackground = () => {
       return () => {
         cancelAnimationFrame(animationFrameId);
         window.removeEventListener('resize', handleResize);
-        if (renderer && renderer.domElement && containerRef.current) {
+        timer.dispose();
+        if (renderer && renderer.domElement && currentContainer) {
           try {
-            containerRef.current.removeChild(renderer.domElement);
-          } catch(e) {}
+            currentContainer.removeChild(renderer.domElement);
+          } catch {}
         }
         if (renderer) renderer.dispose();
       };

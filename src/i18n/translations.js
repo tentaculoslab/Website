@@ -16,7 +16,8 @@ export const translations = {
       whatsApp: 'WhatsApp',
       talkOnWhatsApp: 'Falar no WhatsApp',
       closeMenu: 'Fechar menu',
-      openMenu: 'Abrir menu'
+      openMenu: 'Abrir menu',
+      language: 'Idioma'
     },
     hero: {
       tagline: 'O laboratório onde o conceito vira projeto executável',
@@ -33,7 +34,7 @@ export const translations = {
       festivals: 'Weekend Pedra Azul • Tomorrowland Brasil • Lollapalooza • Camarote Brahma'
     },
     comparativo: {
-      tag: 'C O M P A R A T I V O  3 D  V S  R E A L',
+      tag: 'COMPARATIVO 3D VS REAL',
       titlePrefix: 'Do 3D à realidade:',
       titleHighlight: 'fidelidade milimétrica',
       subtitle: 'Mecanismo interativo de comparação técnica integrado ao projeto. Permite ao cliente inspecionar lado a lado a correspondência exata entre o modelo executivo 3D e o evento montado.',
@@ -46,7 +47,7 @@ export const translations = {
       slot2Title: 'Slot Técnico 02 · Ativação & Ambientação',
       slot2Desc: 'Espaço pré-configurado no sistema de comparação para inclusão imediata do segundo case oficial de cenografia ou ativação.',
       slot2Specs: 'Resolução recomendada: 1920x1080 (16:9)',
-      pageTag: 'C O M P A R A T I V O  3 D  V S  R E A L',
+      pageTag: 'COMPARATIVO 3D VS REAL',
       pageTitlePrefix: 'O que é idealizado:',
       pageTitleHighlight: 'vira fato executado',
       pageSubtitle: 'Nossa modelagem não é uma ilustração artística ou render genérico de IA. É uma planta executiva tridimensional parametrizada para montagem real sem surpresas no evento.',
@@ -62,7 +63,7 @@ export const translations = {
       viewDetailsLink: 'Ver detalhes do comparativo 3D vs Real'
     },
     method: {
-      tag: 'M E T O D O L O G I A',
+      tag: 'METODOLOGIA',
       titlePrefix: 'Do briefing ao render aprovado:',
       titleHighlight: 'o método',
       subtitle: 'O cliente aprova vendo, não imaginando. Dividimos o projeto em 4 frentes que garantem precisão técnica e impacto visual.',
@@ -92,7 +93,7 @@ export const translations = {
       ctaBoxBtn: 'Preencher Briefing Técnico'
     },
     projects: {
-      tag: 'P R O J E T O S',
+      tag: 'PROJETOS',
       titlePrefix: 'Atendemos os',
       titleHighlight: 'principais tipos de projeto',
       subtitle: 'Palcos, bares temáticos, ambientação imersiva, instagramáveis e ativações de marca com detalhamento 3D executável.',
@@ -109,7 +110,7 @@ export const translations = {
         instagramaveis: 'Instagramáveis',
         ativacoes: 'Ativação de Marcas'
       },
-      pageTag: 'A C E R V O  T É C N I C O',
+      pageTag: 'ACERVO TÉCNICO',
       pageTitlePrefix: 'Projetos cenográficos:',
       pageTitleHighlight: 'do conceito à execução',
       pageSubtitle: 'Navegue pelas 5 tipologias oficiais atendidas pelo estúdio. Cada projeto possui espacialização 3D, memorial descritivo, cálculo volumétrico e compatibilização estrutural.'
@@ -144,7 +145,7 @@ export const translations = {
       playRotation: 'Ativar Rotação 360°'
     },
     about: {
-      tag: 'L I D E R A N Ç A  T É C N I C A',
+      tag: 'LIDERANÇA TÉCNICA',
       titlePrefix: 'Conectando criação e produção:',
       titleHighlight: 'Lucas Castro',
       subtitle: 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, cálculo de rigging e a experiência sensorial do público.',
@@ -157,10 +158,10 @@ export const translations = {
       directContactSub: 'lucas@tentaculosproducoes.com.br • Atendimento a marcas, agências e produtoras de eventos.'
     },
     briefing: {
-      tag: 'B R I E F I N G  T É C N I C O',
+      tag: 'BRIEFING TÉCNICO',
       titlePrefix: 'Terminal executivo:',
       titleHighlight: 'alinhe sua produção',
-      subtitle: 'Preencha os parâmetros essenciais da sua demanda. Seu briefing será sintetizado em memorial técnico e enviado com prioridade direta para Lucas Castro.',
+      subtitle: 'Preencha os parâmetros essenciais da sua demanda. Seu briefing será sintetizado em memorial técnico e enviado para a Tentáculos Lab.',
       selectTypology: 'SELECIONE A TIPOLOGIA PRINCIPAL',
       nameLabel: 'NOME COMPLETO',
       namePlaceholder: 'Seu nome ou responsável técnico',
@@ -187,10 +188,11 @@ export const translations = {
       typologiesTitle: 'TIPOLOGIAS',
       contactTitle: 'CONTATO DIRETO',
       rights: 'Tentáculos Lab · Todos os direitos reservados.',
-      backToTop: 'VOLTAR AO TOPO'
+      backToTop: 'VOLTAR AO TOPO',
+      developedBy: 'Desenvolvido por'
     },
     notFound: {
-      tag: '4 0 4 · E R R O  D E  C O O R D E N A D A',
+      tag: '404 · ERRO DE COORDENADA',
       titlePrefix: 'Elemento fora do',
       titleHighlight: 'grid técnico',
       desc: 'A rota que você tentou acessar não foi localizada no projeto. Retorne à página inicial ou explore as páginas do acervo técnico.',
@@ -210,7 +212,8 @@ export const translations = {
       whatsApp: 'WhatsApp',
       talkOnWhatsApp: 'Talk on WhatsApp',
       closeMenu: 'Close menu',
-      openMenu: 'Open menu'
+      openMenu: 'Open menu',
+      language: 'Language'
     },
     hero: {
       tagline: 'The laboratory where concept becomes executable project',
@@ -227,7 +230,7 @@ export const translations = {
       festivals: 'Weekend Pedra Azul • Tomorrowland Brasil • Lollapalooza • Camarote Brahma'
     },
     comparativo: {
-      tag: '3 D  V S  R E A L  C O M P A R I S O N',
+      tag: '3D VS REAL COMPARISON',
       titlePrefix: 'From 3D to reality:',
       titleHighlight: 'millimeter precision',
       subtitle: 'Integrated interactive technical comparison engine. Allows clients to inspect side by side the exact correspondence between the executive 3D model and physical event setup.',
@@ -240,7 +243,7 @@ export const translations = {
       slot2Title: 'Technical Slot 02 · Activation & Environment',
       slot2Desc: 'Pre-configured space in the comparison system for immediate inclusion of the second official scenography or activation case.',
       slot2Specs: 'Recommended resolution: 1920x1080 (16:9)',
-      pageTag: '3 D  V S  R E A L  C O M P A R I S O N',
+      pageTag: '3D VS REAL COMPARISON',
       pageTitlePrefix: 'What is idealized:',
       pageTitleHighlight: 'becomes executed reality',
       pageSubtitle: 'Our modeling is not an artistic illustration or a generic AI render. It is a three-dimensional executive blueprint parameterized for real assembly without surprises on event day.',
@@ -256,7 +259,7 @@ export const translations = {
       viewDetailsLink: 'View 3D vs Real comparison details'
     },
     method: {
-      tag: 'M E T H O D O L O G Y',
+      tag: 'METHODOLOGY',
       titlePrefix: 'From briefing to approved render:',
       titleHighlight: 'the method',
       subtitle: 'Clients approve by seeing, not by imagining. We split the project into 4 foundation fronts guaranteeing technical precision and visual impact.',
@@ -286,7 +289,7 @@ export const translations = {
       ctaBoxBtn: 'Fill Technical Briefing'
     },
     projects: {
-      tag: 'P R O J E C T S',
+      tag: 'PROJECTS',
       titlePrefix: 'We engineer the',
       titleHighlight: 'main project typologies',
       subtitle: 'Stages, thematic bars, immersive environments, photo opportunities and brand activations with executable 3D detailing.',
@@ -303,7 +306,7 @@ export const translations = {
         instagramaveis: 'Photo Opportunities',
         ativacoes: 'Brand Activations'
       },
-      pageTag: 'T E C H N I C A L  A R C H I V E',
+      pageTag: 'TECHNICAL ARCHIVE',
       pageTitlePrefix: 'Scenographic projects:',
       pageTitleHighlight: 'from concept to execution',
       pageSubtitle: 'Explore the 5 official typologies engineered by the studio. Each project features 3D spatialization, technical memorial, volumetric calculations and structural compatibility.'
@@ -338,7 +341,7 @@ export const translations = {
       playRotation: 'Play 360° Rotation'
     },
     about: {
-      tag: 'T E C H N I C A L  L E A D E R S H I P',
+      tag: 'TECHNICAL LEADERSHIP',
       titlePrefix: 'Bridging design and production:',
       titleHighlight: 'Lucas Castro',
       subtitle: 'Solid experience across high-profile festival productions, connecting aesthetics, technical feasibility, rigging calculations and sensory audience experience.',
@@ -351,10 +354,10 @@ export const translations = {
       directContactSub: 'lucas@tentaculosproducoes.com.br • Dedicated service for brands, agencies and festival promoters.'
     },
     briefing: {
-      tag: 'T E C H N I C A L  B R I E F I N G',
+      tag: 'TECHNICAL BRIEFING',
       titlePrefix: 'Executive terminal:',
       titleHighlight: 'align your production',
-      subtitle: 'Fill in your project requirements. Your briefing will be synthesized into a technical memorial and routed with direct priority to Lucas Castro.',
+      subtitle: 'Fill in your project requirements. Your briefing will be synthesized into a technical memorial and routed directly to Tentáculos Lab.',
       selectTypology: 'SELECT PRIMARY TYPOLOGY',
       nameLabel: 'FULL NAME',
       namePlaceholder: 'Your name or technical director',
@@ -381,10 +384,11 @@ export const translations = {
       typologiesTitle: 'TYPOLOGIES',
       contactTitle: 'DIRECT CONTACT',
       rights: 'Tentáculos Lab · All rights reserved.',
-      backToTop: 'BACK TO TOP'
+      backToTop: 'BACK TO TOP',
+      developedBy: 'Developed by'
     },
     notFound: {
-      tag: '4 0 4 · C O O R D I N A T E  E R R O R',
+      tag: '404 · COORDINATE ERROR',
       titlePrefix: 'Element outside the',
       titleHighlight: 'technical grid',
       desc: 'The route you tried to access was not found in the project. Return to the homepage or explore our technical archive.',
@@ -404,7 +408,8 @@ export const translations = {
       whatsApp: 'WhatsApp',
       talkOnWhatsApp: 'Hablar por WhatsApp',
       closeMenu: 'Cerrar menú',
-      openMenu: 'Abrir menú'
+      openMenu: 'Abrir menú',
+      language: 'Idioma'
     },
     hero: {
       tagline: 'El laboratorio donde el concepto se convierte en proyecto ejecutable',
@@ -421,7 +426,7 @@ export const translations = {
       festivals: 'Weekend Pedra Azul • Tomorrowland Brasil • Lollapalooza • Camarote Brahma'
     },
     comparativo: {
-      tag: 'C O M P A R A T I V O  3 D  V S  R E A L',
+      tag: 'COMPARATIVO 3D VS REAL',
       titlePrefix: 'Del 3D a la realidad:',
       titleHighlight: 'precisión milimétrica',
       subtitle: 'Mecanismo interactivo de comparación técnica integrado en el proyecto. Permite al cliente inspeccionar lado a lado la correspondencia exacta entre el modelo ejecutivo 3D y el evento montado.',
@@ -434,7 +439,7 @@ export const translations = {
       slot2Title: 'Slot Técnico 02 · Activación y Ambientación',
       slot2Desc: 'Espacio preconfigurado en el sistema de comparación para inclusión inmediata del segundo caso oficial de escenografía o activación.',
       slot2Specs: 'Resolución recomendada: 1920x1080 (16:9)',
-      pageTag: 'C O M P A R A T I V O  3 D  V S  R E A L',
+      pageTag: 'COMPARATIVO 3D VS REAL',
       pageTitlePrefix: 'Lo que se idealiza:',
       pageTitleHighlight: 'se convierte en hecho ejecutado',
       pageSubtitle: 'Nuestro modelado no es una ilustración artística ni un render genérico de IA. Es un plano ejecutivo tridimensional parametrizado para montaje real sin sorpresas en el evento.',
@@ -450,7 +455,7 @@ export const translations = {
       viewDetailsLink: 'Ver detalles del comparativo 3D vs Real'
     },
     method: {
-      tag: 'M E T O D O L O G Í A',
+      tag: 'METODOLOGÍA',
       titlePrefix: 'Del briefing al render aprobado:',
       titleHighlight: 'el método',
       subtitle: 'El cliente aprueba viendo, no imaginando. Dividimos el proyecto en 4 frentes de fundación que garantizan precisión técnica e impacto visual.',
@@ -480,7 +485,7 @@ export const translations = {
       ctaBoxBtn: 'Completar Briefing Técnico'
     },
     projects: {
-      tag: 'P R O Y E C T O S',
+      tag: 'PROYECTOS',
       titlePrefix: 'Atendemos las',
       titleHighlight: 'principales tipologías de proyecto',
       subtitle: 'Escenarios, bares temáticos, ambientación inmersiva, espacios instagramables y activaciones de marca con modelado 3D ejecutable.',
@@ -497,7 +502,7 @@ export const translations = {
         instagramaveis: 'Espacios Instagramables',
         ativacoes: 'Activación de Marcas'
       },
-      pageTag: 'A R C H I V O  T É C N I C O',
+      pageTag: 'ARCHIVO TÉCNICO',
       pageTitlePrefix: 'Proyectos escenográficos:',
       pageTitleHighlight: 'del concepto a la ejecución',
       pageSubtitle: 'Explore las 5 tipologías oficiales atendidas por el estudio. Cada proyecto cuenta con espacialización 3D, memoria descriptiva, cálculo volumétrico y compatibilidad estructural.'
@@ -532,7 +537,7 @@ export const translations = {
       playRotation: 'Activar Rotación 360°'
     },
     about: {
-      tag: 'L I D E R A Z G O  T É C N I C O',
+      tag: 'LIDERAZGO TÉCNICO',
       titlePrefix: 'Conectando creación y producción:',
       titleHighlight: 'Lucas Castro',
       subtitle: 'Experiencia consolidada en festivales de gran escala, conectando estética, viabilidad técnica, cálculo de rigging y la experiencia sensorial del público.',
@@ -545,10 +550,10 @@ export const translations = {
       directContactSub: 'lucas@tentaculosproducoes.com.br • Atención para marcas, agencias y productoras de eventos.'
     },
     briefing: {
-      tag: 'B R I E F I N G  T É C N I C O',
+      tag: 'BRIEFING TÉCNICO',
       titlePrefix: 'Terminal ejecutivo:',
       titleHighlight: 'alinee su producción',
-      subtitle: 'Complete los parámetros esenciales de su evento. Su briefing será sintetizado en una memoria técnica y enviado con prioridad directa a Lucas Castro.',
+      subtitle: 'Complete los parámetros esenciales de su evento. Su briefing será sintetizado en una memoria técnica y enviado directamente a Tentáculos Lab.',
       selectTypology: 'SELECCIONE LA TIPOLOGÍA PRINCIPAL',
       nameLabel: 'NOMBRE COMPLETO',
       namePlaceholder: 'Su nombre o director técnico',
@@ -575,10 +580,11 @@ export const translations = {
       typologiesTitle: 'TIPOLOGÍAS',
       contactTitle: 'CONTACTO DIRECTO',
       rights: 'Tentáculos Lab · Todos los derechos reservados.',
-      backToTop: 'VOLVER ARRIBA'
+      backToTop: 'VOLVER ARRIBA',
+      developedBy: 'Desarrollado por'
     },
     notFound: {
-      tag: '4 0 4 · E R R O R  D E  C O O R D E N A D A',
+      tag: '404 · ERROR DE COORDENADA',
       titlePrefix: 'Elemento fuera del',
       titleHighlight: 'grid técnico',
       desc: 'La ruta a la que intentó acceder no fue localizada en el proyecto. Regrese a la página inicial o explore nuestro archivo técnico.',

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, ArrowUp } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
+import { LanguageSelector } from './LanguageSelector';
 import { useLanguage } from '../context/LanguageContext';
 
 export const Footer = () => {
@@ -107,6 +108,8 @@ export const Footer = () => {
         <div className="pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-light">
           <p>© {new Date().getFullYear()} {t('footer.rights', 'Tentáculos Lab · Todos os direitos reservados.')}</p>
 
+          <LanguageSelector />
+
           <button 
             onClick={scrollToTop}
             className="flex items-center gap-1.5 hover:text-white transition-colors"
@@ -115,6 +118,21 @@ export const Footer = () => {
             <span className="rotulo-tecnico text-[10px]">{t('footer.backToTop', 'VOLTAR AO TOPO')}</span>
             <ArrowUp className="w-3.5 h-3.5" />
           </button>
+        </div>
+
+        {/* Créditos de Desenvolvimento */}
+        <div className="pt-4 border-t border-white/[0.04] text-center text-xs text-slate-500 font-light">
+          <p>
+            {t('footer.developedBy', 'Desenvolvido por')}{' '}
+            <a 
+              href="https://tecnologiandrade.com.br" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-[#63A4FF] transition-colors font-medium underline underline-offset-4 decoration-white/20 hover:decoration-[#63A4FF]"
+            >
+              Andrade Serviços de Tecnologia
+            </a>
+          </p>
         </div>
 
       </div>

@@ -19,7 +19,7 @@ export const AboutSection = ({ hideHeader = false }) => {
         {!hideHeader && (
           <div className="space-y-4">
             <span className="rotulo-tecnico block">
-              {t('about.tag', 'L I D E R A N Ç A  T É C N I C A')}
+              {t('about.tag', 'LIDERANÇA TÉCNICA')}
             </span>
             <h2 className="text-2xl sm:text-4xl font-light text-white tracking-tight">
               {t('about.titlePrefix', 'Conectando criação e produção:')}{' '}

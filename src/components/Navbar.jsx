@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { LanguageSelector } from './LanguageSelector';
 import { useLanguage } from '../context/LanguageContext';
@@ -43,13 +43,13 @@ export const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           
           {/* Brand Logo Oficial */}
-          <Link to="/" className="flex items-center group" aria-label="Tentáculos Lab - Página Inicial">
+          <Link to="/" className="flex items-center group shrink-0" aria-label="Tentáculos Lab - Página Inicial">
             <img 
               src="/logo-white.png" 
               alt="tentáculos ◉ lab" 
               width="150"
               height="32"
-              className="h-7 sm:h-8 w-auto object-contain transition-opacity duration-300 group-hover:opacity-80"
+              className="h-6 sm:h-7 md:h-8 w-auto object-contain transition-opacity duration-300 group-hover:opacity-80"
             />
           </Link>
 
@@ -87,12 +87,11 @@ export const Navbar = () => {
             </a>
           </nav>
 
-          {/* Mobile Right Controls: Language Selector & Hamburger */}
-          <div className="flex md:hidden items-center gap-2">
-            <LanguageSelector />
+          {/* Mobile Right Controls: Hamburger */}
+          <div className="flex md:hidden items-center">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded bg-[#121D31] text-slate-300 border border-white/[0.08] hover:text-white"
+              className="p-2 rounded bg-[#121D31] text-slate-300 border border-white/[0.08] hover:text-white hover:border-[#63A4FF]/40 transition-colors"
               aria-label={mobileMenuOpen ? t('nav.closeMenu', "Fechar menu") : t('nav.openMenu', "Abrir menu")}
             >
               {mobileMenuOpen ? <X className="w-5 h-5 text-[#63A4FF]" /> : <Menu className="w-5 h-5" />}
@@ -103,7 +102,18 @@ export const Navbar = () => {
 
         {/* Mobile Drawer Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden bg-[#0A1326] border-b border-white/[0.08] px-4 pt-4 pb-6 space-y-3 shadow-2xl backdrop-blur-xl">
+          <div className="md:hidden bg-[#0A1326] border-b border-white/[0.08] px-4 pt-3 pb-6 space-y-4 shadow-2xl backdrop-blur-xl">
+            {/* Seletor de Idiomas no Drawer Mobile */}
+            <div className="flex items-center justify-between p-2.5 rounded-lg bg-[#121D31] border border-white/[0.08]">
+              <div className="flex items-center gap-2 text-slate-300">
+                <Globe className="w-4 h-4 text-[#63A4FF]" />
+                <span className="rotulo-tecnico text-[10px] text-slate-300">
+                  {t('nav.language', 'Idioma')}
+                </span>
+              </div>
+              <LanguageSelector variant="mobile" />
+            </div>
+
             <nav className="flex flex-col space-y-2">
               <NavLink 
                 to="/" 
