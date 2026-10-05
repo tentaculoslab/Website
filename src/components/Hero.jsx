@@ -69,26 +69,8 @@ export const Hero = () => {
           </p>
         </motion.div>
 
-        {/* Pilares da Marca: Território & Gesto */}
-        <motion.div variants={itemVariants} className="pt-2 flex flex-col items-center gap-6">
-          <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-12 text-xs border-y border-white/[0.08] py-4 px-6 bg-[#121D31]/50 backdrop-blur-md rounded-xl">
-            <div className="flex items-center gap-2">
-              <span className="rotulo-tecnico text-[10px] text-slate-400">{t('hero.territory', 'TERRITÓRIO')}:</span>
-              <span className="text-white font-medium" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                {t('hero.territoryVal', 'Técnico e experimental')}
-              </span>
-            </div>
-            <div className="hidden sm:block w-px h-3 bg-white/20" />
-            <div className="flex items-center gap-2">
-              <span className="rotulo-tecnico text-[10px] text-slate-400">{t('hero.gesture', 'GESTO')}:</span>
-              <span className="text-white font-medium" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                {t('hero.gestureVal', 'Preciso, nunca decorativo')}
-              </span>
-            </div>
-          </div>
-
-          {/* CTAs Limpos e Diretos com física tátil (Emil Kowalski) */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 w-full sm:w-auto">
+        {/* CTAs Limpos e Diretos com física tátil (Emil Kowalski) */}
+        <motion.div variants={itemVariants} className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             <motion.div 
               whileHover={{ y: -2, scale: 1.01 }} 
               whileTap={{ scale: 0.98 }} 
@@ -119,26 +101,8 @@ export const Hero = () => {
                 <span>{t('hero.ctaBriefing', 'Alinhar Briefing Técnico')}</span>
               </Link>
             </motion.div>
-          </div>
-
-          {/* Credenciais e Trajetória Real (Festivais) */}
-          <motion.div variants={itemVariants} className="pt-12 border-t border-white/[0.06] text-center space-y-3 w-full">
-            <span className="rotulo-tecnico text-[10px] text-slate-400 block">
-              {t('hero.festivalsLabel', 'EXPERIÊNCIA COMPROVADA EM GRANDES PRODUÇÕES')}
-            </span>
-            <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-xs text-slate-300 font-light">
-              <span className="hover:text-white transition-colors cursor-default">Tomorrowland Brasil</span>
-              <span className="text-slate-600 hidden sm:inline">•</span>
-              <span className="hover:text-white transition-colors cursor-default">Lollapalooza</span>
-              <span className="text-slate-600 hidden sm:inline">•</span>
-              <span className="hover:text-white transition-colors cursor-default">Camarote Brahma</span>
-              <span className="text-slate-600 hidden sm:inline">•</span>
-              <span className="hover:text-white transition-colors cursor-default">Weekend Pedra Azul</span>
-            </div>
           </motion.div>
-
         </motion.div>
-      </motion.div>
     </section>
   );
 };

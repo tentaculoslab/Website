@@ -66,6 +66,7 @@ export const translations = {
       pillar3Tag: 'ZERO IMPROVISO',
       pillar3Title: 'Compatibilidade de Montagem',
       pillar3Desc: 'Eliminamos o retrabalho em campo: a equipe de produção monta com base nas coordenadas e eixos gerados diretamente da maquete técnica.',
+      ctaBoxDesc: 'Alinhe sua demanda através do nosso terminal de briefing técnico e receba proposta com memorial descritivo 3D.',
       viewDetailsLink: 'Ver detalhes do comparativo 3D vs Real'
     },
     method: {
@@ -154,7 +155,7 @@ export const translations = {
       tag: 'LIDERANÇA TÉCNICA',
       titlePrefix: 'Conectando criação e produção:',
       titleHighlight: 'Lucas Castro',
-      subtitle: 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, cálculo de rigging e a experiência sensorial do público.',
+      subtitle: 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, rigger e a experiência sensorial do público.',
       bio1: 'Responsável pelo desenvolvimento técnico e visual de projetos como o Weekend Pedra Azul — evento que se tornou um marco no Espírito Santo —, também acumula em sua trajetória o gerenciamento de projetos de grande porte, como Tomorrowland Brasil, Lollapalooza e Camarote Brahma, em seu circuito nacional, além do desenvolvimento de importantes produções realizadas em parceria com prefeituras.',
       bio2: 'Seu olhar percorre todas as etapas — do conceito à execução —, conectando estética, identidade de marca, funcionalidade, experiência do público, viabilidade técnica e produção. Essa visão sistêmica permite antecipar desafios, propor soluções e transformar ideias em projetos coerentes, executáveis e marcantes.',
       quoteTitle: 'Na Tentáculos LAB, Lucas é a cabeça que pensa no todo:',
@@ -268,6 +269,7 @@ export const translations = {
       pillar3Tag: 'ZERO IMPROVISATION',
       pillar3Title: 'Assembly Compatibility',
       pillar3Desc: 'We eliminate on-site guesswork: the production team builds strictly following coordinates and axes extracted from the technical model.',
+      ctaBoxDesc: 'Align your demand through our technical briefing terminal and receive a proposal with a 3D descriptive memorandum.',
       viewDetailsLink: 'View 3D vs Real comparison details'
     },
     method: {
@@ -356,7 +358,7 @@ export const translations = {
       tag: 'TECHNICAL LEADERSHIP',
       titlePrefix: 'Bridging design and production:',
       titleHighlight: 'Lucas Castro',
-      subtitle: 'Solid experience across high-profile festival productions, connecting aesthetics, technical feasibility, rigging calculations and sensory audience experience.',
+      subtitle: 'Solid experience across high-profile festival productions, connecting aesthetics, technical feasibility, rigger and sensory audience experience.',
       bio1: 'Responsible for the technical and visual development of benchmark projects such as Weekend Pedra Azul — a milestone festival in Espírito Santo —, Lucas also led technical management for tier-one productions including Tomorrowland Brasil, Lollapalooza and Camarote Brahma across their national circuits, in addition to strategic cultural projects with municipal administrations.',
       bio2: 'His vision spans every stage — from concept to physical execution —, harmonizing aesthetics, brand identity, spatial functionality, public flow, technical feasibility and production logistics. This systemic understanding anticipates on-site hurdles and delivers impactful, executable projects.',
       quoteTitle: 'At Tentáculos LAB, Lucas oversees the entire ecosystem:',
@@ -470,6 +472,7 @@ export const translations = {
       pillar3Tag: 'CERO IMPROVISACIÓN',
       pillar3Title: 'Compatibilidad de Montaje',
       pillar3Desc: 'Eliminamos la improvisación en campo: el equipo de producción monta en base a coordenadas y ejes extraídos de la maqueta técnica.',
+      ctaBoxDesc: 'Alinea tu demanda a través de nuestro terminal de briefing técnico y recibe una propuesta con memoria descriptiva 3D.',
       viewDetailsLink: 'Ver detalles del comparativo 3D vs Real'
     },
     method: {
@@ -558,7 +561,7 @@ export const translations = {
       tag: 'LIDERAZGO TÉCNICO',
       titlePrefix: 'Conectando creación y producción:',
       titleHighlight: 'Lucas Castro',
-      subtitle: 'Experiencia consolidada en festivales de gran escala, conectando estética, viabilidad técnica, cálculo de rigging y la experiencia sensorial del público.',
+      subtitle: 'Experiencia consolidada en festivales de gran escala, conectando estética, viabilidad técnica, rigger y la experiencia sensorial del público.',
       bio1: 'Responsable del desarrollo técnico y visual de proyectos emblemáticos como Weekend Pedra Azul — evento referente en Espírito Santo —, Lucas también lideró la gestión técnica de producciones de primer nivel como Tomorrowland Brasil, Lollapalooza y Camarote Brahma en sus circuitos nacionales, además de proyectos estratégicos con municipios.',
       bio2: 'Su mirada abarca todas las fases — del concepto a la ejecución física —, integrando estética, identidad de marca, funcionalidad espacial, flujos de público y producción. Esta visión sistémica anticipa desafíos en campo y garantiza proyectos coherentes y de alto impacto.',
       quoteTitle: 'En Tentáculos LAB, Lucas piensa en el ecosistema completo:',

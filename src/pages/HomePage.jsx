@@ -51,7 +51,7 @@ export const HomePage = () => {
                     <span className="font-semibold text-[#63A4FF]">Lucas Castro</span>
                   </h3>
                   <p className="text-slate-300 text-xs sm:text-sm font-light leading-relaxed">
-                    {t('about.subtitle', 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, cálculo de rigging e a experiência sensorial do público.')}
+                    {t('about.subtitle', 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, rigger e a experiência sensorial do público.')}
                   </p>
                 </div>
               </div>

@@ -85,20 +85,20 @@ export const ProjectEstimator = ({ hideHeader = false }) => {
               <label className="rotulo-tecnico text-[10px] text-slate-300 block">
                 {t('briefing.selectTypology', 'SELECIONE A TIPOLOGIA PRINCIPAL')}
               </label>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-2.5">
                 {tiposDisponiveis.map((item) => (
                   <button
                     type="button"
                     key={item.key}
                     onClick={() => setProjectType(item.key)}
-                    className={`py-2 px-3 rounded text-xs tracking-wider uppercase transition-all ${
+                    className={`min-h-[46px] py-2 px-2 rounded-lg text-[10.5px] sm:text-[11px] font-medium tracking-normal uppercase transition-all flex items-center justify-center text-center leading-tight ${
                       projectType === item.key
-                        ? 'bg-[#377BDB] text-white font-medium shadow-md'
-                        : 'bg-[#0A1326] text-slate-400 border border-white/[0.08] hover:text-white'
+                        ? 'bg-[#377BDB] text-white shadow-lg shadow-[#377BDB]/30 border border-[#63A4FF]/50 font-semibold'
+                        : 'bg-[#0A1326] text-slate-300 border border-white/[0.08] hover:border-white/[0.2] hover:text-white'
                     }`}
                     style={{ fontFamily: 'Poppins, sans-serif' }}
                   >
-                    {item.label}
+                    <span>{item.label}</span>
                   </button>
                 ))}
               </div>

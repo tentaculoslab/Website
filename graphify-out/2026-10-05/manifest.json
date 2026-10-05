@@ -24,9 +24,9 @@
     "semantic_hash": "7cbeefab4f2efc977005ce32f4ebd6d8"
   },
   "src/App.jsx": {
-    "mtime": 1789764304.3859608,
-    "seen": 1789764765.3996832,
-    "ast_hash": "58392db76807ad6afcc704e8b79c8a65",
+    "mtime": 1791217896.7001145,
+    "seen": 1791218220.4089527,
+    "ast_hash": "a99d63af393a176171538b9f4540bac1",
     "semantic_hash": ""
   },
   "src/components/AboutSection.jsx": {
@@ -36,15 +36,15 @@
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1790688438.3402305,
-    "seen": 1790688456.8596814,
-    "ast_hash": "af698d0c3890ef5b6d90ad1be19a2fd8",
+    "mtime": 1791218175.8554459,
+    "seen": 1791218220.4089527,
+    "ast_hash": "0d075dc6533521304639cc4253e2d1b5",
     "semantic_hash": ""
   },
   "src/components/Hero.jsx": {
-    "mtime": 1790690191.320868,
-    "seen": 1790690634.210352,
-    "ast_hash": "182899dbb55cdad45118859343c0badb",
+    "mtime": 1791242359.5829222,
+    "seen": 1791242407.5086603,
+    "ast_hash": "5f0db9c11e57b1bcc32eb09fb8626fc3",
     "semantic_hash": ""
   },
   "src/components/HexPrismBackground.jsx": {
@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "src/components/Navbar.jsx": {
-    "mtime": 1790688129.157811,
-    "seen": 1790688211.3196306,
-    "ast_hash": "391641fdc4e268a1700f2a616e89592c",
+    "mtime": 1791217942.484228,
+    "seen": 1791218220.4089527,
+    "ast_hash": "7800806b7163c05f789657cb19185e65",
     "semantic_hash": ""
   },
   "src/components/PortfolioGrid.jsx": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "src/components/ProjectEstimator.jsx": {
-    "mtime": 1790692274.564464,
-    "seen": 1790692366.983559,
-    "ast_hash": "b84ed918ebe321a76708700f85c0e48f",
+    "mtime": 1791242037.679686,
+    "seen": 1791242166.7708488,
+    "ast_hash": "85e301d3d28815195d1d0788b1c2bda9",
     "semantic_hash": ""
   },
   "src/components/ProjectModal.jsx": {
@@ -654,9 +654,9 @@
     "semantic_hash": ""
   },
   "src/pages/AboutPage.jsx": {
-    "mtime": 1790692177.6857307,
-    "seen": 1790692367.0211537,
-    "ast_hash": "550a4eacc73dfac9f83ba501d2bf301c",
+    "mtime": 1791242661.4317582,
+    "seen": 1791242740.6777189,
+    "ast_hash": "8978992d1395f88c8408f2e249649ccc",
     "semantic_hash": ""
   },
   "src/pages/BriefingPage.jsx": {
@@ -666,9 +666,9 @@
     "semantic_hash": ""
   },
   "src/pages/HomePage.jsx": {
-    "mtime": 1790698278.5417101,
-    "seen": 1790699123.1702728,
-    "ast_hash": "5dc559a7ee06257dd7a257891de1f5a0",
+    "mtime": 1791242638.0156507,
+    "seen": 1791242740.6777189,
+    "ast_hash": "9ef96e10eab58cb99e32a750f8b60566",
     "semantic_hash": ""
   },
   "src/pages/MethodPage.jsx": {
@@ -708,9 +708,9 @@
     "semantic_hash": ""
   },
   "src/i18n/translations.js": {
-    "mtime": 1791216437.6832178,
-    "seen": 1791216558.0193849,
-    "ast_hash": "41249e145887f55ec9da7e55487c2787",
+    "mtime": 1791242690.4914598,
+    "seen": 1791242740.6777189,
+    "ast_hash": "a4300326b658353e4fa894b463ac956e",
     "semantic_hash": ""
   },
   "src/components/ComparativoViewer.jsx": {
@@ -726,9 +726,9 @@
     "semantic_hash": ""
   },
   "src/pages/ComparativoPage.jsx": {
-    "mtime": 1790692229.8025928,
-    "seen": 1790692367.0211537,
-    "ast_hash": "c00590be95dccfffe99fa0f4a85b688c",
+    "mtime": 1791241431.372233,
+    "seen": 1791241586.3652658,
+    "ast_hash": "546ef5fc306b87074caa6e8c0024c50d",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/command-metadata.json": {
@@ -1287,18 +1287,6 @@
     "mtime": 1790774417.046944,
     "seen": 1790799021.678829,
     "ast_hash": "db642431fd182727fca7188e45a3b930",
-    "semantic_hash": ""
-  },
-  "public/cases/palco-sunset-3d.png": {
-    "mtime": 1791214834.926506,
-    "seen": 1791216167.5891461,
-    "ast_hash": "5717f4827d20a35e81ef0d349ae74499",
-    "semantic_hash": ""
-  },
-  "public/cases/palco-sunset-real.jpg": {
-    "mtime": 1791214834.928614,
-    "seen": 1791216167.5891461,
-    "ast_hash": "7fd2881f7085f58da1fe5da5e3b01d1e",
     "semantic_hash": ""
   },
   "public/cases/pontal-weekend-3d.png": {

@@ -24,7 +24,7 @@ export const AboutPage = () => {
           <span className="font-semibold text-[#63A4FF]">Lucas Castro</span>
         </h1>
         <p className="text-slate-400 text-sm max-w-2xl font-light leading-relaxed">
-          {t('about.subtitle', 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, cálculo de rigging e a experiência sensorial do público.')}
+          {t('about.subtitle', 'Experiência consolidada em projetos de grande porte, conectando estética, viabilidade técnica, rigger e a experiência sensorial do público.')}
         </p>
       </div>
 

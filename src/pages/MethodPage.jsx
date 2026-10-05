@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MethodSection } from '../components/MethodSection';
-import { CinematicConcertScroll } from '../components/CinematicConcertScroll';
 import { SEOHead } from '../components/SEOHead';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -49,9 +48,6 @@ export const MethodPage = () => {
       </div>
 
       <MethodSection hideHeader={true} />
-
-      {/* Evolução Cinemática de Palco (21st.dev Style Stage Scroll) */}
-      <CinematicConcertScroll />
 
       {/* CTA para Iniciar Briefing */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 text-center">

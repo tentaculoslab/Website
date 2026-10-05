@@ -121,7 +121,7 @@ export const ComparativoPage = () => {
               Quer essa mesma segurança técnica no seu evento?
             </h3>
             <p className="text-slate-300 text-xs sm:text-sm font-light max-w-xl">
-              Alinhe sua demanda com Lucas Castro através do nosso terminal de briefing técnico e receba proposta com memorial descritivo 3D.
+              {t('comparativo.ctaBoxDesc', 'Alinhe sua demanda através do nosso terminal de briefing técnico e receba proposta com memorial descritivo 3D.')}
             </p>
           </div>
           <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }} className="shrink-0">
