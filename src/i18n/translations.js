@@ -41,12 +41,18 @@ export const translations = {
       dragHint: 'Arraste para comparar',
       beforeLabel: 'MODELAGEM 3D (IDEALIZADO)',
       afterLabel: 'EVENTO REAL (EXECUTADO)',
-      slot1Title: 'Slot Técnico 01 · Inspeção Estrutural & Cenográfica',
-      slot1Desc: 'Demonstração ativa da tecnologia de comparação milimétrica entre projeto executivo 3D e montagem real. Arraste a barra para inspecionar a fidelidade.',
-      slot1Specs: 'Tecnologia Pronta · Aguardando fotos oficiais do cliente',
-      slot2Title: 'Slot Técnico 02 · Ativação & Ambientação',
-      slot2Desc: 'Espaço pré-configurado no sistema de comparação para inclusão imediata do segundo case oficial de cenografia ou ativação.',
-      slot2Specs: 'Resolução recomendada: 1920x1080 (16:9)',
+      casePontalWeekend: {
+        title: 'Pontal Weekend · Cenografia Orgânica & Iluminação Cênica',
+        category: 'Pontal Weekend',
+        desc: 'Comparativo milimétrico entre a modelagem 3D parametrizada (arcos em madeira ripada, torres de PA e iluminação cênica) e a execução física real no Pontal Weekend com público e show ao vivo.',
+        specs: 'Pontal Weekend · Arcos em Madeira · Torres Line Array · Iluminação Cênica Neon'
+      },
+      casePrive: {
+        title: 'Palco Privê 20ª Edição · Cenografia & Iluminação',
+        category: 'Palco Principal',
+        desc: 'Comparativo milimétrico entre o projeto executivo 3D parametrizado e a montagem física real com iluminação cênica, pirotecnia, painel de LED central e público.',
+        specs: 'Palco Principal · Estrutura Box Truss · Painel Central LED · Efeitos Cênicos'
+      },
       pageTag: 'COMPARATIVO 3D VS REAL',
       pageTitlePrefix: 'O que é idealizado:',
       pageTitleHighlight: 'vira fato executado',
@@ -237,12 +243,18 @@ export const translations = {
       dragHint: 'Drag to compare',
       beforeLabel: '3D MODELING (IDEALIZED)',
       afterLabel: 'REAL EVENT (EXECUTED)',
-      slot1Title: 'Technical Slot 01 · Structural & Scenographic Inspection',
-      slot1Desc: 'Live demonstration of millimeter comparison technology between executive 3D project and physical assembly. Drag the slider to inspect fidelity.',
-      slot1Specs: 'Technology Ready · Awaiting official client assets',
-      slot2Title: 'Technical Slot 02 · Activation & Environment',
-      slot2Desc: 'Pre-configured space in the comparison system for immediate inclusion of the second official scenography or activation case.',
-      slot2Specs: 'Recommended resolution: 1920x1080 (16:9)',
+      casePontalWeekend: {
+        title: 'Pontal Weekend · Organic Scenography & Stage Lighting',
+        category: 'Pontal Weekend',
+        desc: 'Millimeter comparison between parameterized 3D modeling (slatted wood arches, PA sound towers and stage lighting) and real-world execution at Pontal Weekend with audience and live performance.',
+        specs: 'Pontal Weekend · Slatted Timber Arches · Line Array Towers · Scenic Neon Lighting'
+      },
+      casePrive: {
+        title: 'Privê Stage 20th Edition · Scenography & Lighting',
+        category: 'Main Stage',
+        desc: 'Millimeter comparison between parameterized executive 3D design and physical assembly with scenic lighting, pyrotechnics, central LED screen and crowd.',
+        specs: 'Main Stage · Box Truss Structure · Central LED Wall · Special FX'
+      },
       pageTag: '3D VS REAL COMPARISON',
       pageTitlePrefix: 'What is idealized:',
       pageTitleHighlight: 'becomes executed reality',
@@ -433,12 +445,18 @@ export const translations = {
       dragHint: 'Arrastre para comparar',
       beforeLabel: 'MODELADO 3D (IDEALIZADO)',
       afterLabel: 'EVENTO REAL (EJECUTADO)',
-      slot1Title: 'Slot Técnico 01 · Inspección Estructural y Escenográfica',
-      slot1Desc: 'Demostración activa de la tecnología de comparación milimétrica entre proyecto ejecutivo 3D y montaje real. Arrastre el control para inspeccionar la fidelidad.',
-      slot1Specs: 'Tecnología Lista · Esperando activos fotográficos oficiales',
-      slot2Title: 'Slot Técnico 02 · Activación y Ambientación',
-      slot2Desc: 'Espacio preconfigurado en el sistema de comparación para inclusión inmediata del segundo caso oficial de escenografía o activación.',
-      slot2Specs: 'Resolución recomendada: 1920x1080 (16:9)',
+      casePontalWeekend: {
+        title: 'Pontal Weekend · Escenografía Orgánica e Iluminación Escénica',
+        category: 'Pontal Weekend',
+        desc: 'Comparación milimétrica entre el modelado 3D parametrizado (arcos de madera ranurada, torres de PA e iluminación escénica) y la ejecución física real en Pontal Weekend con público y show en vivo.',
+        specs: 'Pontal Weekend · Arcos de Madera · Torres Line Array · Iluminación Escénica Neón'
+      },
+      casePrive: {
+        title: 'Escenario Privê 20ª Edición · Escenografía e Iluminación',
+        category: 'Escenario Principal',
+        desc: 'Comparación milimétrica entre el proyecto ejecutivo 3D parametrizado y el montaje físico real con iluminación escénica, pirotecnia, pantalla central LED y público.',
+        specs: 'Escenario Principal · Estructura Box Truss · Pantalla Central LED · Efectos Escénicos'
+      },
       pageTag: 'COMPARATIVO 3D VS REAL',
       pageTitlePrefix: 'Lo que se idealiza:',
       pageTitleHighlight: 'se convierte en hecho ejecutado',

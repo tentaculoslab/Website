@@ -112,11 +112,11 @@ export const Hero = () => {
               className="w-full sm:w-auto"
             >
               <Link 
-                to="/projects"
+                to="/briefing"
                 className="w-full sm:w-auto px-7 py-3.5 rounded bg-[#121D31] hover:bg-[#1B283D] text-slate-200 border border-white/[0.1] text-xs font-medium uppercase tracking-wider flex items-center justify-center gap-2 transition-colors"
                 style={{ fontFamily: 'Poppins, sans-serif' }}
               >
-                <span>{t('hero.ctaProjects', 'Explorar Projetos 3D')}</span>
+                <span>{t('hero.ctaBriefing', 'Alinhar Briefing Técnico')}</span>
               </Link>
             </motion.div>
           </div>

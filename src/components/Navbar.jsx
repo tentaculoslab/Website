@@ -55,9 +55,6 @@ export const Navbar = () => {
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex items-center space-x-6">
-            <NavLink to="/projects" className={navLinkClass}>
-              {t('nav.projects', 'Projetos')}
-            </NavLink>
             <NavLink to="/comparison" className={navLinkClass}>
               {t('nav.comparativo', '3D vs Real')}
             </NavLink>
@@ -122,14 +119,6 @@ export const Navbar = () => {
                 className={mobileNavLinkClass}
               >
                 {t('nav.home', 'Início')}
-              </NavLink>
-
-              <NavLink 
-                to="/projects" 
-                onClick={() => setMobileMenuOpen(false)}
-                className={mobileNavLinkClass}
-              >
-                {t('nav.projects', 'Projetos')}
               </NavLink>
 
               <NavLink 

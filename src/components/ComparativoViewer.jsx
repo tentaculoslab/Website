@@ -18,13 +18,13 @@ export const ComparativoViewer = ({
 
   const activeCase = cases[activeCaseIndex] || cases[0];
 
-  // Informações dinâmicas do case selecionado
-  const caseTitle = activeCase.title;
-  const caseDesc = activeCase.description;
-  const caseSpecs = activeCase.specs;
+  // Informações dinâmicas do case selecionado com suporte a i18n
+  const caseTitle = activeCase.titleKey ? t(activeCase.titleKey, activeCase.title) : activeCase.title;
+  const caseDesc = activeCase.descKey ? t(activeCase.descKey, activeCase.description) : activeCase.description;
+  const caseSpecs = activeCase.specsKey ? t(activeCase.specsKey, activeCase.specs) : activeCase.specs;
 
-  const beforeLabel = activeCase.beforeLabel || t('comparativo.beforeLabel', 'MODELAGEM 3D (IDEALIZADO)');
-  const afterLabel = activeCase.afterLabel || t('comparativo.afterLabel', 'EVENTO REAL (EXECUTADO)');
+  const beforeLabel = activeCase.beforeLabelKey ? t(activeCase.beforeLabelKey, activeCase.beforeLabel) : (activeCase.beforeLabel || t('comparativo.beforeLabel', 'MODELAGEM 3D (IDEALIZADO)'));
+  const afterLabel = activeCase.afterLabelKey ? t(activeCase.afterLabelKey, activeCase.afterLabel) : (activeCase.afterLabel || t('comparativo.afterLabel', 'EVENTO REAL (EXECUTADO)'));
 
   // Atualização precisa da largura do container para evitar achatamento da imagem 3D cortada
   useEffect(() => {
@@ -107,31 +107,33 @@ export const ComparativoViewer = ({
             </div>
 
             {/* Selector Buttons for Slots */}
-            <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start md:self-auto flex-wrap">
-              {cases.map((c, idx) => (
-                <motion.button
-                  key={c.id}
-                  whileTap={{ scale: 0.96 }}
-                  onClick={() => {
-                    setActiveCaseIndex(idx);
-                    setSliderPos(50);
-                  }}
-                  className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-colors ${
-                    activeCaseIndex === idx
-                      ? 'bg-[#377BDB] text-white shadow-md shadow-[#377BDB]/30 font-semibold'
-                      : 'text-slate-400 hover:text-white hover:bg-white/[0.04]'
-                  }`}
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
-                >
-                  0{idx + 1} · {c.category}
-                </motion.button>
-              ))}
-            </div>
+            {cases.length > 1 && (
+              <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start md:self-auto flex-wrap">
+                {cases.map((c, idx) => (
+                  <motion.button
+                    key={c.id}
+                    whileTap={{ scale: 0.96 }}
+                    onClick={() => {
+                      setActiveCaseIndex(idx);
+                      setSliderPos(50);
+                    }}
+                    className={`px-3.5 py-1.5 rounded text-[11px] font-medium transition-colors ${
+                      activeCaseIndex === idx
+                        ? 'bg-[#377BDB] text-white shadow-md shadow-[#377BDB]/30 font-semibold'
+                        : 'text-slate-400 hover:text-white hover:bg-white/[0.04]'
+                    }`}
+                    style={{ fontFamily: 'Poppins, sans-serif' }}
+                  >
+                    0{idx + 1} · {c.categoryKey ? t(c.categoryKey, c.category) : c.category}
+                  </motion.button>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
         {/* Slot Selector em barra limpa quando hideHeader for true */}
-        {hideHeader && (
+        {hideHeader && cases.length > 1 && (
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <span className="rotulo-tecnico text-slate-400">CASES DISPONÍVEIS</span>
             <div className="flex items-center gap-2 bg-[#121D31] p-1.5 rounded-lg border border-white/[0.08] self-start sm:self-auto flex-wrap">
@@ -150,7 +152,7 @@ export const ComparativoViewer = ({
                   }`}
                   style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
-                  0{idx + 1} · {c.category}
+                  0{idx + 1} · {c.categoryKey ? t(c.categoryKey, c.category) : c.category}
                 </motion.button>
               ))}
             </div>
@@ -171,9 +173,9 @@ export const ComparativoViewer = ({
             aria-valuemax={100}
             aria-label="Controle deslizante de comparação entre modelagem 3D e evento real"
             className="relative aspect-[16/10] sm:aspect-video w-full select-none overflow-hidden rounded-lg bg-[#050D19] cursor-ew-resize outline-none focus:ring-2 focus:ring-[#63A4FF]"
-            style={{ touchAction: 'pan-y' }}
+            style={{ touchAction: 'none' }}
           >
-            {/* After Image (Full Background - Evento Real) */}
+            {/* After Image (Direita / Fundo - Evento Real Colorido) */}
             <AnimatePresence mode="wait">
               <motion.img
                 key={`after-${activeCase.id}`}
@@ -188,10 +190,10 @@ export const ComparativoViewer = ({
               />
             </AnimatePresence>
 
-            {/* Before Image (Clipped Overlay - Projeto 3D) */}
+            {/* Before Image (Esquerda / Sobreposta - Modelagem 3D Branca) */}
             <div
-              className="absolute inset-0 h-full overflow-hidden pointer-events-none select-none"
-              style={{ width: `${sliderPos}%` }}
+              className="absolute inset-0 h-full w-full pointer-events-none select-none"
+              style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
             >
               <AnimatePresence mode="wait">
                 <motion.img
@@ -202,11 +204,7 @@ export const ComparativoViewer = ({
                   transition={{ duration: 0.3 }}
                   src={activeCase.beforeImage}
                   alt={beforeLabel}
-                  className="absolute inset-0 h-full max-w-none object-cover pointer-events-none select-none"
-                  style={{
-                    width: containerWidth ? `${containerWidth}px` : '100%',
-                    height: '100%'
-                  }}
+                  className="absolute inset-0 h-full w-full object-cover pointer-events-none select-none"
                   loading="eager"
                 />
               </AnimatePresence>

@@ -24,9 +24,9 @@
     "semantic_hash": "7cbeefab4f2efc977005ce32f4ebd6d8"
   },
   "src/App.jsx": {
-    "mtime": 1791217896.7001145,
-    "seen": 1791218220.4089527,
-    "ast_hash": "a99d63af393a176171538b9f4540bac1",
+    "mtime": 1789764304.3859608,
+    "seen": 1789764765.3996832,
+    "ast_hash": "58392db76807ad6afcc704e8b79c8a65",
     "semantic_hash": ""
   },
   "src/components/AboutSection.jsx": {
@@ -36,15 +36,15 @@
     "semantic_hash": ""
   },
   "src/components/Footer.jsx": {
-    "mtime": 1791218175.8554459,
-    "seen": 1791218220.4089527,
-    "ast_hash": "0d075dc6533521304639cc4253e2d1b5",
+    "mtime": 1790688438.3402305,
+    "seen": 1790688456.8596814,
+    "ast_hash": "af698d0c3890ef5b6d90ad1be19a2fd8",
     "semantic_hash": ""
   },
   "src/components/Hero.jsx": {
-    "mtime": 1791217972.8333938,
-    "seen": 1791218220.4089527,
-    "ast_hash": "580e7d089b6a74012929a6288fc913f5",
+    "mtime": 1790690191.320868,
+    "seen": 1790690634.210352,
+    "ast_hash": "182899dbb55cdad45118859343c0badb",
     "semantic_hash": ""
   },
   "src/components/HexPrismBackground.jsx": {
@@ -60,9 +60,9 @@
     "semantic_hash": ""
   },
   "src/components/Navbar.jsx": {
-    "mtime": 1791217942.484228,
-    "seen": 1791218220.4089527,
-    "ast_hash": "7800806b7163c05f789657cb19185e65",
+    "mtime": 1790688129.157811,
+    "seen": 1790688211.3196306,
+    "ast_hash": "391641fdc4e268a1700f2a616e89592c",
     "semantic_hash": ""
   },
   "src/components/PortfolioGrid.jsx": {
@@ -1287,6 +1287,18 @@
     "mtime": 1790774417.046944,
     "seen": 1790799021.678829,
     "ast_hash": "db642431fd182727fca7188e45a3b930",
+    "semantic_hash": ""
+  },
+  "public/cases/palco-sunset-3d.png": {
+    "mtime": 1791214834.926506,
+    "seen": 1791216167.5891461,
+    "ast_hash": "5717f4827d20a35e81ef0d349ae74499",
+    "semantic_hash": ""
+  },
+  "public/cases/palco-sunset-real.jpg": {
+    "mtime": 1791214834.928614,
+    "seen": 1791216167.5891461,
+    "ast_hash": "7fd2881f7085f58da1fe5da5e3b01d1e",
     "semantic_hash": ""
   },
   "public/cases/pontal-weekend-3d.png": {

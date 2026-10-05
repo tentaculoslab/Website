@@ -3,7 +3,7 @@ import { defaultProjects } from '../data/defaultProjects';
 
 const PortfolioContext = createContext();
 
-const LOCAL_STORAGE_KEY = 'tentaculos_lab_projects_v4';
+const LOCAL_STORAGE_KEY = 'tentaculos_lab_projects_v5';
 const MEDIA_STORAGE_KEY = 'tentaculos_lab_media_v4';
 
 export const PortfolioProvider = ({ children }) => {

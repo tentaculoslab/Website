@@ -1,8 +1,40 @@
 export const defaultProjects = [
   {
+    id: "proj-pontal-weekend",
+    title: "Pontal Weekend - Cenografia Orgânica & Iluminação",
+    category: "Palcos",
+    client: "Pontal Weekend & Produção de Eventos",
+    year: "2026",
+    location: "Brasil",
+    description: "Concepção cenográfica e arquitetura cênica para o palco open air do Pontal Weekend. Estrutura monumental de arcos em madeira ripada, torres de som PA suspensas em box truss, iluminação cênica dinâmica com neon flex âmbar e ambientação integrada à paisagem natural litorânea.",
+    coverImage: "/cases/pontal-weekend-real.jpg",
+    gallery: [
+      "/cases/pontal-weekend-real.jpg",
+      "/cases/pontal-weekend-3d.png"
+    ],
+    videoUrl: "",
+    skpFile: {
+      name: "Pontal Weekend (Modelo 3D)",
+      size: "86.4 MB",
+      version: "Alta Definição / V-Ray 6",
+      updatedAt: "2026-09-24"
+    },
+    specs: {
+      areaConstruida: "320 m²",
+      alturaTotal: "11.8 metros",
+      estruturaPrincipal: "Arcos em Madeira Ripada + Box Truss de Apoio",
+      pontosLuzLED: "Fita Neon Flex Âmbar + 16 Moving Heads",
+      tempoMontagem: "4 Dias",
+      detalhamento: "Completo para Montagem e Sonorização"
+    },
+    tags: ["Pontal Weekend", "Arquitetura Cênica", "Modelagem 3D", "Cenografia Orgânica", "Open Air"],
+    featured: true,
+    has3DViewer: false
+  },
+  {
     id: "proj-papai-noel",
     title: "Casa do Papai Noel - Cenografia & Arquitetura Imersiva",
-    category: "Projetos Especiais",
+    category: "Ambientação",
     client: "Prefeitura & Produção de Eventos",
     year: "2026",
     location: "Brasil",

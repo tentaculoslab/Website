@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "version": "1.0.0",
-  "updatedAt": "2026-09-18",
+  "version": "1.1.0",
+  "updatedAt": "2026-10-05",
   "publisher": {
     "name": "Tentáculos Lab",
     "url": "https://tentaculoslab.com.br",
@@ -12,6 +12,43 @@
     }
   },
   "projects": [
+    {
+      "id": "proj-pontal-weekend",
+      "slug": "pontal-weekend",
+      "title": "Pontal Weekend - Cenografia Orgânica & Iluminação",
+      "category": "Palcos",
+      "client": "Pontal Weekend & Produção de Eventos",
+      "year": 2026,
+      "location": "Brasil",
+      "summary": "Arquitetura cênica e cenografia orgânica para o palco open air do Pontal Weekend com estrutura de arcos em madeira ripada e iluminação integrada.",
+      "description": "Concepção cenográfica e projeto executivo 3D para o Pontal Weekend. Estrutura monumental de arcos em madeira ripada, torres de som PA suspensas em box truss, iluminação cênica dinâmica com neon flex âmbar e integração direta com a orla litorânea.",
+      "specs": {
+        "areaConstruida": "320 m²",
+        "alturaTotal": "11.8 metros",
+        "estruturaPrincipal": "Arcos em Madeira Ripada + Box Truss de Apoio",
+        "pontosLuzLED": "Fita Neon Flex Âmbar + 16 Moving Heads",
+        "tempoMontagem": "4 Dias",
+        "detalhamento": "Completo para Montagem e Sonorização"
+      },
+      "skpFile": {
+        "available": true,
+        "name": "Pontal Weekend (Modelo 3D)",
+        "format": "SketchUp .skp",
+        "version": "Alta Definição / V-Ray 6",
+        "status": "Acesso mediante autorização de produção"
+      },
+      "tags": [
+        "Pontal Weekend",
+        "Arquitetura Cênica",
+        "Modelagem 3D",
+        "Cenografia Orgânica",
+        "Open Air"
+      ],
+      "featured": true,
+      "interactive3DAvailable": false,
+      "comparisonAvailable": true,
+      "comparisonId": "pontal-weekend"
+    },
     {
       "id": "proj-papai-noel",
       "slug": "casa-do-papai-noel",

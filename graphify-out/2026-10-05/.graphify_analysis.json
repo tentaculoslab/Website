@@ -1,0 +1,231 @@
+{
+  "communities": {
+    "0": [
+      "package",
+      "package_name",
+      "package_private",
+      "package_type",
+      "package_version",
+      "ref_animejs",
+      "ref_assimpjs",
+      "ref_loaders_gl_core",
+      "ref_loaders_gl_gltf",
+      "ref_motion",
+      "ref_oxlint",
+      "ref_react_dom",
+      "ref_tailwindcss",
+      "ref_tailwindcss_vite",
+      "ref_types_bun",
+      "ref_types_react",
+      "ref_types_react_dom",
+      "ref_types_three",
+      "ref_vite",
+      "ref_vitejs_plugin_react",
+      "vite_config",
+      "vite_config_manualchunks"
+    ],
+    "1": [
+      "ref_canvas_confetti",
+      "ref_lucide_react",
+      "ref_react",
+      "ref_react_dom_client",
+      "ref_three",
+      "src_app",
+      "src_app_app",
+      "src_components_aboutsection",
+      "src_components_aboutsection_aboutsection",
+      "src_components_footer",
+      "src_components_footer_footer",
+      "src_components_hero",
+      "src_components_hero_hero",
+      "src_components_hexprismbackground",
+      "src_components_hexprismbackground_hexprismbackground",
+      "src_components_navbar",
+      "src_components_navbar_navbar",
+      "src_components_projectestimator",
+      "src_components_projectestimator_projectestimator",
+      "src_index",
+      "src_main"
+    ],
+    "2": [
+      "package_dependencies",
+      "package_dependencies_animejs",
+      "package_dependencies_assimpjs",
+      "package_dependencies_canvas_confetti",
+      "package_dependencies_gsap",
+      "package_dependencies_loaders_gl_core",
+      "package_dependencies_loaders_gl_gltf",
+      "package_dependencies_lucide_react",
+      "package_dependencies_motion",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_three",
+      "package_dependencies_three_stdlib",
+      "package_dependencies_types_three"
+    ],
+    "3": [
+      "public_api_projects",
+      "public_api_projects_contact_email",
+      "public_api_projects_contact_phone",
+      "public_api_projects_contact_whatsapp",
+      "public_api_projects_projects",
+      "public_api_projects_publisher",
+      "public_api_projects_publisher_contact",
+      "public_api_projects_publisher_name",
+      "public_api_projects_publisher_url",
+      "public_api_projects_schema",
+      "public_api_projects_updatedat",
+      "public_api_projects_version"
+    ],
+    "4": [
+      "src_app_admindashboard",
+      "src_components_admin_admindashboard",
+      "src_components_admin_admindashboard_admindashboard",
+      "src_components_portfoliogrid",
+      "src_components_portfoliogrid_portfoliogrid",
+      "src_context_portfoliocontext",
+      "src_context_portfoliocontext_portfoliocontext",
+      "src_context_portfoliocontext_portfolioprovider",
+      "src_context_portfoliocontext_useportfolio",
+      "src_data_defaultprojects",
+      "src_data_defaultprojects_defaultprojects"
+    ],
+    "5": [
+      "package_devdependencies",
+      "package_devdependencies_oxlint",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_tailwindcss_vite",
+      "package_devdependencies_types_bun",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react"
+    ],
+    "6": [
+      "ref_gsap",
+      "ref_three_stdlib",
+      "src_app_projectmodal",
+      "src_components_interactive3dviewer",
+      "src_components_interactive3dviewer_interactive3dviewer",
+      "src_components_projectmodal",
+      "src_components_projectmodal_projectmodal"
+    ],
+    "7": [
+      "oxlintrc",
+      "oxlintrc_plugins",
+      "oxlintrc_rules",
+      "oxlintrc_rules_react_only_export_components",
+      "oxlintrc_rules_react_rules_of_hooks",
+      "oxlintrc_schema"
+    ],
+    "8": [
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_scripts_preview"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09956709956709957,
+    "1": 0.18095238095238095,
+    "2": 0.14285714285714285,
+    "3": 0.16666666666666666,
+    "4": 0.2727272727272727,
+    "5": 0.2222222222222222,
+    "6": 0.3333333333333333,
+    "7": 0.3333333333333333,
+    "8": 0.4
+  },
+  "gods": [
+    {
+      "id": "ref_react",
+      "label": "react",
+      "degree": 14
+    },
+    {
+      "id": "ref_lucide_react",
+      "label": "lucide-react",
+      "degree": 10
+    },
+    {
+      "id": "src_context_portfoliocontext_useportfolio",
+      "label": "usePortfolio()",
+      "degree": 7
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 5
+    },
+    {
+      "id": "public_api_projects_publisher",
+      "label": "publisher",
+      "degree": 4
+    },
+    {
+      "id": "public_api_projects_publisher_contact",
+      "label": "contact",
+      "degree": 4
+    },
+    {
+      "id": "oxlintrc_rules",
+      "label": "rules",
+      "degree": 3
+    },
+    {
+      "id": "ref_three",
+      "label": "three",
+      "degree": 3
+    },
+    {
+      "id": "src_components_portfoliogrid_portfoliogrid",
+      "label": "PortfolioGrid()",
+      "degree": 3
+    },
+    {
+      "id": "ref_canvas_confetti",
+      "label": "canvas-confetti",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "ProjectModal()",
+      "target": "usePortfolio()",
+      "source_files": [
+        "src/components/ProjectModal.jsx",
+        "src/context/PortfolioContext.jsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities; peripheral node `ProjectModal()` unexpectedly reaches hub `usePortfolio()`"
+    },
+    {
+      "source": "AdminDashboard()",
+      "target": "usePortfolio()",
+      "source_files": [
+        "src/components/admin/AdminDashboard.jsx",
+        "src/context/PortfolioContext.jsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `AdminDashboard()` unexpectedly reaches hub `usePortfolio()`"
+    },
+    {
+      "source": "PortfolioGrid()",
+      "target": "usePortfolio()",
+      "source_files": [
+        "src/components/PortfolioGrid.jsx",
+        "src/context/PortfolioContext.jsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

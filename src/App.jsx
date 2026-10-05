@@ -6,8 +6,6 @@ import { Layout } from './components/Layout';
 
 // Lazy loading das páginas para máxima performance (LCP e code splitting)
 const HomePage = lazy(() => import('./pages/HomePage').then(m => ({ default: m.HomePage })));
-const ProjectsPage = lazy(() => import('./pages/ProjectsPage').then(m => ({ default: m.ProjectsPage })));
-const ProjectDetailPage = lazy(() => import('./pages/ProjectDetailPage').then(m => ({ default: m.ProjectDetailPage })));
 const ComparativoPage = lazy(() => import('./pages/ComparativoPage').then(m => ({ default: m.ComparativoPage })));
 const MethodPage = lazy(() => import('./pages/MethodPage').then(m => ({ default: m.MethodPage })));
 const AboutPage = lazy(() => import('./pages/AboutPage').then(m => ({ default: m.AboutPage })));
@@ -31,18 +29,18 @@ export function App() {
               <Route path="/" element={<Layout />}>
                 <Route index element={<HomePage />} />
                 
-                {/* Rotas Canônicas em Inglês (Agentic Web Standard / is-agentic.com) */}
-                <Route path="projects" element={<ProjectsPage />} />
-                <Route path="projects/:id" element={<ProjectDetailPage />} />
-                <Route path="project/:id" element={<Navigate to="/projects/:id" replace />} />
+                {/* Rotas Canônicas */}
                 <Route path="comparison" element={<ComparativoPage />} />
                 <Route path="method" element={<MethodPage />} />
                 <Route path="about" element={<AboutPage />} />
                 <Route path="briefing" element={<BriefingPage />} />
 
-                {/* Redirecionamentos de Compatibilidade (PT -> EN) */}
-                <Route path="projetos" element={<Navigate to="/projects" replace />} />
-                <Route path="projeto/:id" element={<Navigate to="/projects/:id" replace />} />
+                {/* Redirecionamentos de Compatibilidade e Rotas de Projetos */}
+                <Route path="projects" element={<Navigate to="/comparison" replace />} />
+                <Route path="projects/:id" element={<Navigate to="/comparison" replace />} />
+                <Route path="project/:id" element={<Navigate to="/comparison" replace />} />
+                <Route path="projetos" element={<Navigate to="/comparison" replace />} />
+                <Route path="projeto/:id" element={<Navigate to="/comparison" replace />} />
                 <Route path="comparativo" element={<Navigate to="/comparison" replace />} />
                 <Route path="metodo" element={<Navigate to="/method" replace />} />
                 <Route path="sobre" element={<Navigate to="/about" replace />} />
