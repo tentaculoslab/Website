@@ -29,7 +29,7 @@ export const HomePage = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.5 }}
-            className="card-chanfrado p-8 sm:p-12 rounded-2xl bg-[#121D31] border border-[#377BDB]/30 shadow-2xl space-y-8"
+            className="card-chanfrado p-8 sm:p-12 rounded-2xl bg-[#121D31] border border-[#377BDB]/30 shadow-2xl"
           >
             <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
               <div className="flex flex-col sm:flex-row items-center gap-6 max-w-3xl">
@@ -67,22 +67,6 @@ export const HomePage = () => {
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </motion.div>
-              </div>
-            </div>
-
-            {/* Projetos desenvolvidos pela Liderança Técnica (Conforme referência da imagem) */}
-            <div className="pt-6 border-t border-white/[0.08] text-center space-y-3 w-full">
-              <span className="rotulo-tecnico text-[10px] text-slate-400 block">
-                {t('hero.festivalsLabel', 'EXPERIÊNCIA COMPROVADA EM GRANDES PRODUÇÕES')}
-              </span>
-              <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-xs sm:text-sm text-slate-300 font-light">
-                <span className="hover:text-white transition-colors cursor-default">Tomorrowland Brasil</span>
-                <span className="text-slate-600 hidden sm:inline">•</span>
-                <span className="hover:text-white transition-colors cursor-default">Lollapalooza</span>
-                <span className="text-slate-600 hidden sm:inline">•</span>
-                <span className="hover:text-white transition-colors cursor-default">Camarote Brahma</span>
-                <span className="text-slate-600 hidden sm:inline">•</span>
-                <span className="hover:text-white transition-colors cursor-default">Weekend Pedra Azul</span>
               </div>
             </div>
           </motion.div>
